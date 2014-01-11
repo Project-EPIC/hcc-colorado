@@ -1,0 +1,29 @@
+/* This css file over rides the JB theme without adopting it directly */
+
+/* Overrides */
+
+.container-narrow{
+	max-width: 800px;
+	width: 800px;
+}
+
+body {
+	background-color: #555;
+}
+
+.page-content{
+	background-color: #FFF;
+	border: 10px solid #777;
+}
+
+.content{
+	padding: 10px;
+	background-color: #FFF;
+}
+
+
+/* Header & Nav Bar -- this gets pretty serious, look at how bootstrap does the gradient for this part
+.navbar-inner{
+
+}
+*/
