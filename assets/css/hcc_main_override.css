@@ -21,6 +21,10 @@ body {
 	background-color: #FFF;
 }
 
+.navbar-inner{
+	z-index: 1;
+}
+
 
 /* Header & Nav Bar -- this gets pretty serious, look at how bootstrap does the gradient for this part
 .navbar-inner{

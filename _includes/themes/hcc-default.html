@@ -33,13 +33,30 @@
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
+    <!--Javascript-->
+    <!--First: Call JQuery-->
+    <script src="{{site.JS_PATH}}/jquery-1.10.2.min.js"></script>
+
+    <script type="text/javascript">
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 200) { //I just used 200 for testing
+          $(".navbar-inner").css({ "position": "fixed", "top": 0 });
+        }else {
+          $(".navbar-inner").css({ "position": "absolute", "top": "100px" }); //same here
+        }         
+      });
+    </script>
+
   </head>
 
   <body>
-    <div class="navbar">
+    <div class="navbar container-narrow">
+    <div class="page-header">
+      <img src="{{ site.IMG_PATH }}/hcc_cu_logo.png"/>
+    </div>
       <div class="navbar-inner">
         <div class="container-narrow">
-          <a class="brand" href="{{ HOME_PATH }}"><img src="{{ site.IMG_PATH }}/hcc_cu_logo.png"/></a>
+          <a class="brand" href="{{ HOME_PATH }}">HCC</a>
           <ul class="nav">
             {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}
