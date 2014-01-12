@@ -40,10 +40,10 @@
 
     <script type="text/javascript">
       $(window).scroll(function() {
-        if ($(this).scrollTop() > 200) { //I just used 200 for testing
-          $(".navbar-inner").css({ "position": "fixed", "top": 0 });
+        if ($(this).scrollTop() > 200) { //
+          $(".navbar-scroller").css({ "display" : "block", "position": "fixed", "top": 0 });
         }else {
-          $(".navbar-inner").css({ "position": "absolute", "top": "100px" }); //same here
+          $(".navbar-scroller").css({ "display" : "none" });
         }         
       });
     </script>
@@ -51,6 +51,11 @@
   </head>
 
   <body>
+
+    <div class="navbar container-narrow navbar-scroller navbar-inner">
+     
+    </div>
+
     <div class="navbar container-narrow">
     <div class="page-header">
       <img src="/assets/images/hcc_cu_logo.png"/>
@@ -140,8 +145,7 @@
     <div class="container-narrow page-content">
 
       <div class="content">
-        
-<div class="page-header">
+        <div class="page-header">
   <h1>Human Centered Computing  <small>University of Colorado Boulder</small></h1>
 </div>
 
@@ -162,7 +166,6 @@
   </div>
 </div>
 
-
       </div>
       <hr>
       <footer>
@@ -173,7 +176,7 @@
       </footer>
 
     </div>
-
     
+    <div id="bottom_fade"></div>
   </body>
 </html>

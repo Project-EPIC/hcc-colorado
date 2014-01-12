@@ -39,10 +39,10 @@
 
     <script type="text/javascript">
       $(window).scroll(function() {
-        if ($(this).scrollTop() > 200) { //I just used 200 for testing
-          $(".navbar-inner").css({ "position": "fixed", "top": 0 });
+        if ($(this).scrollTop() > 200) { //
+          $(".navbar-scroller").css({ "display" : "block", "position": "fixed", "top": 0 });
         }else {
-          $(".navbar-inner").css({ "position": "absolute", "top": "100px" }); //same here
+          $(".navbar-scroller").css({ "display" : "none" });
         }         
       });
     </script>
@@ -50,6 +50,17 @@
   </head>
 
   <body>
+
+    <div class="navbar container-narrow navbar-scroller navbar-inner">
+     {% if page.scroller %}
+      <ul class="nav">
+     {% for link in page.scroller %}
+        <li><a href=#{{link[1]}}>{{ link[0] }}</a></li>
+     {% endfor %}
+     </ul>
+     {% endif %}
+    </div>
+
     <div class="navbar container-narrow">
     <div class="page-header">
       <img src="{{ site.IMG_PATH }}/hcc_cu_logo.png"/>
@@ -80,7 +91,7 @@
       </footer>
 
     </div>
-
     {% include JB/analytics %}
+    <div id="bottom_fade"></div>
   </body>
 </html>
