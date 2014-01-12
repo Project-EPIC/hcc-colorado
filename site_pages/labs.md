@@ -1,6 +1,6 @@
 ---
 layout: page
-title : Our Labs
+title : Labs
 tagline: in HCC at CU Boulder
 group: navigation
 scroller: 
