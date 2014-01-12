@@ -12,6 +12,7 @@ body {
 }
 
 .page-content{
+	margin-top: 10px;
 	background-color: #FFF;
 	border: 10px solid #777;
 }
@@ -44,3 +45,10 @@ body {
     margin-left:auto;
     margin-right:auto;
 }
+
+.navbar-inner{
+	padding: 0px 1px 0px 5px;
+}
+
+
+

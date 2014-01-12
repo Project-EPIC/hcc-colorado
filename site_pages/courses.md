@@ -10,6 +10,7 @@ scroller:
 ## We have some of these courses offered at most times:
 
 <a name="undergrad">&nbsp;</a>
+
 ###Undergraduate Courses
 CSCI 1240 (3). The Computational World
 Introduces and explores the “computational style of thinking” and its influence in science, mathematics, engineering and the arts. The course does not focus on the nuts and bolts of any particular programming language, but rather on the way in which computing has affected human culture and thought in the past half century. Same as ATLS 1240.
@@ -54,8 +55,8 @@ Develops the skills and practices necessary to apply user-centered approaches to
 
 
 
-
 <a name="graduate">&nbsp;</a>
+
 ###Graduate Courses
 
 CSCI 5229 (3). Computer Graphics
