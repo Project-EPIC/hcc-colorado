@@ -39,6 +39,13 @@ body {
 }
 */
 
+.twitter-timeline{
+	position: absolute;
+	right: 10px;
+	top: 200px;
+	width: 300px;
+}
+
 a.anchor{
 	display: block; 
 	position: relative; 

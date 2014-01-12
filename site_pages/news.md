@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: news
 title : Current News
 tagline: and Updates in HCC
 group: navigation
