@@ -15,6 +15,7 @@ tagline: Home of Human Centered Computing at University of Colorado Boulder
 IMG_PATH : /assets/images
 CSS_PATH : /assets/css
 JS_PATH  : /assets/js
+GEN_PATH : _includes/generated
 author :
   name : HCC @ CU
 #  email : jennings.anderson@colorado.edu

@@ -1,0 +1,43 @@
+- name: Ken Anderson
+  url: http://google.com/
+  interests: Software and Web Engineering, Hypermedia, CSCW, Human-Computer Interaction
+  lab:
+    name: Project EPIC
+    url:  http://epic.colorado.edu
+
+- name: Mike Eisenberg
+  url: http://google.com/
+  interests: Cognitive Science, Craft Technologies,Educational Computing
+  lab: Craft Technology Group
+
+- name: Gerhard Fischer
+  url: http://google.com/
+  interests: Cultures of Participation, Meta Design, Domain-Oriented Design, Social Creativity
+  lab: Center for LifeLong learning and Design (L3D)
+  
+- name: Clayton Lewis
+  url: http://google.com/
+  interests: Assistive Technologies, User Interface Design, Cognitive Architectures
+
+- name: Leysia Palen
+  url: http://google.com/
+  interests: HCI, CSCW, Social Computing, Crisis Informatics, Ethnographic Methods, Computer Mediated Communication
+  lab: Project EPIC
+
+- name: Alex Repenning
+  url: http://google.com/
+  interests: Education, End-User Programmable Agents, Agentsheets, Artificial intelligence
+  lab: Scalable Game Design Initiative
+
+- name: Tammy Sumner
+  url: http://google.com/
+  interests: Personalized Learning, Interactive Learning Environments, User-Centered Design, Digital Libraries, Intelligent Information Systems
+  lab: 
+    name: Digital Learning Sciences
+    url: http://www.google.com
+
+- name: Tom Yeh
+  url: http://google.com/
+  #interests: Vision-Based Interaction, End-User Programming, GUI Automation, Accessible Technology
+  lab: 
+    name: Sikuli Lab

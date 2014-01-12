@@ -9,7 +9,7 @@ scroller:
 
 ## We have some of these courses offered at most times:
 
-<a name="undergrad">&nbsp;</a>
+<a class="anchor" name="undergrad">&nbsp;</a>
 
 ###Undergraduate Courses
 CSCI 1240 (3). The Computational World
@@ -55,7 +55,7 @@ Develops the skills and practices necessary to apply user-centered approaches to
 
 
 
-<a name="graduate">&nbsp;</a>
+<a class="anchor" name="graduate">&nbsp;</a>
 
 ###Graduate Courses
 
