@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
   $('#faculty-slider').bxSlider({
     auto: true,
@@ -26,7 +25,7 @@ $(document).ready(function(){
 		width		: '70%',
 		height		: '70%',
 		autoSize	: false,
-		closeClick	: true,
+		closeClick	: false,
 		openEffect	: 'none',
 		closeEffect	: 'none'
 	});
