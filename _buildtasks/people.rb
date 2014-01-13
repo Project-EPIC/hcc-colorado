@@ -73,4 +73,4 @@ def make_yaml(session, directory, type)
 end
 
 
-make_yaml(session, directory, 'Students')
+make_yaml(session, directory, 'Faculty')
