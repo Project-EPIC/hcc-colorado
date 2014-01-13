@@ -23,15 +23,6 @@ body {
 	background-color: #FFF;
 }
 
-/*Bottom of Page */
-#bottom_fade {
-	width: 100%;
-	height: 200px;
-	z-index: 99;
-	position: fixed;
-	bottom: 0px;
-	background: url("/assets/images/bottom-fade.png") bottom center repeat-x;
-}
 
 /* Header & Nav Bar -- this gets pretty serious, look at how bootstrap does the gradient for this part
 .navbar-inner{

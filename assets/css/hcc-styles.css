@@ -1,11 +1,13 @@
 .faculty-list{
 	list-style-type: none;
+	text-align: center;
 }
 
 .faculty-list li{
+	text-align: center;
 	display: inline-block;
 	vertical-align: top;
-	width: 250px;
+	width: 300px;
 	height: 150px;
 	padding: 10px;
 	margin: 0px 10px 10px 10px;
@@ -16,8 +18,11 @@
 	list-style-type: none;
 }
 
-.student-box {
+.student-list li{
 	display: inline-block;
+}
+
+.student-box {
 	vertical-align: text-bottom;
 	width: 150px;
 	height: 200px;
@@ -32,14 +37,38 @@
 
 .student-box-expand{
 	display: none;
-	position:fixed;
-    top: 50%;
-    left: 50%;
-    width:30em;
-    height:18em;
-    margin-top: -9em; /*set to a negative number 1/2 of your height*/
-    margin-left: -15em; /*set to a negative number 1/2 of your width*/
-    border: 1px solid #ccc;
-    background-color: #f3f3f3;
+	text-align: center;
+}
 
+.student-box-expand #student-info{
+	text-align: left;
+	margin-left: 25px;
+}
+
+.student-box-expand img{
+	text-align: center;
+}
+
+/* Footer */
+#bottom_fade {
+	width: 100%;height: 100px;z-index: 99;position: fixed;bottom: 0px;
+	background: url("/assets/images/bottom-fade.png") bottom center repeat-x;
+	display: table-cell;
+    vertical-align: bottom;
+}
+
+#footer-links{
+	list-style-type: none;
+	position: fixed;right: 0;left: 0;bottom: 0;
+    margin-right: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+#footer-links li{
+	text-align: center;
+	color: #444;
+	display: inline-block;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 5px 2px 5px;
 }

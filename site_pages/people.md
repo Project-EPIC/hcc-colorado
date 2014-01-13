@@ -11,30 +11,18 @@ scroller:
 js: people.js
 ---
 
-<ul class="list">
-  <li>
-    <a class="various fancybox.ajax" href="/demo/ajax.php">Ajax</a>
-  </li>
-  <li>
-    <a class="various" data-fancybox-type="iframe" href="/demo/iframe.html">Iframe</a>
-  </li>
-  <li>
-    <a class="various" href="#inline">Inline</a>
-  </li>
-</ul>
-
 <div id="inline" style="display:none;width:500px;">
       <h2>Lorem ipsum dolor sit amet</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 </div>
 
-<ul id="faculty-slider">
-<li>Some information about our faculty</li>
-<li>Some more information about our faculty</li>
-</ul>
-
 <a class="anchor" name="faculty">&nbsp;</a>
 ### Faculty
+
+<ul id="faculty-slider">
+  <li>Some information about our faculty</li>
+  <li>Some more information about our faculty</li>
+</ul>
 
 <ul class="faculty-list">
 {% for person in site.data.faculty %}
@@ -82,100 +70,78 @@ js: people.js
   </li>
 {% endfor %}
 </ul>
+
 <a class="anchor" name="students">&nbsp;</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Students
 
 <ul class="student-list">
+{% assign this_person = 1 %}
 {% for person in site.data.students %}
-  <li class="student-box">
-  <a href="{{person.url}}"><h4>{{ person.name }}</h4></a>
-
-  <div class="student-box-expand">
-  {% if person.interests %}
-    <h5 style="display:inline">Interests:</h5> {{person.interests}}
-    <br />
-  {% endif %}
-  {% if person.lab %}
-    <h5 style="display:inline">Lab: </h5> 
-    {% if person.laburl %} <a href="{{person.lab.url}}">{% endif %}
-  {{person.lab}}
-    {% if person.laburl %} </a> {% endif %}
-  {% endif %}
-  </div>
+  <li>
+    <a rel="student-fancybox-link" href="#student-{{this_person}}">
+      <div class="student-box">
+        <img src="{{person.picture}}" />
+        <h4>{{ person.name }}</h4>
+      </div>
+    </a>
+    
+    <div id="student-{{this_person}}" class="student-box-expand">
+      <img src="{{person.picture}}" />
+      <h4>{{ person.name }}</h4>
+      <div id="student-info">
+        {% if person.interests %}
+          <h5 style="display:inline">Interests:</h5> {{person.interests}}
+          <br />
+        {% endif %}
+        {% if person.lab %}
+          <h5 style="display:inline">Lab: </h5> 
+            {% if person.laburl %} <a href="{{person.lab.url}}">{% endif %}
+            {{person.lab}}
+            {% if person.laburl %} </a> {% endif %}
+        {% endif %}
+        {% if person.goals %}
+          <br />
+          <h5 style="display:inline">Research Goals:</h5> {{person.goals}}
+          <br />
+        {% endif %}
+      </div>
+      <a href="{{person.url}}" target="_blank"><h6>Personal URL</h6></a>
+    </div>
   </li>
+  {% assign this_person = this_person | plus: 1 %}
 {% endfor %}
 </ul>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <a class="anchor" name="alumni">&nbsp;</a>
-<div id="student-box1">BOX 1</div>
 ### Alumni
 <ul class="student-list">
+{% assign this_person = 1 %}
 {% for person in site.data.alumni %}
-  <li><a href="{{person.url}}"><h4>{{ person.name }}</h4></a>
-
-  {% if person.interests %}
-    <h5 style="display:inline">Interests:</h5> {{person.interests}}
-    <br />
-  {% endif %}
-  {% if person.lab.name %}
-    <h5 style="display:inline">Lab: </h5> 
-    {% if person.lab.url %}
-      <a href="{{person.lab.url}}">
-    {% endif %}
-    {{person.lab.name}}
-    {% if person.lab.url %}
-      </a>
-    {% endif %}
-  {% endif %}
+  <li>
+    <a class="student-fancybox-link" href="#student-{{this_person}}">
+      <div class="student-box">
+        <img src="{{person.picture}}" />
+        <h4>{{ person.name }}</h4>
+        <a href="{{person.url}}" target="_blank"><h6>Personal URL</h6></a>
+      </div>
+    </a>
+    
+    <div id="student-{{this_person}}" class="student-box-expand">
+      <img src="{{person.picture}}" />
+      <h4>{{ person.name }}</h4>
+      {% if person.interests %}
+        <h5 style="display:inline">Interests:</h5> {{person.interests}}
+        <br />
+      {% endif %}
+      {% if person.lab %}
+        <h5 style="display:inline">Lab: </h5> 
+          {% if person.laburl %} <a href="{{person.lab.url}}">{% endif %}
+          {{person.lab}}
+          {% if person.laburl %} </a> {% endif %}
+      {% endif %}
+      <a href="{{person.url}}" target="_blank"><h6>Personal URL</h6></a>
+    </div>
   </li>
+  {% assign this_person = this_person | plus: 1 %}
 {% endfor %}
 </ul>

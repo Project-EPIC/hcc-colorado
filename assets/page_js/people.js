@@ -19,14 +19,14 @@ $(document).ready(function(){
 
 	*/
   //Try it with fancy box!
-  $(".various").fancybox({
+  $('a[rel=student-fancybox-link]').fancybox({
 		maxWidth	: 800,
 		maxHeight	: 600,
-		fitToView	: false,
+		fitToView	: true,
 		width		: '70%',
 		height		: '70%',
 		autoSize	: false,
-		closeClick	: false,
+		closeClick	: true,
 		openEffect	: 'none',
 		closeEffect	: 'none'
 	});

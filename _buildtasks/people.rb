@@ -24,10 +24,15 @@ def parse_spreadsheet(session,sheet)
 		(1..ws.num_cols).to_a.each do |c|  		# Iterate over columns, load hash
 			person[ws[3,c]] = ws[r,c]
 		end
-		
+
+		#Account for empty cells
+		if person['name']==""		#As long as name is empty, person won't go in
+			next
+		end
+
 		#Turn person into an object
 		this_person = Person.new(person['name'], sheet.capitalize.gsub(/s$/,''))
-		
+	
 		#Now add keys as instance variables to the person... Cool!
 		person.each do |k,v|
 			unless v==""
