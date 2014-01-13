@@ -5,8 +5,18 @@ end
 
 desc "Get People"
 task :people do
-	puts "Generating Team YAML file"
-	system('cd _buildtasks; ruby people.rb')
+	unless ENV['type']
+		puts "Please specify a type, for example: 
+		rake people type=Faculty
+		rake people type=Students
+		rake people type=Alumni
+		rake people type=Researchers"
+	else
+		type = ENV['type']
+		puts "Generating People YAML file for #{type}"
+		require './_buildtasks/people'
+		make_yaml(session, "./_data", type)
+	end
 end
 
 desc "Full Refresh & Build"

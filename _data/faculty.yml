@@ -4,7 +4,7 @@
   picture: Need to update but don't have good replacement yet.
   url: http://www.cs.colorado.edu/~kena/
   interests: no change
-  lab: no change
+  lab: Project EPIC
   teaser: Prof. Anderson is interested in identifying the best techniques and components
     for developing large-scale software infrastructure. In his SPLASH'12 paper with
     Ph.D. student, Aaron Schram, he identifies some of the conceptual and implementation
@@ -15,15 +15,26 @@
   interests: cognitive science, craft technologies,educational computing
 - name: Clayton Lewis
   role: Faculty
+  interests: assistive technologies, user interface design, cognitive architectures
 - name: Leysia Palen
   role: Faculty
+  interests: HCI, CSCW, social computing, crisis informatics, ethnographic methods,
+    computer meditated communication, social computing
+  lab: Project EPIC
   gscholar: http://scholar.google.com/citations?user=x0OsogEAAAAJ&hl=en
 - name: Tammy Sumner
   role: Faculty
+  interests: personalized learning, interactive learning environments, user-centered
+    design, digital libraries, intelligent information systems
 - name: Tom Yeh
   role: Faculty
+  interests: vision-based interaction, end-user programming, GUI automation, accessible
+    technology
   gscholar: http://scholar.google.com/citations?user=mDNhPjAAAAAJ&hl=en
 - name: Gerhard Fischer
   role: Faculty
+  interests: cultures of participation, meta design, domain-oriented design, social
+    creativity
 - name: Alex Repenning
   role: Faculty
+  interests: Education, end-user programmable agents, agentsheets, artificial intelligence

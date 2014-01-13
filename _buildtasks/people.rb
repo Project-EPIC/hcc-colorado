@@ -1,25 +1,15 @@
 require 'yaml'
 require 'rails'
 require 'google_drive'
-require './auth_google_drive.rb'
+require './_buildtasks/auth_google_drive'
 
 ############# Globals
-directory = "../_data"
-
 class Person
 	#Making this a class so that we can run validations/substitute defaults, etc.
-	attr_accessor :name, :picture, :role, :url, :interests, :gscholar, :lab, :teaser, :goals
-	@name
-	@picture
-	@role
-	@url
-	@interests
-	@gscholar
-	@lab
-	@teaser
-	@goals
-	def initialize(name)
+	attr_accessor :role, :name
+	def initialize(name, role)
 		@name = name
+		@role = role
 	end
 end
 
@@ -35,13 +25,17 @@ def parse_spreadsheet(session,sheet)
 			person[ws[3,c]] = ws[r,c]
 		end
 		
-		#Turn person into object for analysis
-		this_person = Person.new(person['name'])
-		this_person.role= sheet.capitalize.gsub(/s$/,'')
+		#Turn person into an object
+		this_person = Person.new(person['name'], sheet.capitalize.gsub(/s$/,''))
+		
+		#Now add keys as instance variables to the person... Cool!
 		person.each do |k,v|
-			this_person.send(k+'=',v)
+			unless v==""
+				this_person.instance_variable_set("@#{k}", v)
+			end
 		end
-		people << this_person
+
+		people << this_person	#Add the person to the people array
 	end
 	return people
 end
@@ -53,9 +47,7 @@ def write_people_file(people, directory, filename)
 	people.each do |member|
 		this_member = {}
 		member.instance_values.each do |k,v|
-			unless v == ""
-				this_member[k]=v
-			end
+			this_member[k]=v
 		end
 		to_write << this_member
 	end
@@ -69,8 +61,7 @@ end
 
 def make_yaml(session, directory, type)
 	people = parse_spreadsheet(session, type)
-	write_people_file(people, directory, type.downcase)
+	puts write_people_file(people, directory, type.downcase)
 end
 
-
-make_yaml(session, directory, 'Faculty')
+#make_yaml(session, directory, 'Faculty')
