@@ -1,3 +1,16 @@
+require './_buildtasks/parse_to_yaml'
+
+write_directory = './_data'
+data = {
+	:courses => 	{ 	:key 	=> "0AhQ6tqeOTfwBdDdyY1U4UlBnTk5rc1BIRDhnckhoQ1E",
+				  		:object => "Course"},
+
+	:people  => 	{ 	:key    => "0AhQ6tqeOTfwBdFhrTmxXM0oxYkx2Vl9ucXJpd0hQRHc",
+				  		:object => "Person"},
+
+	:publications =>{	:key 	=> " -Key TBD- ",
+						:object => "Publication"}}
+
 desc "Get Publications"
 task :publications do
 	puts "Generating Publications YAML file"
@@ -14,8 +27,13 @@ task :people do
 	else
 		type = ENV['type']
 		puts "Generating People YAML file for #{type}"
+
 		require './_buildtasks/people'
-		make_yaml(session, "./_data", type)
+		people = parse_spreadsheet(
+			session, data[:courses][:object], data[:courses][:key], type)
+		
+		write_to_yaml(people, write_directory, type)
+
 	end
 end
 
@@ -28,9 +46,11 @@ task :courses do
 	else
 		type = ENV['type']
 		puts "Generating Courses YAML file for #{type}"
+
 		require './_buildtasks/courses'
-		key = "0AhQ6tqeOTfwBdDdyY1U4UlBnTk5rc1BIRDhnckhoQ1E"
-		objects = parse_spreadsheet(session,'Course',key,type)
+		
+		courses = parse_spreadsheet(session,'Course',keys[:courses])
+		write_to
 		
 		#make_yaml(session, "./_data", type)
 	end
