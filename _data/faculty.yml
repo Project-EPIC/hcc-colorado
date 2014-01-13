@@ -1,43 +1,28 @@
+---
 - name: Ken Anderson
-  url: http://google.com/
-  interests: Software and Web Engineering, Hypermedia, CSCW, Human-Computer Interaction
-  lab:
-    name: Project EPIC
-    url:  http://epic.colorado.edu
-
+  role: Faculty
+  picture: Need to update but don't have good replacement yet.
+  url: http://www.cs.colorado.edu/~kena/
+  interests: no change
+  lab: no change
+  teaser: Prof. Anderson is interested in identifying the best techniques and components
+    for developing large-scale software infrastructure. In his SPLASH'12 paper with
+    Ph.D. student, Aaron Schram, he identifies some of the conceptual and implementation
+    issues that are encountered when integrating NoSQL technology into an existing
+    large-scale data collection infrastructure.
 - name: Mike Eisenberg
-  url: http://google.com/
-  interests: Cognitive Science, Craft Technologies,Educational Computing
-  lab: Craft Technology Group
-
-- name: Gerhard Fischer
-  url: http://google.com/
-  interests: Cultures of Participation, Meta Design, Domain-Oriented Design, Social Creativity
-  lab: Center for LifeLong learning and Design (L3D)
-  
+  role: Faculty
 - name: Clayton Lewis
-  url: http://google.com/
-  interests: Assistive Technologies, User Interface Design, Cognitive Architectures
-
+  role: Faculty
 - name: Leysia Palen
-  url: http://google.com/
-  interests: HCI, CSCW, Social Computing, Crisis Informatics, Ethnographic Methods, Computer Mediated Communication
-  lab: Project EPIC
-
-- name: Alex Repenning
-  url: http://google.com/
-  interests: Education, End-User Programmable Agents, Agentsheets, Artificial intelligence
-  lab: Scalable Game Design Initiative
-
+  role: Faculty
+  gscholar: http://scholar.google.com/citations?user=x0OsogEAAAAJ&hl=en
 - name: Tammy Sumner
-  url: http://google.com/
-  interests: Personalized Learning, Interactive Learning Environments, User-Centered Design, Digital Libraries, Intelligent Information Systems
-  lab: 
-    name: Digital Learning Sciences
-    url: http://www.google.com
-
+  role: Faculty
 - name: Tom Yeh
-  url: http://google.com/
-  #interests: Vision-Based Interaction, End-User Programming, GUI Automation, Accessible Technology
-  lab: 
-    name: Sikuli Lab
+  role: Faculty
+  gscholar: http://scholar.google.com/citations?user=mDNhPjAAAAAJ&hl=en
+- name: Gerhard Fischer
+  role: Faculty
+- name: Alex Repenning
+  role: Faculty
