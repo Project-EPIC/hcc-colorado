@@ -19,6 +19,23 @@ task :people do
 	end
 end
 
+desc "Get Courses"
+task :courses do
+	unless ENV['type']
+		puts "Please specify a type, for example: 
+		rake courses type=Undergraduate
+		rake courses type=Graduate"
+	else
+		type = ENV['type']
+		puts "Generating Courses YAML file for #{type}"
+		require './_buildtasks/courses'
+		key = "0AhQ6tqeOTfwBdDdyY1U4UlBnTk5rc1BIRDhnckhoQ1E"
+		objects = parse_spreadsheet(session,'Course',key,type)
+		
+		#make_yaml(session, "./_data", type)
+	end
+end
+
 desc "Full Refresh & Build"
 task :fullbuild do
 	puts "Doing a full build of the website:"
