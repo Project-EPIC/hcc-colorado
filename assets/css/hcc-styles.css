@@ -56,7 +56,6 @@
 /* Footer */
 #bottom_fade {
 	width: 100%;height: 100px;z-index: 99;position: fixed;bottom: 0px;
-	background: url("{{ BASE_PATH }}{{ site.IMG_PATH }}/bottom-fade.png") bottom center repeat-x;
 	display: table-cell;
     vertical-align: bottom;
 }
