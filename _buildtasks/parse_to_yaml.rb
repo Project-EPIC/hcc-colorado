@@ -1,4 +1,3 @@
-require 'rails'
 require 'google_drive'
 require './_buildtasks/auth_google_drive'
 
@@ -40,11 +39,10 @@ end
 def write_to_yaml(objects, directory, filename)
 	to_write = []
 	
-	#Make hash from instance values that aren't nil.
 	objects.each do |object|
 		this_object = {}
-		object.instance_values.each do |k,v|
-			this_object[k]=v
+		object.instance_variables.each do |k|
+			this_object[k.to_s.gsub('@','')] = object.instance_eval(k.to_s)
 		end
 		to_write << this_object
 	end

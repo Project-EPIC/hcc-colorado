@@ -6,4 +6,8 @@ class Person
 		@role = role
 		puts "Name: #{@name}"
 	end
+
+	def full_access(k)
+		return k
+	end
 end
