@@ -1,6 +1,6 @@
 require './_buildtasks/parse_to_yaml'
 
-write_directory = './tmp'
+write_directory = './data'
 data = {
 	:courses => 	{ 	:key 	=> "0AhQ6tqeOTfwBdDdyY1U4UlBnTk5rc1BIRDhnckhoQ1E",
 				  		:object => "Course"},
