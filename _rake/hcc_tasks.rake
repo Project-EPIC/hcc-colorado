@@ -10,50 +10,52 @@ data = {
 
 	:publications =>{	:key 	=> " -Key TBD- ",
 						:object => "Publication"}}
-
-desc "Get People"
-task :people do
-	unless ENV['type']
-		puts "Please specify a type, for example: 
-		rake people type=Faculty
-		rake people type=Students
-		rake people type=Alumni
-		rake people type=Researchers"
-	else
-		require './_buildtasks/people'
-		type = ENV['type']
-		puts "Generating People YAML file for #{type}"
-		people = parse_spreadsheet(
-			session, data[:courses][:object], data[:courses][:key], type)
-		
-		write_to_yaml(people, write_directory, type)
-
+namespace :update do
+	desc "Get People"
+	task :people do
+		unless ENV['type']
+			puts "Please specify a type, for example: 
+			rake people type=Faculty
+			rake people type=Students
+			rake people type=Alumni
+			rake people type=Researchers"
+		else
+			require './_buildtasks/people'
+			type = ENV['type']
+			puts "Generating People YAML file for #{type}"
+			
+			people = parse_spreadsheet(
+				session, data[:people][:object], data[:people][:key], type)
+			
+			write_to_yaml(people, write_directory, type)
+		end
 	end
-end
 
-desc "Get Courses"
-task :courses do
-	unless ENV['type']
-		puts "Please specify a type, for example: 
-		rake courses type=Undergraduate
-		rake courses type=Graduate"
-	else
-		type = ENV['type']
-		puts "Generating Courses YAML file for #{type}"
+	desc "Get Courses"
+	task :courses do
+		unless ENV['type']
+			puts "Please specify a type, for example: 
+			rake courses type=Undergraduate
+			rake courses type=Graduate"
+		else
+			type = ENV['type']
+			puts "Generating Courses YAML file for #{type}"
 
-		require './_buildtasks/courses'
-		
-		courses = parse_spreadsheet(session,'Course',keys[:courses])
-		write_to
-		
-		#make_yaml(session, "./_data", type)
+			require './_buildtasks/courses'
+			
+			courses = parse_spreadsheet(session,'Course',keys[:courses])
+			write_to
+			
+			#make_yaml(session, "./_data", type)
+		end
 	end
-end
 
-desc "Get Publications"
-task :publications do
-	puts "Generating Publications YAML file"
-end
+	desc "Get Publications"
+	task :publications do
+		puts "Generating Publications YAML file"
+	end
+
+end #End namespace
 
 desc "Full Refresh & Build"
 task :fullbuild do

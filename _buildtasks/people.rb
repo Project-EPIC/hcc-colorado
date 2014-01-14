@@ -4,6 +4,6 @@ class Person
 	def initialize(name, role)
 		@name = name
 		@role = role
-		puts 'Name: #{@name}'
+		puts "Name: #{@name}"
 	end
 end

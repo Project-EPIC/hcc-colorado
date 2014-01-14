@@ -1,7 +1,5 @@
 require "rubygems"
-require 'rake'
-require 'yaml'
-require 'time'
+require "rake"
 
 SOURCE = "."
 CONFIG = {

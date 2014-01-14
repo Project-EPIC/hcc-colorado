@@ -1,11 +1,9 @@
-require 'yaml'
 require 'rails'
 require 'google_drive'
 require './_buildtasks/auth_google_drive'
 
 def parse_spreadsheet(session,object_type,key,sheet)
 	ws = session.spreadsheet_by_key(key).worksheet_by_title(sheet)
-	puts ws=
 	objects = []
 
 	#TODO: Parse sub-features as lab.name or lab.url  split('.'), then pull first type as key; only capable of one level(?)
