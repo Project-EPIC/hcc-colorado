@@ -11,11 +11,6 @@ data = {
 	:publications =>{	:key 	=> " -Key TBD- ",
 						:object => "Publication"}}
 
-desc "Get Publications"
-task :publications do
-	puts "Generating Publications YAML file"
-end
-
 desc "Get People"
 task :people do
 	unless ENV['type']
@@ -25,10 +20,9 @@ task :people do
 		rake people type=Alumni
 		rake people type=Researchers"
 	else
+		require './_buildtasks/people'
 		type = ENV['type']
 		puts "Generating People YAML file for #{type}"
-
-		require './_buildtasks/people'
 		people = parse_spreadsheet(
 			session, data[:courses][:object], data[:courses][:key], type)
 		
@@ -54,6 +48,11 @@ task :courses do
 		
 		#make_yaml(session, "./_data", type)
 	end
+end
+
+desc "Get Publications"
+task :publications do
+	puts "Generating Publications YAML file"
 end
 
 desc "Full Refresh & Build"
