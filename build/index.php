@@ -26,7 +26,7 @@ http://epic.cs.colorado.edu/build/?task=publications and then all is done automa
         switch ($_GET['task']) {
             case 'courses':
                 echo ("Courses file...<br />");
-                echo ("Changing Directory to jekyll root and listing directory:\n");
+                echo ("Changing Directory to jekyll root and listing directory:<br />");
                 passthru("cd ~/tmp/hcc-colorado; ls; rake");
                 
                 break;
