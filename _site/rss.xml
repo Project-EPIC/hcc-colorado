@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-        <title>Human Centered Computing</title>
-        <description>Human Centered Computing - HCC @ CU</description>
-        <link>http://hcc.colorado.edu</link>
-        <link>http://hcc.colorado.edu</link>
-        <lastBuildDate>2014-01-14T00:18:08-07:00</lastBuildDate>
-        <pubDate>2014-01-14T00:18:08-07:00</pubDate>
+        <title></title>
+        <description> - </description>
+        <link></link>
+        <link></link>
+        <lastBuildDate>2014-01-15T21:41:50-06:00</lastBuildDate>
+        <pubDate>2014-01-15T21:41:50-06:00</pubDate>
         <ttl>1800</ttl>
 
 
         <item>
                 <title>Something else</title>
                 <description>&lt;p&gt;This is our first entry for the new website, I hope it works&lt;/p&gt;</description>
-                <link>http://hcc.colorado.edu/news/2014/01/01/Our-New-Website</link>
-                <guid>http://hcc.colorado.edu/news/2014/01/01/Our-New-Website</guid>
-                <pubDate>2014-01-01T00:00:00-07:00</pubDate>
+                <link>/news/2014/01/01/Our-New-Website.html</link>
+                <guid>/news/2014/01/01/Our-New-Website</guid>
+                <pubDate>2014-01-01T00:00:00-06:00</pubDate>
         </item>
 
 
