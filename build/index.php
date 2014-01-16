@@ -26,13 +26,11 @@ http://epic.cs.colorado.edu/build/?task=publications and then all is done automa
         switch ($_GET['task']) {
             case 'courses':
                 echo ("Courses file...<br />");
+                echo ("Changing Directory to jekyll root and listing directory:");
                 echo (shell_exec("cd ~/tmp/hcc-colorado; ls"));
-                echo ("Changing Directory to jekyll root (1 is success)...");
-                echo '<strong>'.chdir( $jekyll_dir ).'</strong>';
                 echo ("<br />Calling rake 'update:all:courses'...<br />");
                 echo '<strong>'.shell_exec("rake update:all:courses").'</strong>';
-
-                echo ("<br /><br />See Results: <a href=\"/team.html\">Team Page</a>");
+                
                 break;
             case 'publications':
                 echo "var is pubs";
