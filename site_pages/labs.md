@@ -12,8 +12,6 @@ scroller:
   Digital Learning Sciences: dls
 ---
 
-    Eventually, this will involve parallax and look really really good
-
 <a class="anchor" name="epic"> </a>
 
 ###EPIC – Empowering the Public with Information in Crisis
