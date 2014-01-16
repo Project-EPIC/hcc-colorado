@@ -52,8 +52,10 @@ def write_to_yaml(objects, directory, filename)
 		File.open(directory+'/'+filename.downcase+'.yml', 'wb') {|f|
 			f.write(to_write.to_yaml)
 		}
-	rescue
-		puts "Failed to write YAML file"
+		puts "file: '#{directory}/#{filename.downcase}.yml' written sucessfully" 
+	rescue => error
+		puts "Failed to write YAML file:"
+		puts error
 	end
 	
 	return to_write

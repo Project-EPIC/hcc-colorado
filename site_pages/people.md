@@ -11,12 +11,7 @@ scroller:
 js: people.js
 ---
 
-<div id="inline" style="display:none;width:500px;">
-      <h2>Lorem ipsum dolor sit amet</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-</div>
-
-<a class="anchor" name="faculty">&nbsp;</a>
+<a class="anchor" name="faculty"> </a>
 ### Faculty
 
 <ul id="faculty-slider">
@@ -47,7 +42,7 @@ js: people.js
 </ul>
 
 
-<a class="anchor" name="postdocs">&nbsp;</a>
+<a class="anchor" name="postdocs"> </a>
 ### Post Docs/Researchers
 <ul class="faculty-list">
 {% for person in site.data.researchers %}
@@ -71,7 +66,7 @@ js: people.js
 {% endfor %}
 </ul>
 
-<a class="anchor" name="students">&nbsp;</a>
+<a class="anchor" name="students"> </a>
 ### Students
 
 <ul class="student-list">
@@ -112,7 +107,7 @@ js: people.js
 {% endfor %}
 </ul>
 
-<a class="anchor" name="alumni">&nbsp;</a>
+<a class="anchor" name="alumni"> </a>
 ### Alumni
 <ul class="student-list">
 {% assign this_person = 1 %}

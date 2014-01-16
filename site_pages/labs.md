@@ -14,7 +14,7 @@ scroller:
 
     Eventually, this will involve parallax and look really really good
 
-<a class="anchor" name="epic">&nbsp;</a>
+<a class="anchor" name="epic"> </a>
 
 ###EPIC – Empowering the Public with Information in Crisis
 
@@ -30,7 +30,7 @@ Ut non urna pulvinar, posuere dui id, eleifend mi. Nullam non leo facilisis, veh
 
 Proin vehicula felis sed tellus gravida auctor. Vestibulum eu lorem tincidunt, aliquet sem sit amet, tempus tellus. Nulla non felis odio. Ut varius, libero at tempus egestas, enim nunc tristique tortor, a semper justo velit non ligula. Nulla eu placerat lectus. In volutpat dictum mi et venenatis. Morbi pellentesque sit amet diam eu condimentum. Maecenas et porta nisl, vel condimentum enim. Aenean ante nisi, venenatis in fermentum a, pulvinar in ipsum. Duis nec lacinia eros, nec eleifend purus. Morbi vestibulum velit vitae turpis eleifend, quis interdum nisi bibendum. Vivamus ac pulvinar nibh, vitae blandit dolor.
 
-<a class="anchor" name="craft">&nbsp;</a>
+<a class="anchor" name="craft"> </a>
 ###Craft Technology Group
 
 Craft Technology is our term for the interwaeving of computation with craft materials.This blending can take many forms, including the application of specialized software to aid in the design and constructuion of craft(such as mechanical toys and paper scuptlure) and in the creation of craft objects with embedded intelligence. Our particular interests lie in the  educational realm - that is, we are especially interested in extending the landscape of children's craft activities.
@@ -45,7 +45,7 @@ Ut non urna pulvinar, posuere dui id, eleifend mi. Nullam non leo facilisis, veh
 
 Proin vehicula felis sed tellus gravida auctor. Vestibulum eu lorem tincidunt, aliquet sem sit amet, tempus tellus. Nulla non felis odio. Ut varius, libero at tempus egestas, enim nunc tristique tortor, a semper justo velit non ligula. Nulla eu placerat lectus. In volutpat dictum mi et venenatis. Morbi pellentesque sit amet diam eu condimentum. Maecenas et porta nisl, vel condimentum enim. Aenean ante nisi, venenatis in fermentum a, pulvinar in ipsum. Duis nec lacinia eros, nec eleifend purus. Morbi vestibulum velit vitae turpis eleifend, quis interdum nisi bibendum. Vivamus ac pulvinar nibh, vitae blandit dolor.
 
-<a class="anchor" name="l3d">&nbsp;</a>
+<a class="anchor" name="l3d"> </a>
 ###Center for LifeLong learning and Design(L3D)
 
 The Center for LifeLong Learning and Design (L3D) is part of the Department of Computer Science and the Institute of Cognitive Science at the University of Colorado Boulder. The mission of the center is to establish the scientific foundations for the environment, design, development, and assessment of socio-technical systems that serve as amplifiers of human capabilities and that will bring dramatic and transformative improvements in the ways people live, learn, work, and collaborate.
@@ -60,12 +60,12 @@ Ut non urna pulvinar, posuere dui id, eleifend mi. Nullam non leo facilisis, veh
 
 Proin vehicula felis sed tellus gravida auctor. Vestibulum eu lorem tincidunt, aliquet sem sit amet, tempus tellus. Nulla non felis odio. Ut varius, libero at tempus egestas, enim nunc tristique tortor, a semper justo velit non ligula. Nulla eu placerat lectus. In volutpat dictum mi et venenatis. Morbi pellentesque sit amet diam eu condimentum. Maecenas et porta nisl, vel condimentum enim. Aenean ante nisi, venenatis in fermentum a, pulvinar in ipsum. Duis nec lacinia eros, nec eleifend purus. Morbi vestibulum velit vitae turpis eleifend, quis interdum nisi bibendum. Vivamus ac pulvinar nibh, vitae blandit dolor.
 
-<a class="anchor" name="scalable">&nbsp;</a>
+<a class="anchor" name="scalable"> </a>
 ###Scalable Game Design Initiative
 
 The goal of this project is to get computer science back to middle schools. Our strategy is to reform middle school IT education at a systemic level exploring the notion of scalable game design as an approach to carefully balance educational and motivational aspects of IT fluency. The original iDREAMS project (Integrative Design-based Reform-oriented Educational Approach for Motivating Students) was designed to spark an interest in IT through students' natural attraction to game design. The second phase of the project, called CT4TC (Computational Thinking for Teaching Computing) continues the original project by looking deeper into how game design helps students learn STEM concepts through collection and analysis of performance data.
 
-<a class="anchor" name="wii">&nbsp;</a>
+<a class="anchor" name="wii"> </a>
 ###Wellness Innovation and Interaction (WII) Lab
 
 The Wellness Innovation and Interaction (WII) Lab designs, implements, and evaluates mobile applications that can improve a population’s health and wellness. Our research motivations are two fold – we want to provide people with easier solutions to improve their health and wellness while assisting researchers in other disciplines study new, technical interventions.
@@ -80,7 +80,7 @@ Ut non urna pulvinar, posuere dui id, eleifend mi. Nullam non leo facilisis, veh
 
 Proin vehicula felis sed tellus gravida auctor. Vestibulum eu lorem tincidunt, aliquet sem sit amet, tempus tellus. Nulla non felis odio. Ut varius, libero at tempus egestas, enim nunc tristique tortor, a semper justo velit non ligula. Nulla eu placerat lectus. In volutpat dictum mi et venenatis. Morbi pellentesque sit amet diam eu condimentum. Maecenas et porta nisl, vel condimentum enim. Aenean ante nisi, venenatis in fermentum a, pulvinar in ipsum. Duis nec lacinia eros, nec eleifend purus. Morbi vestibulum velit vitae turpis eleifend, quis interdum nisi bibendum. Vivamus ac pulvinar nibh, vitae blandit dolor.
 
-<a class="anchor" name="dls">&nbsp;</a>
+<a class="anchor" name="dls"> </a>
 ###Digital Learning Sciences
 
 Digital Learning Sciences is a mission-centered, not-for-profit organization dedicated to improving learning through the use of digital content and tools. We develop systems and services that enable science and educational organizations – universities, school districts, libraries, and publishers – to organize, manage, comprehend, and enrich online resources to improve learning outcomes and learner engagement.

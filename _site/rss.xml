@@ -3,18 +3,18 @@
 <channel>
         <title>Human Centered Computing</title>
         <description>Human Centered Computing - HCC @ CU</description>
-        <link>http://hcc.colorado.edu</link>
-        <link>http://hcc.colorado.edu</link>
-        <lastBuildDate>2014-01-14T00:18:08-07:00</lastBuildDate>
-        <pubDate>2014-01-14T00:18:08-07:00</pubDate>
+        <link>false</link>
+        <link>false</link>
+        <lastBuildDate>2014-01-15T20:42:21-07:00</lastBuildDate>
+        <pubDate>2014-01-15T20:42:21-07:00</pubDate>
         <ttl>1800</ttl>
 
 
         <item>
                 <title>Something else</title>
                 <description>&lt;p&gt;This is our first entry for the new website, I hope it works&lt;/p&gt;</description>
-                <link>http://hcc.colorado.edu/news/2014/01/01/Our-New-Website</link>
-                <guid>http://hcc.colorado.edu/news/2014/01/01/Our-New-Website</guid>
+                <link>false/news/2014/01/01/Our-New-Website</link>
+                <guid>false/news/2014/01/01/Our-New-Website</guid>
                 <pubDate>2014-01-01T00:00:00-07:00</pubDate>
         </item>
 

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Human Centered Computing</title>
- <link href="http://hcc.colorado.edu/" rel="self"/>
- <link href="http://hcc.colorado.edu"/>
- <updated>2014-01-14T00:18:08-07:00</updated>
- <id>http://hcc.colorado.edu</id>
+ <link href="false/" rel="self"/>
+ <link href="false"/>
+ <updated>2014-01-15T20:42:21-07:00</updated>
+ <id>false</id>
  <author>
    <name>HCC @ CU</name>
    <email></email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Something else</title>
-   <link href="http://hcc.colorado.edu/news/2014/01/01/Our-New-Website"/>
+   <link href="false/news/2014/01/01/Our-New-Website"/>
    <updated>2014-01-01T00:00:00-07:00</updated>
-   <id>http://hcc.colorado.edu/news/2014/01/01/Our-New-Website</id>
+   <id>false/news/2014/01/01/Our-New-Website</id>
    <content type="html">&lt;p&gt;This is our first entry for the new website, I hope it works&lt;/p&gt;</content>
  </entry>
  

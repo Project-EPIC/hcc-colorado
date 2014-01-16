@@ -1,15 +1,15 @@
 
-http://hcc.colorado.edu/atom.xml
-http://hcc.colorado.edu/index.html
-http://hcc.colorado.edu/rss.xml
-http://hcc.colorado.edu/site_pages/courses.html
-http://hcc.colorado.edu/site_pages/labs.html
-http://hcc.colorado.edu/site_pages/news.html
-http://hcc.colorado.edu/site_pages/people.html
-http://hcc.colorado.edu/site_pages/sitemap/archive.html
-http://hcc.colorado.edu/site_pages/sitemap/categories.html
-http://hcc.colorado.edu/site_pages/sitemap/pages.html
-http://hcc.colorado.edu/site_pages/sitemap/tags.html
-http://hcc.colorado.edu/sitemap.txt
+false/atom.xml
+false/index.html
+false/rss.xml
+false/site_pages/courses.html
+false/site_pages/labs.html
+false/site_pages/news.html
+false/site_pages/people.html
+false/site_pages/sitemap/archive.html
+false/site_pages/sitemap/categories.html
+false/site_pages/sitemap/pages.html
+false/site_pages/sitemap/tags.html
+false/sitemap.txt
 
-http://hcc.colorado.edu/news/2014/01/01/Our-New-Website
+false/news/2014/01/01/Our-New-Website
