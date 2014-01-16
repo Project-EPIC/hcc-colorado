@@ -29,6 +29,7 @@ http://epic.cs.colorado.edu/build/?task=publications and then all is done automa
                 echo ("Changing Directory to jekyll root and listing directory:");
                 echo (shell_exec("cd ~/tmp/hcc-colorado; ls"));
                 echo ("<br />Calling rake 'update:all:courses'...<br />");
+                echo (shell_exec("cat _config.yml"));
                 echo (shell_exec("mkdir test"));
                 echo '<strong>'.shell_exec("rake update:all:courses").'</strong>';
                 
