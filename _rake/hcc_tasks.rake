@@ -1,60 +1,100 @@
 require './_buildtasks/parse_to_yaml'
 
-write_directory = './data'
+write_directory = './_data'
 data = {
 	:courses => 	{ 	:key 	=> "0AhQ6tqeOTfwBdDdyY1U4UlBnTk5rc1BIRDhnckhoQ1E",
-				  		:object => "Course"},
+				  		:object => "Course",
+				  		:types  => ['Undergraduate', 'Graduate']},
 
 	:people  => 	{ 	:key    => "0AhQ6tqeOTfwBdFhrTmxXM0oxYkx2Vl9ucXJpd0hQRHc",
-				  		:object => "Person"},
+				  		:object => "Person",
+				  		:types  => ['Faculty', 'Students', 'Alumni', 'Researchers']},
+}
+	# :publications =>{	:key 	=> " -Key TBD- ",
+	# 					:object => "Publication",
+	# 					:types  => ['Publications']}}
 
-	:publications =>{	:key 	=> " -Key TBD- ",
-						:object => "Publication"}}
 namespace :update do
-	desc "Get People"
-	task :people do
-		unless ENV['type']
-			puts "Please specify a type, for example: 
-			rake people type=Faculty
-			rake people type=Students
-			rake people type=Alumni
-			rake people type=Researchers"
+
+	desc "Update All"
+	task :all do
+		data.each do |task, values|
+			Rake::Task["update:all:#{task}"].reenable
+			Rake::Task["update:all:#{task}"].invoke
+		end
+	end
+	
+	namespace :all do
+		desc "Update All People"
+		task :people do
+			data[:people][:types].each do |type|
+				Rake::Task["update:people"].reenable
+				Rake::Task["update:people"].invoke(type)
+			end
+		end
+
+		desc "Update All Courses"
+		task :courses do
+			data[:courses][:types].each do |type|
+				Rake::Task["update:courses"].reenable
+				Rake::Task["update:courses"].invoke(type)
+			end
+		end 
+	end #end all namespace
+		
+	desc "Update People"
+	task :people, :arg1 do |t, args|
+		unless data[:people][:types].include? args[:arg1]
+		 	puts "Please specify a type, for example: 
+			rake update:people[Faculty]
+			rake update:people[Students]
+			rake update:people[Alumni]
+			rake update:people[Researchers]"
 		else
 			require './_buildtasks/people'
-			type = ENV['type']
-			puts "Generating People YAML file for #{type}"
+			puts "Generating People YAML file for #{args[:arg1]}"
 			
 			people = parse_spreadsheet(
-				session, data[:people][:object], data[:people][:key], type)
+				session, data[:people][:object], data[:people][:key], args[:arg1])
 			
-			write_to_yaml(people, write_directory, type)
+			write_to_yaml(people, write_directory, args[:arg1])
 		end
 	end
 
-	desc "Get Courses"
-	task :courses do
-		unless ENV['type']
+	desc "Update Courses"
+	task :courses, :arg1 do |t, args|
+		unless data[:courses][:types].include? args[:arg1]
 			puts "Please specify a type, for example: 
 			rake courses type=Undergraduate
 			rake courses type=Graduate"
 		else
-			type = ENV['type']
-			puts "Generating Courses YAML file for #{type}"
-
 			require './_buildtasks/courses'
+			type = ENV['type']
+			puts "Generating Course YAML file for #{args[:arg1]}"
 			
-			courses = parse_spreadsheet(session,'Course',keys[:courses])
-			write_to
+			courses = parse_spreadsheet(
+				session, data[:courses][:object], data[:courses][:key], args[:arg1])
 			
-			#make_yaml(session, "./_data", type)
+			write_to_yaml(courses, write_directory, args[:arg1])
 		end
 	end
 
 	desc "Get Publications"
 	task :publications do
-		puts "Generating Publications YAML file"
+		unless ENV['type']
+			puts "Please specify a type, for example: 
+			rake publications type=test"
+		else
+			equire './_buildtasks/people'
+			type = ENV['type']
+			puts "Generating Publications YAML file for #{type}"
+			
+			pubs = parse_spreadsheet(
+				session, data[:publications][:object], data[:pubs][:publications], type)
+			
+			write_to_yaml(pubs, write_directory, type)
+		end
 	end
-
 end #End namespace
 
 desc "Full Refresh & Build"

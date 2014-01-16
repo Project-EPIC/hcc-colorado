@@ -44,8 +44,6 @@
   lab: Scalable Game Design
   goals: Explore how children and adults can reason, understand, and learn through
     interactive and dynamic computer-facilitated experiences.
-- name: Hilarie Nickerson
-  role: Students
 - name: Jason Zietz
   role: Students
 - name: Jeeeun Kim
@@ -55,10 +53,10 @@
   lab: Sikuli, Craft Technology
 - name: Jeffery Hoehl
   role: Students
-  gscholar: http://scholar.google.com/citations?user=TwpgBxQAAAAJ
   picture: http://www.jefferyhoehl.com/images/jeffery_wave.jpg
   url: http://www.jefferyhoehl.com/
   lab: Coleman Institute for Cognitive Disabilities
+  gscholar: http://scholar.google.com/citations?user=TwpgBxQAAAAJ
   goals: Improve web accessibilty for people with cognitive disabilities.
 - name: Jeffrey La Marche
   role: Students
@@ -72,11 +70,11 @@
     methods.
 - name: Jennings Anderson
   role: Students
-  gscholar: http://scholar.google.com/citations?user=7Wt7XDUAAAAJ
   url: www.townsendjennings.com
   interests: Jekyll!
   lab: Project EPIC
-  goals: I want to see this update reflected on heroku...
+  gscholar: http://scholar.google.com/citations?user=7Wt7XDUAAAAJ
+  goals: I want to see this change reflected
 - name: Joanne White
   role: Students
   gscholar: http://scholar.google.com/citations?user=cU2HRV8AAAAJ&hl=en
@@ -91,8 +89,6 @@
   goals: designing and building systems that identify the inconsistency between mobile
     User Interfaces and the underlying application behaviors to detect serious security
     threats.
-- name: Khalid Alharbi
-  role: Students
 - name: Kyu Han Koh
   role: Students
 - name: Lise Ann St. Denis
@@ -101,10 +97,10 @@
   role: Students
 - name: Mario Barrenechea
   role: Students
-  gscholar: http://scholar.google.com/citations?user=m463-VoAAAAJ
   picture: emailed
   url: http://www.mbarrenecheajr.com
   lab: Project EPIC
+  gscholar: http://scholar.google.com/citations?user=m463-VoAAAAJ
   goals: Investigate how software developers build software for crisis events in a
     decentralized environment.
 - name: Mazin Hakeem
