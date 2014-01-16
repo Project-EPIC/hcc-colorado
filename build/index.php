@@ -26,7 +26,7 @@ http://epic.cs.colorado.edu/build/?task=publications and then all is done automa
         switch ($_GET['task']) {
             case 'courses':
                 echo ("Courses file...<br />");
-                echo ("shell_exec(cd ~/tmp/hcc-colorado; ls"));
+                echo (shell_exec("cd ~/tmp/hcc-colorado; ls"));
                 echo ("Changing Directory to jekyll root (1 is success)...");
                 echo '<strong>'.chdir( $jekyll_dir ).'</strong>';
                 echo ("<br />Calling rake 'update:all:courses'...<br />");
