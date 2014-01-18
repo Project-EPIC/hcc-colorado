@@ -27,7 +27,7 @@ http://epic.cs.colorado.edu/build/?task=publications and then all is done automa
             case 'courses':
                 echo ("Courses file...<br />");
                 echo ("Changing Directory to jekyll root and listing directory:<br />");
-                passthru("cd ~/tmp/hcc-colorado; ls; whoami; rake -T");
+                passthru("cd ~/tmp/hcc-colorado; ls; whoami; ruby test.rb");
                 
                 break;
             case 'publications':
