@@ -1,0 +1,1 @@
+puts "This is a ruby test"
