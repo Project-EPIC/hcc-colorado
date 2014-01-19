@@ -1,40 +1,56 @@
 ---
 - name: Ken Anderson
-  role: Faculty
+  status: Faculty
+  lab: Project EPIC
   picture: Need to update but don't have good replacement yet.
   url: http://www.cs.colorado.edu/~kena/
-  interests: no change
-  lab: Project EPIC
+  web_interests: no change
   teaser: Prof. Anderson is interested in identifying the best techniques and components
     for developing large-scale software infrastructure. In his SPLASH'12 paper with
     Ph.D. student, Aaron Schram, he identifies some of the conceptual and implementation
     issues that are encountered when integrating NoSQL technology into an existing
     large-scale data collection infrastructure.
 - name: Mike Eisenberg
-  role: Faculty
-  interests: cognitive science, craft technologies,educational computing
+  status: Faculty
+  web_interests: cognitive science, craft technologies,educational computing
 - name: Clayton Lewis
-  role: Faculty
-  interests: assistive technologies, user interface design, cognitive architectures
+  status: Faculty
+  web_interests: assistive technologies, user interface design, cognitive architectures
 - name: Leysia Palen
-  role: Faculty
-  interests: HCI, CSCW, social computing, crisis informatics, ethnographic methods,
-    computer meditated communication, social computing
+  status: Faculty
   lab: Project EPIC
-  gscholar: http://scholar.google.com/citations?user=x0OsogEAAAAJ&hl=en
+  url: https://www.cs.colorado.edu/~palen/
+  web_interests: HCI, CSCW, social computing, crisis informatics, ethnographic methods,
+    computer meditated communication, social computing
+  gscholar_link: http://scholar.google.com/citations?user=x0OsogEAAAAJ&hl=en
+  profile_pic: /assets/auto_generated/profile_pics/Leysia_Palen.jpg
+  affiliation: Associate Professor of Computer Science, University of Colorado Boulder
+  interests:
+  - Human computer interaction
+  - computer supported cooperative work
+  - social computing
+  - crisis informatics
 - name: Tammy Sumner
-  role: Faculty
-  interests: personalized learning, interactive learning environments, user-centered
+  status: Faculty
+  web_interests: personalized learning, interactive learning environments, user-centered
     design, digital libraries, intelligent information systems
 - name: Tom Yeh
-  role: Faculty
-  interests: vision-based interaction, end-user programming, GUI automation, accessible
+  status: Faculty
+  url: http://tomyeh.info/
+  web_interests: vision-based interaction, end-user programming, GUI automation, accessible
     technology
-  gscholar: http://scholar.google.com/citations?user=mDNhPjAAAAAJ&hl=en
+  gscholar_link: http://scholar.google.com/citations?user=mDNhPjAAAAAJ&hl=en
+  profile_pic: /assets/auto_generated/profile_pics/Tom_Yeh.jpg
+  affiliation: University of Colorado Boulder
+  interests:
+  - HCI
+  - Computer Vision
+  - Software Engineering
 - name: Gerhard Fischer
-  role: Faculty
-  interests: cultures of participation, meta design, domain-oriented design, social
+  status: Faculty
+  web_interests: cultures of participation, meta design, domain-oriented design, social
     creativity
 - name: Alex Repenning
-  role: Faculty
-  interests: Education, end-user programmable agents, agentsheets, artificial intelligence
+  status: Faculty
+  web_interests: Education, end-user programmable agents, agentsheets, artificial
+    intelligence

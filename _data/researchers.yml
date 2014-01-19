@@ -1,5 +1,5 @@
 ---
 - name: Hal Eden
-  role: Researchers
+  status: Researchers
   url: http://swiki.cs.colorado.edu/haleden
   interests: collaborative design, table-top computing environments, energy sustainability

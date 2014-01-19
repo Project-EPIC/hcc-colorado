@@ -4,11 +4,23 @@ permalink: /:categories/:year/:month/:day/:title
 
 exclude : [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "Procfile", "vendor", "gems"]
 
-pygments: true
+pygments : true
 
-# Themes are encouraged to use these universal variables 
-# so be sure to set them if your theme uses them.
-#
+google_info : 
+  courses : 
+    key     : 0AhQ6tqeOTfwBdDdyY1U4UlBnTk5rc1BIRDhnckhoQ1E
+    object  : Course
+    types   : ['Undergraduate', 'Graduate']
+
+  people  :  
+    key     : 0AhQ6tqeOTfwBdFhrTmxXM0oxYkx2Vl9ucXJpd0hQRHc
+    object  : Person
+    types   : ['Faculty', 'Students', 'Alumni', 'Researchers']
+    
+write_directory : './_data'
+build_tasks_directory : './_buildtasks'
+
+
 title : Human Centered Computing
 tagline: Home of Human Centered Computing at University of Colorado Boulder
 

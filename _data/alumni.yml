@@ -1,6 +1,10 @@
 ---
 - name: Aaron Schram
-  role: Alumni
-  lab: Project EPIC
+  status: Alumni
+  gscholar_link: http://scholar.google.com/citations?user=BZZerAYAAAAJ&hl=en
+  interests: Project EPIC
+  url: http://www.aaronschram.com/
+  profile_pic: /assets/auto_generated/profile_pics/Aaron_Schram.jpg
+  affiliation: University of Colorado
 - name: Ifeyinwa Okoye
-  role: Alumni
+  status: Alumni

@@ -11,6 +11,10 @@ scroller:
 js: people.js
 ---
 
+
+
+<!--                   This is the faculty section                  -->
+
 <a class="anchor" name="faculty"> </a>
 ### Faculty
 
@@ -21,7 +25,9 @@ js: people.js
 
 <ul class="faculty-list">
 {% for person in site.data.faculty %}
-  <li><a href="{{person.url}}"><h3>{{ person.name }}</h3></a>
+  <li>
+  <img src="{{person.profile_pic}}" />
+  <a href="{{person.url}}"><h3>{{ person.name }}</h3></a>
 
   {% if person.interests %}
     <h5 style="display:inline">Interests:</h5> {{person.interests}}
@@ -40,6 +46,11 @@ js: people.js
   </li>
 {% endfor %}
 </ul>
+
+
+
+
+<!--                   This is the PostDocs section                  -->
 
 
 <a class="anchor" name="postdocs"> </a>
@@ -66,6 +77,9 @@ js: people.js
 {% endfor %}
 </ul>
 
+
+<!--                   This is the student section                  -->
+
 <a class="anchor" name="students"> </a>
 ### Students
 
@@ -75,14 +89,15 @@ js: people.js
   <li>
     <a rel="student-fancybox-link" href="#student-{{this_person}}">
       <div class="student-box">
-        <img src="{{person.picture}}" />
+        <img src="{{person.profile_pic}}" />
         <h4>{{ person.name }}</h4>
       </div>
     </a>
     
+    <!--This is the student pop-up box-->
     <div id="student-{{this_person}}" class="student-box-expand">
-      <img src="{{person.picture}}" />
-      <h4>{{ person.name }}</h4>
+      <img src="{{person.profile_pic}}" />
+        <h4>{{ person.name }}</h4>
       <div id="student-info">
         {% if person.interests %}
           <h5 style="display:inline">Interests:</h5> {{person.interests}}
@@ -106,6 +121,12 @@ js: people.js
   {% assign this_person = this_person | plus: 1 %}
 {% endfor %}
 </ul>
+
+
+
+
+
+<!--                   This is the alumni section                  -->
 
 <a class="anchor" name="alumni"> </a>
 ### Alumni
