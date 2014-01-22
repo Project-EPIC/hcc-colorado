@@ -28,7 +28,6 @@ http://epic.cs.colorado.edu/build/?task=publications and then all is done automa
                 echo ("Courses file...<br />");
                 echo ("Changing Directory to jekyll root and listing directory:<br />");
                 passthru("cd ~/tmp/hcc-colorado; ls; whoami; ruby test.rb; rake -T");
-                
                 break;
             case 'publications':
                 echo "var is pubs";
