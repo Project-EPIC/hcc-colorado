@@ -3,7 +3,8 @@ layout: page
 title: Human Centered Computing
 tagline: University of Colorado Boulder
 ---
-Everything has maximum access.
+
+This is a new updated file.
 
 Human-Centered Computing has had a long history at the University of Colorado at Boulder (CU), beginning with Professors Peter Polson, Tom Landauer, Gerhard Fischer, Clayton Lewis, Skip Ellis and Walter Kintsch, among others. Today’s faculty continue this legacy, and can be found in academic homes across the university. Four of CU’s faculty have been elected to the CHI Academy including one SIGCHI Lifetime Achievement Award and one Social Impact Award.
 
