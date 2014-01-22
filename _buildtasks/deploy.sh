@@ -1,4 +1,5 @@
 #!/bin/bash
-mkdir testing
-jekyll build
-cp -r -v _site/* /www/hcc
+
+echo "Building the site now"
+#Build the site with Jekyll to the proper directory...
+jekyll build --destination /www/hcc
