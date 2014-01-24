@@ -20,6 +20,8 @@ google_info :
 write_directory : './_data'
 build_tasks_directory : './_buildtasks'
 
+production_repo: '~/hcc-colorado'
+prodcution_www: '/www/hcc'
 
 title : Human Centered Computing
 tagline: Home of Human Centered Computing at University of Colorado Boulder

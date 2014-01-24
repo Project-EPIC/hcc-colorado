@@ -65,17 +65,8 @@ namespace :update do
   end
 end #End namespace
 
-
-desc "Full Refresh & Build"
+desc "Build and Deploy"
 task :fullbuild do
-	puts "Doing a full build of the website:"
-	puts "TODO"
-end
-
-desc "Serve Full Site from Localhost"
-task :localpreview do
-	puts "Building site..."
-	system ("jekyll build")
-	puts "Copying to localhost"
-	system ("cp -r -v _site/* /Library/WebServer/Documents/")
+	puts "Doing a full build of the website."
+	system ("jekyll build --destination #{yml_config['production_www']}")
 end
