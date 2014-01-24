@@ -68,5 +68,6 @@ end #End namespace
 desc "Build and Deploy"
 task :fullbuild do
 	puts "Doing a full build of the website."
-	system ("jekyll build --destination #{yml_config['production_www']}")
+	site_dir = yml_config['production_www']
+	system ("jekyll build -d #{site_dir}")
 end
