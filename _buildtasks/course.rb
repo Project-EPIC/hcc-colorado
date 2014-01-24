@@ -5,4 +5,8 @@ class Course
 		@type = type
 		puts "Name: #{@name}"
 	end
+
+	def validate()
+		return nil
+	end
 end
