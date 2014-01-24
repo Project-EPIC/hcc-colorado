@@ -1,9 +1,9 @@
 ---
 - name: Ken Anderson
   status: Faculty
+  interests: no change
   picture: Need to update but don't have good replacement yet.
   url: http://www.cs.colorado.edu/~kena/
-  interests: no change
   lab: Project EPIC
   teaser: Prof. Anderson is interested in identifying the best techniques and components
     for developing large-scale software infrastructure. In his SPLASH'12 paper with
@@ -18,30 +18,19 @@
   interests: assistive technologies, user interface design, cognitive architectures
 - name: Leysia Palen
   status: Faculty
-  url: https://www.cs.colorado.edu/~palen/
-  interests:
-  - Human computer interaction
-  - computer supported cooperative work
-  - social computing
-  - crisis informatics
-  lab: Project EPIC
   gscholar_link: http://scholar.google.com/citations?user=x0OsogEAAAAJ&hl=en
-  profile_pic: /assets/auto_generated/profile_pics/Leysia_Palen.jpg
-  affiliation: Associate Professor of Computer Science, University of Colorado Boulder
+  interests: HCI, CSCW, social computing, crisis informatics, ethnographic methods,
+    computer meditated communication, social computing
+  lab: Project EPIC
 - name: Tammy Sumner
   status: Faculty
   interests: personalized learning, interactive learning environments, user-centered
     design, digital libraries, intelligent information systems
 - name: Tom Yeh
   status: Faculty
-  url: http://tomyeh.info/
-  interests:
-  - HCI
-  - Computer Vision
-  - Software Engineering
   gscholar_link: http://scholar.google.com/citations?user=mDNhPjAAAAAJ&hl=en
-  profile_pic: /assets/auto_generated/profile_pics/Tom_Yeh.jpg
-  affiliation: University of Colorado Boulder
+  interests: vision-based interaction, end-user programming, GUI automation, accessible
+    technology
 - name: Gerhard Fischer
   status: Faculty
   interests: cultures of participation, meta design, domain-oriented design, social
