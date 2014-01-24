@@ -10,7 +10,7 @@ google_info :
   courses : 
     key     : 0AhQ6tqeOTfwBdDdyY1U4UlBnTk5rc1BIRDhnckhoQ1E
     object  : Course
-    types   : ['Undergraduate', 'Graduate']
+    types   : ['Undergraduate'] #, 'Graduate']
 
   people  :  
     key     : 0AhQ6tqeOTfwBdFhrTmxXM0oxYkx2Vl9ucXJpd0hQRHc

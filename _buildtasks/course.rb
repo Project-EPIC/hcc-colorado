@@ -6,7 +6,7 @@ class Course
 		puts "Name: #{@name}"
 	end
 
-	def validate()
+	def validate(params)
 		return nil
 	end
 end

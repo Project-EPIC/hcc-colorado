@@ -1,6 +1,6 @@
 require 'google_drive'
 
-def parse_spreadsheet(object_type,key,sheet)
+def parse_spreadsheet(object_type,key,sheet, params)
 	require './_buildtasks/auth_google_drive' #This gives 'session'
 	ws = session.spreadsheet_by_key(key).worksheet_by_title(sheet)
 	objects = []
@@ -31,7 +31,7 @@ def parse_spreadsheet(object_type,key,sheet)
 			end
 		end
 
-		this_object.validate
+		this_object.validate(params)
 
 		objects << this_object		#Add the object to the objects array
 	end
