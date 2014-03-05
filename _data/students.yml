@@ -1,0 +1,153 @@
+---
+- name: Abigale Stangl
+  status: Students
+- name: Adam Cardenas
+  status: Students
+- name: Ahmet Aydin
+  status: Students
+- name: Ali Alzabarah
+  status: Students
+- name: Allison Brown
+  status: Students
+- name: Benjamin Leducmills
+  status: Students
+  gscholar_link: http://scholar.google.com/citations?user=oqCcwngAAAAJ
+  profile_pic: /assets/auto_generated/profile_pics/Benjamin_Leducmills.jpg
+  affiliation: Computer Science, University of Colorado, Boulder
+- name: Bill Casson
+  status: Students
+- name: Bradley Morse
+  status: Students
+- name: Calvin Pohawpatchoko
+  status: Students
+- name: Christopher Lee Schaefbauer
+  status: Students
+- name: Dara Cunningham
+  status: Students
+  interests: Measuring and collecting data about buildings in use from occupants.
+    Designing better buildings with feedback from actual use.
+  url: http://activitysystems.com
+  picture: emailed
+  lab: National Renewable Energy Laboratory
+  goals: Designing a publicly accessible site that collects and distributes information
+    about buildings in use. Correlating building comfort standards with energy use
+    with the goal of designing more comfortable, more energy efficient buildings.
+- name: David Quigley
+  status: Students
+  interests: Using mobile and wearable computing to teach people
+  url: https://csel.cs.colorado.edu/~daqu3650
+  picture: TBD
+  lab: DLS
+- name: Halley Profita
+  status: Students
+- name: Hilarie Nickerson
+  status: Students
+  picture: emailed
+  lab: Scalable Game Design
+  goals: Explore how children and adults can reason, understand, and learn through
+    interactive and dynamic computer-facilitated experiences.
+- name: Jason Zietz
+  status: Students
+- name: Jeeeun Kim
+  status: Students
+  interests: ! 'Visual User Interfaces, Digital Media and Craft Technology '
+  url: http://www.jeeeunkim.com
+  lab: Sikuli, Craft Technology
+- name: Jeffery Hoehl
+  status: Students
+  gscholar_link: http://scholar.google.com/citations?user=TwpgBxQAAAAJ
+  interests:
+  - Human Computer Interaction
+  - HCI
+  - User Experience
+  - Web Accessibility
+  - Inclusive Design
+  url: http://www.jefferyhoehl.com/
+  profile_pic: /assets/auto_generated/profile_pics/Jeffery_Hoehl.jpg
+  affiliation: PhD Student, University of Colorado Boulder
+  picture: http://www.jefferyhoehl.com/images/jeffery_wave.jpg
+  lab: Coleman Institute for Cognitive Disabilities
+  goals: Improve web accessibilty for people with cognitive disabilities.
+- name: Jeffrey La Marche
+  status: Students
+  interests: Contextualized methods of teaching computer science topics. Learning
+    through video games.
+  url: http://www.jeffreylamarche.com (Empty at the moment)
+  picture: emailed
+  lab: Sikuli
+  goals: Increasing the engagement and relevance of introductory computer science
+    programming courses by providing contextualized approaches and active learning
+    methods.
+- name: Jennings Anderson
+  status: Students
+  gscholar_link: http://scholar.google.com/citations?user=7Wt7XDUAAAAJ
+  interests:
+  - Human Centered Computing
+  - Big Data
+  - Data Mining
+  - Crisis Informatics
+  url: http://www.townsendjennings.com/
+  profile_pic: /assets/auto_generated/profile_pics/Jennings_Anderson.jpg
+  affiliation: University of Colorado at Boulder
+  lab: Project EPIC
+  goals: I want to see this change reflected
+- name: Joanne White
+  status: Students
+  gscholar_link: http://scholar.google.com/citations?user=cU2HRV8AAAAJ&hl=en
+  interests:
+  - HCI
+  - media
+  - crisis informatics
+  - social media
+  profile_pic: /assets/auto_generated/profile_pics/Joanne_White.jpg
+  affiliation: PhD Student, University of Colorado Boulder
+- name: Josephine Kilde
+  status: Students
+- name: Khalid Alharbi
+  status: Students
+  interests: User Interface verification, and visual automation
+  url: kalharbi.com
+  picture: emailed
+  lab: Sikuli
+  goals: designing and building systems that identify the inconsistency between mobile
+    User Interfaces and the underlying application behaviors to detect serious security
+    threats.
+- name: Kyu Han Koh
+  status: Students
+- name: Lise Ann St. Denis
+  status: Students
+- name: Marina Kogan
+  status: Students
+- name: Mario Barrenechea
+  status: Students
+  gscholar_link: http://scholar.google.com/citations?user=m463-VoAAAAJ
+  interests:
+  - human-centered software engineering
+  - human-centered computing
+  - crisis informatics
+  url: http://www.mbarrenecheajr.com/
+  profile_pic: /assets/auto_generated/profile_pics/Mario_Barrenechea.jpg
+  affiliation: Student in Computer Science, University of Colorado at Boulder
+  picture: emailed
+  lab: Project EPIC
+  goals: Investigate how software developers build software for crisis events in a
+    decentralized environment.
+- name: Mazin Hakeem
+  status: Students
+  url: https://csel.cs.colorado.edu/~maha0863
+  picture: https://docs.google.com/a/colorado.edu/file/d/0B2OqcWXhk0yFbVBjczlZRU9hU2c/edit?usp=sharing
+  lab: Project EPIC
+- name: Ogheneovo Dibie
+  status: Students
+- name: Redhwan Nour
+  status: Students
+- name: Robert Soden
+  status: Students
+- name: Sahar Jambi
+  status: Students
+- name: Soheil Danesh
+  status: Students
+- name: Swamy Ananthanarayan
+  status: Students
+- name: Yan Chen
+  status: Students

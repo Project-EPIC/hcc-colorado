@@ -1,0 +1,51 @@
+---
+- name: Ken Anderson
+  status: Faculty
+  interests: no change
+  url: http://www.cs.colorado.edu/~kena/
+  picture: Need to update but don't have good replacement yet.
+  lab: Project EPIC
+  teaser: Prof. Anderson is interested in identifying the best techniques and components
+    for developing large-scale software infrastructure. In his SPLASH'12 paper with
+    Ph.D. student, Aaron Schram, he identifies some of the conceptual and implementation
+    issues that are encountered when integrating NoSQL technology into an existing
+    large-scale data collection infrastructure.
+- name: Mike Eisenberg
+  status: Faculty
+  interests: cognitive science, craft technologies,educational computing
+- name: Clayton Lewis
+  status: Faculty
+  interests: assistive technologies, user interface design, cognitive architectures
+- name: Leysia Palen
+  status: Faculty
+  gscholar_link: http://scholar.google.com/citations?user=x0OsogEAAAAJ&hl=en
+  interests:
+  - Human computer interaction
+  - computer supported cooperative work
+  - social computing
+  - crisis informatics
+  url: https://www.cs.colorado.edu/~palen/
+  profile_pic: /assets/auto_generated/profile_pics/Leysia_Palen.jpg
+  affiliation: Associate Professor of Computer Science, University of Colorado Boulder
+  lab: Project EPIC
+- name: Tammy Sumner
+  status: Faculty
+  interests: personalized learning, interactive learning environments, user-centered
+    design, digital libraries, intelligent information systems
+- name: Tom Yeh
+  status: Faculty
+  gscholar_link: http://scholar.google.com/citations?user=mDNhPjAAAAAJ&hl=en
+  interests:
+  - HCI
+  - Computer Vision
+  - Software Engineering
+  url: http://tomyeh.info/
+  profile_pic: /assets/auto_generated/profile_pics/Tom_Yeh.jpg
+  affiliation: University of Colorado Boulder
+- name: Gerhard Fischer
+  status: Faculty
+  interests: cultures of participation, meta design, domain-oriented design, social
+    creativity
+- name: Alex Repenning
+  status: Faculty
+  interests: Education, end-user programmable agents, agentsheets, artificial intelligence
