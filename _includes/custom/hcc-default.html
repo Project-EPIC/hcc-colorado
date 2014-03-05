@@ -27,9 +27,6 @@
     <script src="{{ BASE_PATH }}/assets/bxslider/jquery.bxslider.js"></script>
     <link href="{{ BASE_PATH }}/assets/bxslider/jquery.bxslider.css" rel="stylesheet">
 
-   <!--Scrolling Script-->
-    <script src="{{ BASE_PATH }}{{site.JS_PATH}}/hcc-scrolling-nav.js"></script>
-
     <!-- Add fancyBox -->
     <link rel="stylesheet" href="{{ BASE_PATH }}/assets/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
     <script type="text/javascript" src="{{ BASE_PATH }}/assets/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
@@ -59,19 +56,24 @@
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
+  {% if page.scroller %}
+  <!--Scrolling Script-->
+    <script src="{{ BASE_PATH }}{{site.JS_PATH}}/hcc-scrolling-nav.js"></script>
+  {% endif %}
   </head>
 
   <body>
 
-    <div class="navbar container-narrow navbar-scroller navbar-inner">
+
      {% if page.scroller %}
+     <div class="navbar container-narrow navbar-scroller navbar-inner">
       <ul class="nav">
      {% for link in page.scroller %}
         <li><a href=#{{link[1]}}>{{ link[0] }}</a></li>
      {% endfor %}
      </ul>
-     {% endif %}
     </div>
+    {% endif %}
 
     <div class="navbar container-narrow">
     <div class="page-header">
