@@ -22,7 +22,24 @@ class Person
 		require 'open-uri'
 		doc_html = Nokogiri::HTML(open(url))
 
-		#Get photo URL:
+		unless @picture
+			@picture = get_photo(doc_html)
+		end
+
+		unless @url
+			@url = get_url(doc_html)
+		end
+
+		unless @interests
+			@interests = get_interests(doc_html)
+		end
+
+		unless @affiliation
+			@affiliation = get_affiliation(doc_html)
+		end
+	end
+
+	def get_photo(doc_html)
 		photo_url = doc_html.xpath("//div[contains(@class,'g-unit')]//div[contains(@class,'cit-user-info')]//img/@src")[0].to_s
 
 		if photo_url =~ /^\//i
@@ -35,38 +52,35 @@ class Person
    			end
 		}
 
-		profile_pic = "#{@@profile_photo_path}/#{@name.gsub(/\s+/,'_')}.jpg"[1..-1]
+		return "#{@@profile_photo_path}/#{@name.gsub(/\s+/,'_')}.jpg"[1..-1]
+	end
 
-		affiliation = doc_html.xpath(
-			"//div[contains(@class,'g-unit')]//span[contains(@id,'cit-affiliation-display')]/text()")[0].to_s
+	def get_affiliation(doc_html)
 
-		interests_html = doc_html.xpath(
-			"//div[contains(@class,'g-unit')]//span[contains(@id,'cit-int-read')]//a/text()")
+		doc_html.xpath("//div[contains(@class,'g-unit')]//span[contains(@id,'cit-affiliation-display')]/text()")[0].to_s
+	end
+
+	def get_interests(doc_html)
+		interests_html = doc_html.xpath("//div[contains(@class,'g-unit')]//span[contains(@id,'cit-int-read')]//a/text()")
 
 		interests = [ ]
 		interests_html.each do |interest|
 			interests << interest.to_s
 		end
 
-		url = doc_html.xpath(
-			"//div[contains(@class,'g-unit')]//span[contains(@id,'cit-homepage-read')]//a/@href")[0].to_s
-
-
-		local_variables.each do |var|
-			unless var.to_s =~ /(_html$|_url$)/i
-				unless eval(var.to_s).empty?
-					instance_variable_set("@#{var}", eval(var.to_s))
-				end
-			end
-		end
-
-
-
+		return interests.join(', ')
 	end
 
+	def get_url(doc_html)
+		doc_html.xpath("//div[contains(@class,'g-unit')]//span[contains(@id,'cit-homepage-read')]//a/@href")[0].to_s
+	end
 
-
-
-
+	# local_variables.each do |var|
+	# 	unless var.to_s =~ /(_html$|_url$)/i
+	# 		unless eval(var.to_s).empty?
+	# 			instance_variable_set("@#{var}", eval(var.to_s))
+	# 		end
+	# 	end
+	# end
 
 end

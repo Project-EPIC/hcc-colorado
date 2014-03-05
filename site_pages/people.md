@@ -23,8 +23,8 @@ css: people.css
 	<li>
 		<a rel="faculty-fancy-box-link" href="#person-faculty-{{this_person}}">
 		<div class="faculty-box">
-			{% if person.profile_pic %}
-				<img src="{{person.profile_pic}}"/>
+			{% if person.picture %}
+				<img src="{{person.picture}}"/>
 			{% endif %}
 			<h3>{{ person.name }}</h3>
 		</div>
@@ -34,7 +34,7 @@ css: people.css
 		<div id="person-faculty-{{this_person}}" class="faculty-info-expand">
 			<div class="faculty-info">
 				<div class="profile-image">
-					<img src="{{person.profile_pic}}" />
+					<img src="{{person.picture}}" />
 				</div>
 				<div class="faculty-name-box">
 					<h3>{{person.name}}</h3>
