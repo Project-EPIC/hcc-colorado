@@ -1,8 +1,8 @@
 ---
 - name: Ken Anderson
   status: Faculty
-  url: http://www.cs.colorado.edu/~kena/
   interests: no change
+  url: http://www.cs.colorado.edu/~kena/
   lab: Project EPIC
   teaser: Prof. Anderson is interested in identifying the best techniques and components
     for developing large-scale software infrastructure. In his SPLASH'12 paper with
@@ -51,37 +51,39 @@
     lobortis tellus eu volutpat euismod.
 - name: Gerhard Fischer
   status: Faculty
-  url: http://l3d.cs.colorado.edu/~gerhard/
   interests: cultures of participation, meta design, domain-oriented design, social
     creativity
+  picture: /assets/images/static_people/faculty/gerhard.jpg
+  url: http://l3d.cs.colorado.edu/~gerhard/
   lab: Center for Lifelong Learning & Design
-  teaser: I am the director of the Center for Lifelong Learning and Design, a professor
+  teaser: ! 'I am the director of the Center for Lifelong Learning and Design, a professor
     in the Department of Computer Science, and a fellow of the Institute of Cognitive
     Science, all at the University of Colorado, Boulder. I am also a member of the
     Computer Human Interaction (CHI) Academy and a Fellow of the Association for Computing
-    Machinery (ACM).
-  picture: /assets/images/static_people/faculty/gerhard.jpg
+    Machinery (ACM). My research interests include: lifelong learning, design, meta-design,
+    software design, creativity, social creativity, distributed intelligence, human-computer  interaction,
+    and design-for-all (assistive technologies).'
   laburl: http://l3d.cs.colorado.edu/wordpress/
 - name: Alex Repenning
   status: Faculty
   interests: Education, end-user programmable agents, agentsheets, artificial intelligence
 - name: Leysia Palen
   status: Faculty
-  url: test
+  gscholar_link: http://scholar.google.com/citations?user=x0OsogEAAAAJ&hl=en
   interests: HCI, CSCW, social computing, crisis informatics, ethnographic methods,
     computer meditated communication, social computing
-  lab: Project EPIC
-  teaser: ! 'My research interests include: lifelong learning, design, meta-design,
-    software design, creativity, social creativity, distributed intelligence, human-computer  interaction,
-    and design-for-all (assistive technologies).'
   picture: /assets/auto_generated/profile_pics/Leysia_Palen.jpg
-  gscholar_link: http://scholar.google.com/citations?user=x0OsogEAAAAJ&hl=en
+  url: https://www.cs.colorado.edu/~palen/
   affiliation: Associate Professor of Computer Science, University of Colorado Boulder
+  lab: Project EPIC
 - name: Tom Yeh
   status: Faculty
-  url: http://tomyeh.info/
+  gscholar_link: http://scholar.google.com/citations?user=mDNhPjAAAAAJ&hl=en
   interests: vision-based interaction, end-user programming, GUI automation, accessible
     technology
+  picture: /assets/auto_generated/profile_pics/Tom_Yeh.jpg
+  url: http://tomyeh.info/
+  affiliation: University of Colorado Boulder
   teaser: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida
     lorem, vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat
     egestas lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis
@@ -92,6 +94,3 @@
     eget luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id
     malesuada elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur
     lobortis tellus eu volutpat euismod.
-  picture: /assets/auto_generated/profile_pics/Tom_Yeh.jpg
-  gscholar_link: http://scholar.google.com/citations?user=mDNhPjAAAAAJ&hl=en
-  affiliation: University of Colorado Boulder
