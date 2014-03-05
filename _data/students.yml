@@ -199,7 +199,7 @@
   status: Students
   goals: Improve web accessibilty for people with cognitive disabilities.
   gscholar_link: http://scholar.google.com/citations?user=TwpgBxQAAAAJ
-  picture: http://www.jefferyhoehl.com/images/jeffery_wave.jpg
+  picture: /assets/auto_generated/profile_pics/Jeffery_Hoehl.jpg
   url: http://www.jefferyhoehl.com/
   interests: Human Computer Interaction, HCI, User Experience, Web Accessibility,
     Inclusive Design
@@ -312,7 +312,7 @@
   goals: Investigate how software developers build software for crisis events in a
     decentralized environment.
   gscholar_link: http://scholar.google.com/citations?user=m463-VoAAAAJ
-  picture: emailed
+  picture: /assets/auto_generated/profile_pics/Mario_Barrenechea.jpg
   url: http://www.mbarrenecheajr.com
   interests: human-centered software engineering, human-centered computing, crisis
     informatics
