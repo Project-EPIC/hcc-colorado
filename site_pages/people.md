@@ -54,7 +54,7 @@ css: people.css
 					</div>
 				{% endif %}
 				{% if person.url %}
-					<center><a href="{{person.url}}">Personal Website</a></center>
+					<center><a href="{{person.url}}" target="_blank">Personal Website</a></center>
 				{% endif %}
 			</div>
 		</div>
