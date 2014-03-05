@@ -2,7 +2,7 @@
 layout: page
 title : Courses
 group: navigation
-scroller: 
+scroller:
   Undergraduate : undergrad
   Graduate : graduate
 js: courses.js
