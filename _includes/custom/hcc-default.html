@@ -42,6 +42,10 @@
     <!-- Add Over-ride / Custom Styles -->
     <link href="{{ BASE_PATH }}{{ site.CSS_PATH }}/hcc_main_override.css" rel="stylesheet" type="text/css">
     <link href="{{ BASE_PATH }}{{ site.CSS_PATH }}/hcc-styles.css" rel="stylesheet" type="text/css">
+    {% if page.css %}
+      <link href="{{ BASE_PATH }}{{ site.CSS_PATH }}/{{page.css}}" rel="stylesheet" type="text/css">
+    {% endif %}
+
 
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
@@ -75,7 +79,7 @@
     </div>
       <div class="navbar-inner">
         <div class="container-narrow">
-          <a class="brand" href="{{ HOME_PATH }}">HCC</a>
+          <a class="brand" href="{{ HOME_PATH }}">Human Centered Computing</a>
           <ul class="nav">
             {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}
@@ -86,7 +90,7 @@
     </div>
 
     <div class="container-narrow page-content">
-    
+
       <div class="content">
         {{ content }}
       </div>

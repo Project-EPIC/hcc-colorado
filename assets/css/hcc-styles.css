@@ -1,88 +1,11 @@
-/*Courses Page*/
-.course-list{
-	list-style-type: none;
+h3.post-title{
 }
-
-.course-box{
-	padding-bottom: 10px;
-}
-
-a.course-link:hover{
-	text-decoration: none;
-}
-
-.course-name{
-}
-
-
-.course-box-expand{
-	display: none;
-	text-align: left;
-	margin: 5px 10px 5px 10px;
-	padding: 10px 30px 50px 30px;
-	border: 10px solid #999;
-}
-
-.course-list li{
-	display: block;
-}
-
-/*
-People Page
-*/
-.faculty-list{
-	list-style-type: none;
-	text-align: center;
-}
-
-.faculty-list li{
-	text-align: center;
-	display: inline-block;
-	vertical-align: top;
-	width: 300px;
-	height: 150px;
-	padding: 10px;
-	margin: 0px 10px 10px 10px;
-	border: 4px solid #999;
-}
-
-.student-list{
-	list-style-type: none;
-}
-
-.student-list li{
-	display: inline-block;
-}
-
-.student-box {
-	vertical-align: text-bottom;
-	width: 150px;
-	height: 200px;
-	padding: 5px;
-	margin: 0px 5px 10px 5px;
-	border: 2px solid #999;
-}
-
-.student-list h4{
-	text-align: center;
-}
-
-.student-box-expand{
-	display: none;
-	text-align: center;
-}
-
-.student-box-expand #student-info{
-	text-align: left;
-	margin-left: 25px;
-}
-
-.student-box-expand img{
-	text-align: center;
+h4.tagline{
+	font-weight: 300;
+	font-size: 1em;
 }
 
 /*Fancy Box Over-rides */
-
 .fancybox-nav {
 	width: 20%;
 }

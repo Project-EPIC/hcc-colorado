@@ -1,0 +1,109 @@
+/* Faculty & Researchers*/
+.faculty-list{
+  list-style-type: none;
+  text-align: center;
+}
+
+.faculty-list li{
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  padding: 10px;
+  margin: 0px 10px 10px 10px;
+}
+
+.faculty-list a:hover{
+  text-decoration: none
+}
+
+.faculty-list li:hover{
+  opacity: .8;
+}
+
+.faculty-box{
+}
+
+.faculty-info-expand{
+	display: none;
+	padding: 20px 30px 20px 30px;
+	text-align: center;
+}
+
+.faculty-info{
+	text-align: left;
+}
+
+.profile-image{
+	float: right;
+	margin: 10px;
+}
+
+.faculty-name-box{
+	width: 300px;
+	float: left;
+}
+
+.faculty-teaser{
+	clear: both;
+	margin-top: 15px;
+	padding: 5px;
+}
+
+ul.interests{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul.interests h5{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul.interests li{
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+/* Students & Alumni*/
+.student-list{
+  list-style-type: none;
+}
+
+.student-list li{
+  display: inline-block;
+  vertical-align: text-bottom;
+  width: 150px;
+  height: 200px;
+  padding: 5px;
+  margin: 0px 5px 10px 5px;
+  text-align: center;
+}
+
+.student-list h4{
+  text-align: center;
+}
+
+.student-info-expand{
+  display: none;
+  text-align: left;
+}
+
+.student-name-box{
+  width: 300px;
+  float: left;
+}
+
+.student-goals{
+  clear: both;
+  margin-top: 15px;
+  padding: 5px;
+}

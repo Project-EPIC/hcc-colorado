@@ -22,9 +22,8 @@ class Person
 		require 'open-uri'
 		doc_html = Nokogiri::HTML(open(url))
 
-		#Get photo URL: 
-		photo_url = doc_html.xpath(
-			"//div[contains(@class,'g-unit')]//div[contains(@class,'cit-user-info')]//img/@src")[0].to_s
+		#Get photo URL:
+		photo_url = doc_html.xpath("//div[contains(@class,'g-unit')]//div[contains(@class,'cit-user-info')]//img/@src")[0].to_s
 
 		if photo_url =~ /^\//i
 			photo_url.insert(0,'http://scholar.google.com')
@@ -43,8 +42,8 @@ class Person
 
 		interests_html = doc_html.xpath(
 			"//div[contains(@class,'g-unit')]//span[contains(@id,'cit-int-read')]//a/text()")
-		
-		interests = []
+
+		interests = [ ]
 		interests_html.each do |interest|
 			interests << interest.to_s
 		end
@@ -52,7 +51,7 @@ class Person
 		url = doc_html.xpath(
 			"//div[contains(@class,'g-unit')]//span[contains(@id,'cit-homepage-read')]//a/@href")[0].to_s
 
-		
+
 		local_variables.each do |var|
 			unless var.to_s =~ /(_html$|_url$)/i
 				unless eval(var.to_s).empty?

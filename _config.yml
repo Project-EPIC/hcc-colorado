@@ -91,6 +91,7 @@ JB :
   archive_path: /sitemap/archive.html
   categories_path : /sitemap/categories.html
   tags_path : /sitemap/tags.html
+  pages_path: /sitemap/pages.html
   atom_path : /atom.xml
   rss_path : /rss.xml
 

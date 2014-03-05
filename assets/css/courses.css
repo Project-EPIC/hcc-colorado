@@ -1,0 +1,28 @@
+/*Courses Page*/
+.course-list{
+  list-style-type: none;
+}
+
+.course-box{
+  padding-bottom: 10px;
+}
+
+a.course-link:hover{
+  text-decoration: none;
+}
+
+.course-name{
+}
+
+
+.course-box-expand{
+  display: none;
+  text-align: left;
+  margin: 5px 10px 5px 10px;
+  padding: 10px 30px 50px 30px;
+  border: 10px solid #999;
+}
+
+.course-list li{
+  display: block;
+}

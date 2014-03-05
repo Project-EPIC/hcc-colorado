@@ -3,7 +3,7 @@ layout: page
 title : Labs
 tagline: in HCC at CU Boulder
 group: navigation
-scroller: 
+scroller:
   EPIC : epic
   Craft: craft
   L3D  : l3d
@@ -12,7 +12,7 @@ scroller:
   Digital Learning Sciences: dls
 ---
 
-Changing this page...
+````It would be great to incorporate some parallax into this page````
 
 <a class="anchor" name="epic"> </a>
 

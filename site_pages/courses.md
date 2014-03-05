@@ -6,6 +6,7 @@ scroller:
   Undergraduate : undergrad
   Graduate : graduate
 js: courses.js
+css: courses.css
 ---
 <ul id="courses-slider">
   <li>Some information about our Courses</li>
