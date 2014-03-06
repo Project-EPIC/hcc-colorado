@@ -26,17 +26,7 @@
   status: Faculty
   url: http://spot.colorado.edu/~clayton
   interests: assistive technologies, user interface design, cognitive architectures
-  teaser: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida
-    lorem, vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat
-    egestas lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis
-    mi semper et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla
-    neque. Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque
-    malesuada tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum
-    mi at dui blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam
-    eget luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id
-    malesuada elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur
-    lobortis tellus eu volutpat euismod.
-  picture: https://drive.google.com/#folders/0BxQ6tqeOTfwBOVlFYjJPSWhpWTQ
+  picture: /assets/images/static_people/faculty/clayton.jpg
 - name: Tammy Sumner
   status: Faculty
   interests: personalized learning, interactive learning environments, user-centered
