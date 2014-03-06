@@ -1,9 +1,9 @@
 ---
 - name: Ken Anderson
   status: Faculty
-  interests: no change
-  url: http://www.cs.colorado.edu/~kena/
   lab: Project EPIC
+  url: http://www.cs.colorado.edu/~kena/
+  interests: no change
   teaser: Prof. Anderson is interested in identifying the best techniques and components
     for developing large-scale software infrastructure. In his SPLASH'12 paper with
     Ph.D. student, Aaron Schram, he identifies some of the conceptual and implementation
@@ -51,11 +51,11 @@
     lobortis tellus eu volutpat euismod.
 - name: Gerhard Fischer
   status: Faculty
-  interests: cultures of participation, meta design, domain-oriented design, social
-    creativity
+  lab: Center for Lifelong Learning & Design
   picture: /assets/images/static_people/faculty/gerhard.jpg
   url: http://l3d.cs.colorado.edu/~gerhard/
-  lab: Center for Lifelong Learning & Design
+  interests: cultures of participation, meta design, domain-oriented design, social
+    creativity
   teaser: ! 'I am the director of the Center for Lifelong Learning and Design, a professor
     in the Department of Computer Science, and a fellow of the Institute of Cognitive
     Science, all at the University of Colorado, Boulder. I am also a member of the
@@ -70,19 +70,19 @@
 - name: Leysia Palen
   status: Faculty
   gscholar_link: http://scholar.google.com/citations?user=x0OsogEAAAAJ&hl=en
-  interests: HCI, CSCW, social computing, crisis informatics, ethnographic methods,
-    computer meditated communication, social computing
+  lab: Project EPIC
   picture: /assets/auto_generated/profile_pics/Leysia_Palen.jpg
   url: https://www.cs.colorado.edu/~palen/
+  interests: HCI, CSCW, social computing, crisis informatics, ethnographic methods,
+    computer meditated communication, social computing
   affiliation: Associate Professor of Computer Science, University of Colorado Boulder
-  lab: Project EPIC
 - name: Tom Yeh
   status: Faculty
   gscholar_link: http://scholar.google.com/citations?user=mDNhPjAAAAAJ&hl=en
-  interests: vision-based interaction, end-user programming, GUI automation, accessible
-    technology
   picture: /assets/auto_generated/profile_pics/Tom_Yeh.jpg
   url: http://tomyeh.info/
+  interests: vision-based interaction, end-user programming, GUI automation, accessible
+    technology
   affiliation: University of Colorado Boulder
   teaser: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida
     lorem, vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat
