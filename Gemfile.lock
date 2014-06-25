@@ -1,4 +1,13 @@
 GIT
+  remote: git://github.com/jenningsanderson/Static-Bliss.git
+  revision: 9568bb22eec51b711a0f4d795072254923f338b7
+  specs:
+    Static-Bliss (0.0.3)
+      aws-sdk
+      google_drive
+      s3
+
+GIT
   remote: https://github.com/adaoraul/rack-jekyll.git
   revision: 4a77cbb4e4ef44fc5b13eccb7c9f53c940d35637
   specs:
@@ -10,6 +19,9 @@ GEM
   remote: http://rubygems.org/
   specs:
     RedCloth (4.2.9)
+    aws-sdk (1.43.3)
+      json (~> 1.4)
+      nokogiri (>= 1.4.4)
     blankslate (2.1.2.4)
     classifier (1.3.4)
       fast-stemmer (>= 1.0.0)
@@ -37,6 +49,7 @@ GEM
       redcarpet (~> 2.3.0)
       safe_yaml (~> 0.9.7)
       toml (~> 0.1.0)
+    json (1.8.1)
     jwt (0.1.10)
       multi_json (>= 1.5)
     liquid (2.5.5)
@@ -62,6 +75,7 @@ GEM
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.8)
+    proxies (0.2.1)
     pygments.rb (0.5.4)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
@@ -72,6 +86,8 @@ GEM
     rb-kqueue (0.2.0)
       ffi (>= 0.5.0)
     redcarpet (2.3.0)
+    s3 (0.3.21)
+      proxies (~> 0.2.0)
     safe_yaml (0.9.7)
     toml (0.1.0)
       parslet (~> 1.5.0)
@@ -82,5 +98,6 @@ PLATFORMS
 
 DEPENDENCIES
   RedCloth
+  Static-Bliss!
   google_drive
   rack-jekyll!

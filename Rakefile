@@ -1,5 +1,6 @@
 require "rubygems"
 require "rake"
+require "Static-Bliss"
 
 SOURCE = "."
 CONFIG = {

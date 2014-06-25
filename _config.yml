@@ -18,10 +18,8 @@ google_info :
     types   : ['Faculty', 'Students', 'Alumni', 'Researchers']
 
 write_directory : './_data'
-build_tasks_directory : './_buildtasks'
 
-production_repo: '~/hcc-colorado'
-production_www: '/www/hcc'
+credentials: _secret_config.yml
 
 title : Human Centered Computing
 tagline: Home of Human Centered Computing at University of Colorado Boulder

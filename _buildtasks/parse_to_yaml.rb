@@ -5,8 +5,6 @@ def parse_spreadsheet(object_type,key,sheet, params)
 	ws = session.spreadsheet_by_key(key).worksheet_by_title(sheet)
 	objects = []
 
-	#TODO: Parse sub-features as lab.name or lab.url  split('.'), then pull first type as key; only capable of one level(?)
-
 	#Assumes that 3rd row is header (Which it is by design)
 	(4..ws.num_rows.to_i).to_a.each do |r|	    # Iterate through every row
 		object = {}								# Make an empty hash for a person
@@ -21,7 +19,7 @@ def parse_spreadsheet(object_type,key,sheet, params)
 
 		#Make it a real object of specified type...
 
-						# Metaprogramming required here!
+		# Metaprogramming required here!
 		this_object = eval(object_type).new(object['name'], sheet.capitalize)
 
 		#Now add keys as instance variables to the person... Cool!
