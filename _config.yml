@@ -4,7 +4,7 @@ permalink: /:categories/:year/:month/:day/:title
 
 exclude : [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "Procfile", "vendor", "gems"]
 
-pygments : true
+highlighter : pygments
 
 google_info :
   courses :
