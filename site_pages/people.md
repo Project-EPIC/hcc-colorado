@@ -14,9 +14,10 @@ css: people.css
 
 ````Faculty Slider Here````
 
-<!--                   This is the Faculty section                  -->
 <a class="anchor" name="faculty"> </a>
+
 ### Faculty
+
 <ul class="faculty-list">
 {% assign this_person = 1 %}
 {% for person in site.data.faculty %}
@@ -63,7 +64,9 @@ css: people.css
 
 
 <a class="anchor" name="postdocs"> </a>
+
 ### Post Docs/Researchers
+
 <ul class="faculty-list">
 {% assign this_person = 1 %}
 {% for person in site.data.researchers %}
@@ -110,7 +113,9 @@ css: people.css
 <!--                   This is the Student section                  -->
 
 <a class="anchor" name="students"> </a>
+
 ### Students
+
 <ul class="student-list">
 {% assign this_person = 1 %}
 {% for student in site.data.students %}
@@ -160,7 +165,9 @@ css: people.css
 <!--                   This is the alumni section                  -->
 
 <a class="anchor" name="alumni"> </a>
+
 ### Alumni
+
 <ul class="student-list">
 {% assign this_person = 1 %}
 {% for student in site.data.alumni %}
