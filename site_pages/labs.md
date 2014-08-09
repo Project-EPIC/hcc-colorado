@@ -1,7 +1,7 @@
 ---
 layout: page
-title : Labs
-tagline: in HCC at CU Boulder
+title : Research Labs
+tagline: in Human Centered Computing at CU
 group: navigation
 scroller:
   EPIC : epic
@@ -38,6 +38,7 @@ Ut non urna pulvinar, posuere dui id, eleifend mi. Nullam non leo facilisis, veh
 Proin vehicula felis sed tellus gravida auctor. Vestibulum eu lorem tincidunt, aliquet sem sit amet, tempus tellus. Nulla non felis odio. Ut varius, libero at tempus egestas, enim nunc tristique tortor, a semper justo velit non ligula. Nulla eu placerat lectus. In volutpat dictum mi et venenatis. Morbi pellentesque sit amet diam eu condimentum. Maecenas et porta nisl, vel condimentum enim. Aenean ante nisi, venenatis in fermentum a, pulvinar in ipsum. Duis nec lacinia eros, nec eleifend purus. Morbi vestibulum velit vitae turpis eleifend, quis interdum nisi bibendum. Vivamus ac pulvinar nibh, vitae blandit dolor.
 
 <a class="anchor" name="craft"> </a>
+
 ###Craft Technology Group
 
 <ul id="craft-slider">
@@ -58,6 +59,7 @@ Ut non urna pulvinar, posuere dui id, eleifend mi. Nullam non leo facilisis, veh
 Proin vehicula felis sed tellus gravida auctor. Vestibulum eu lorem tincidunt, aliquet sem sit amet, tempus tellus. Nulla non felis odio. Ut varius, libero at tempus egestas, enim nunc tristique tortor, a semper justo velit non ligula. Nulla eu placerat lectus. In volutpat dictum mi et venenatis. Morbi pellentesque sit amet diam eu condimentum. Maecenas et porta nisl, vel condimentum enim. Aenean ante nisi, venenatis in fermentum a, pulvinar in ipsum. Duis nec lacinia eros, nec eleifend purus. Morbi vestibulum velit vitae turpis eleifend, quis interdum nisi bibendum. Vivamus ac pulvinar nibh, vitae blandit dolor.
 
 <a class="anchor" name="l3d"> </a>
+
 ###Center for LifeLong learning and Design(L3D)
 
 <ul id="l3d-slider">
@@ -78,6 +80,7 @@ Ut non urna pulvinar, posuere dui id, eleifend mi. Nullam non leo facilisis, veh
 Proin vehicula felis sed tellus gravida auctor. Vestibulum eu lorem tincidunt, aliquet sem sit amet, tempus tellus. Nulla non felis odio. Ut varius, libero at tempus egestas, enim nunc tristique tortor, a semper justo velit non ligula. Nulla eu placerat lectus. In volutpat dictum mi et venenatis. Morbi pellentesque sit amet diam eu condimentum. Maecenas et porta nisl, vel condimentum enim. Aenean ante nisi, venenatis in fermentum a, pulvinar in ipsum. Duis nec lacinia eros, nec eleifend purus. Morbi vestibulum velit vitae turpis eleifend, quis interdum nisi bibendum. Vivamus ac pulvinar nibh, vitae blandit dolor.
 
 <a class="anchor" name="scalable"> </a>
+
 ###Scalable Game Design Initiative
 
 <ul id="scalable-slider">
@@ -88,7 +91,9 @@ Proin vehicula felis sed tellus gravida auctor. Vestibulum eu lorem tincidunt, a
 The goal of this project is to get computer science back to middle schools. Our strategy is to reform middle school IT education at a systemic level exploring the notion of scalable game design as an approach to carefully balance educational and motivational aspects of IT fluency. The original iDREAMS project (Integrative Design-based Reform-oriented Educational Approach for Motivating Students) was designed to spark an interest in IT through students' natural attraction to game design. The second phase of the project, called CT4TC (Computational Thinking for Teaching Computing) continues the original project by looking deeper into how game design helps students learn STEM concepts through collection and analysis of performance data.
 
 <a class="anchor" name="wii"> </a>
+
 ###Wellness Innovation and Interaction (WII) Lab
+
 <ul id="wellness-slider">
   <li>A great picture of Wellness and Interaction</li>
   <li>Another good picture of Wellness and Interaction</li>
@@ -107,6 +112,7 @@ Ut non urna pulvinar, posuere dui id, eleifend mi. Nullam non leo facilisis, veh
 Proin vehicula felis sed tellus gravida auctor. Vestibulum eu lorem tincidunt, aliquet sem sit amet, tempus tellus. Nulla non felis odio. Ut varius, libero at tempus egestas, enim nunc tristique tortor, a semper justo velit non ligula. Nulla eu placerat lectus. In volutpat dictum mi et venenatis. Morbi pellentesque sit amet diam eu condimentum. Maecenas et porta nisl, vel condimentum enim. Aenean ante nisi, venenatis in fermentum a, pulvinar in ipsum. Duis nec lacinia eros, nec eleifend purus. Morbi vestibulum velit vitae turpis eleifend, quis interdum nisi bibendum. Vivamus ac pulvinar nibh, vitae blandit dolor.
 
 <a class="anchor" name="dls"> </a>
+
 ###Digital Learning Sciences
 
 <ul id="dls-slider">

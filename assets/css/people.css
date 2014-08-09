@@ -2,13 +2,14 @@
 .faculty-list{
   list-style-type: none;
   text-align: center;
+  vertical-align: bottom;
 }
 
 .faculty-list li{
   text-align: center;
   display: inline-block;
-  vertical-align: top;
   width: 200px;
+  height: 200px;
   padding: 10px;
   margin: 0px 10px 10px 10px;
 }
@@ -76,6 +77,7 @@ ul.interests li{
 /* Students & Alumni*/
 .student-list{
   list-style-type: none;
+  vertical-align: bottom;
 }
 
 .student-list li{

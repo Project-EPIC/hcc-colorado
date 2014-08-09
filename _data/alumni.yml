@@ -1,17 +1,17 @@
 ---
 - name: Aaron Schram
   status: Alumni
-  gscholar_link: http://scholar.google.com/citations?user=BZZerAYAAAAJ&hl=en
+  picture: /assets/auto_generated/profile_pics/Aaron_Schram.jpg
+  url: http://www.aaronschram.com/
+  interests: ''
   lab: Project EPIC
+  gscholar_link: http://scholar.google.com/citations?user=BZZerAYAAAAJ&hl=en
+  affiliation: University of Colorado
   bio: Software Engineering PhD student developing applications and tools to collect
     and analyze large amounts of social media streams to aid in discovery and response
     of mass emergencies. Primary research focuses on data collection and analysis
     techniques from disparate data sources. The resulting developed and deployed applications
     and frameworks heavily leverage Spring, Apache Cassandra, Lucene and Hadoop.
-  picture: /assets/auto_generated/profile_pics/Aaron_Schram.jpg
-  url: http://www.aaronschram.com/
-  interests: ''
-  affiliation: University of Colorado
 - name: Ifeyinwa Okoye
   status: Alumni
   bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
@@ -24,3 +24,12 @@
     luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
     elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
     tellus eu volutpat euismod.
+- name: Kate Starbird
+  status: Alumni
+  picture: /assets/auto_generated/profile_pics/Kate_Starbird.jpg
+  url: http://faculty.washington.edu/kstarbi/
+  interests: Crisis Informatics, Crowdsourcing, Crowdwork, CSCW, Human Computer Interaction
+  gscholar_link: http://scholar.google.com/citations?user=C6KSF5gAAAAJ&hl=en
+  affiliation: Professor, Human Centered Design &amp; Engineering, University of Washington
+- name: Sophia B. Liu
+  status: Alumni

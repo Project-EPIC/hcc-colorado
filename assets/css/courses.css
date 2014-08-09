@@ -7,11 +7,16 @@
   padding-bottom: 10px;
 }
 
-a.course-link:hover{
+.course-link:hover{
   text-decoration: none;
 }
 
 .course-name{
+}
+
+.course-box h4:hover{
+  color: blue;
+  cursor: pointer;
 }
 
 

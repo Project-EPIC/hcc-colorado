@@ -1,8 +1,9 @@
 ---
 - name: Ken Anderson
   status: Faculty
+  picture: /assets/images/static_people/faculty/ken_anderson.jpg
   url: http://www.cs.colorado.edu/~kena/
-  interests: no change
+  interests: software and web engineering, hypermedia, CSCW, human-computer interaction
   lab: Project EPIC
   teaser: Prof. Anderson is interested in identifying the best techniques and components
     for developing large-scale software infrastructure. In his SPLASH'12 paper with
@@ -11,6 +12,7 @@
     large-scale data collection infrastructure.
 - name: Mike Eisenberg
   status: Faculty
+  picture: /assets/images/static_people/faculty/mike_eisenberg.jpg
   interests: cognitive science, craft technologies,educational computing
   teaser: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida
     lorem, vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat
@@ -24,11 +26,12 @@
     lobortis tellus eu volutpat euismod.
 - name: Clayton Lewis
   status: Faculty
+  picture: /assets/images/static_people/faculty/clayton.jpg
   url: http://spot.colorado.edu/~clayton
   interests: assistive technologies, user interface design, cognitive architectures
-  picture: /assets/images/static_people/faculty/clayton.jpg
 - name: Tammy Sumner
   status: Faculty
+  picture: /assets/images/static_people/faculty/tammy_sumner.jpg
   interests: personalized learning, interactive learning environments, user-centered
     design, digital libraries, intelligent information systems
   teaser: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida
@@ -43,33 +46,35 @@
     lobortis tellus eu volutpat euismod.
 - name: Gerhard Fischer
   status: Faculty
+  picture: /assets/images/static_people/faculty/gerhard.jpg
   url: http://l3d.cs.colorado.edu/~gerhard/
   interests: cultures of participation, meta design, domain-oriented design, social
     creativity
   lab: Center for Lifelong Learning & Design
-  teaser: ! 'I am the director of the Center for Lifelong Learning and Design, a professor
+  teaser: 'I am the director of the Center for Lifelong Learning and Design, a professor
     in the Department of Computer Science, and a fellow of the Institute of Cognitive
     Science, all at the University of Colorado, Boulder. I am also a member of the
     Computer Human Interaction (CHI) Academy and a Fellow of the Association for Computing
     Machinery (ACM). My research interests include: lifelong learning, design, meta-design,
     software design, creativity, social creativity, distributed intelligence, human-computer  interaction,
     and design-for-all (assistive technologies).'
-  picture: /assets/images/static_people/faculty/gerhard.jpg
   laburl: http://l3d.cs.colorado.edu/wordpress/
 - name: Alex Repenning
   status: Faculty
+  picture: /assets/images/static_people/faculty/alex_repenning.jpg
   interests: Education, end-user programmable agents, agentsheets, artificial intelligence
 - name: Leysia Palen
   status: Faculty
+  picture: /assets/auto_generated/profile_pics/Leysia_Palen.jpg
   url: https://www.cs.colorado.edu/~palen/
   interests: HCI, CSCW, social computing, crisis informatics, ethnographic methods,
     computer meditated communication, social computing
   lab: Project EPIC
-  picture: /assets/auto_generated/profile_pics/Leysia_Palen.jpg
   gscholar_link: http://scholar.google.com/citations?user=x0OsogEAAAAJ&hl=en
   affiliation: Associate Professor of Computer Science, University of Colorado Boulder
 - name: Tom Yeh
   status: Faculty
+  picture: /assets/auto_generated/profile_pics/Tom_Yeh.jpg
   url: http://tomyeh.info/
   interests: vision-based interaction, end-user programming, GUI automation, accessible
     technology
@@ -83,6 +88,5 @@
     eget luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id
     malesuada elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur
     lobortis tellus eu volutpat euismod.
-  picture: /assets/auto_generated/profile_pics/Tom_Yeh.jpg
   gscholar_link: http://scholar.google.com/citations?user=mDNhPjAAAAAJ&hl=en
   affiliation: University of Colorado Boulder

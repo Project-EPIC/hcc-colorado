@@ -1,7 +1,7 @@
 ---
 layout: page
 title : People
-tagline: Our Faculty, PostDocs and Students
+tagline: Our Faculty, PostDocs, Researchers, and Students
 group: navigation
 scroller:
   Faculty: faculty
@@ -65,7 +65,7 @@ css: people.css
 
 <a class="anchor" name="postdocs"> </a>
 
-### Post Docs/Researchers
+### Post Docs / Researchers
 
 <ul class="faculty-list">
 {% assign this_person = 1 %}

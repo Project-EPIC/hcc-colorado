@@ -61,10 +61,10 @@
     tellus eu volutpat euismod.
 - name: Benjamin Leducmills
   status: Students
-  gscholar_link: http://scholar.google.com/citations?user=oqCcwngAAAAJ
   picture: /assets/auto_generated/profile_pics/Benjamin_Leducmills.jpg
   url: ''
   interests: ''
+  gscholar_link: http://scholar.google.com/citations?user=oqCcwngAAAAJ
   affiliation: Computer Science, University of Colorado, Boulder
   goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
     vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
@@ -126,20 +126,20 @@
     tellus eu volutpat euismod.
 - name: Dara Cunningham
   status: Students
-  lab: National Renewable Energy Laboratory
   picture: emailed
   url: http://activitysystems.com
   interests: Measuring and collecting data about buildings in use from occupants.
     Designing better buildings with feedback from actual use.
+  lab: National Renewable Energy Laboratory
   goals: Designing a publicly accessible site that collects and distributes information
     about buildings in use. Correlating building comfort standards with energy use
     with the goal of designing more comfortable, more energy efficient buildings.
 - name: David Quigley
   status: Students
-  lab: DLS
   picture: TBD
   url: https://csel.cs.colorado.edu/~daqu3650
   interests: Using mobile and wearable computing to teach people
+  lab: DLS
   goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
     vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
     lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
@@ -164,8 +164,8 @@
     tellus eu volutpat euismod.
 - name: Hilarie Nickerson
   status: Students
-  lab: Scalable Game Design
   picture: emailed
+  lab: Scalable Game Design
   goals: Explore how children and adults can reason, understand, and learn through
     interactive and dynamic computer-facilitated experiences.
 - name: Jason Zietz
@@ -182,9 +182,9 @@
     tellus eu volutpat euismod.
 - name: Jeeeun Kim
   status: Students
-  lab: Sikuli, Craft Technology
   url: http://www.jeeeunkim.com
-  interests: ! 'Visual User Interfaces, Digital Media and Craft Technology '
+  interests: 'Visual User Interfaces, Digital Media and Craft Technology '
+  lab: Sikuli, Craft Technology
   goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
     vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
     lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
@@ -197,32 +197,32 @@
     tellus eu volutpat euismod.
 - name: Jeffery Hoehl
   status: Students
-  gscholar_link: http://scholar.google.com/citations?user=TwpgBxQAAAAJ
-  lab: Coleman Institute for Cognitive Disabilities
   picture: /assets/auto_generated/profile_pics/Jeffery_Hoehl.jpg
   url: http://www.jefferyhoehl.com/
   interests: Human Computer Interaction, HCI, User Experience, Web Accessibility,
     Inclusive Design
+  lab: Coleman Institute for Cognitive Disabilities
+  gscholar_link: http://scholar.google.com/citations?user=TwpgBxQAAAAJ
   affiliation: PhD Student, University of Colorado Boulder
   goals: Improve web accessibilty for people with cognitive disabilities.
 - name: Jeffrey La Marche
   status: Students
-  lab: Sikuli
   picture: emailed
   url: http://www.jeffreylamarche.com (Empty at the moment)
   interests: Contextualized methods of teaching computer science topics. Learning
     through video games.
+  lab: Sikuli
   goals: Increasing the engagement and relevance of introductory computer science
     programming courses by providing contextualized approaches and active learning
     methods.
 - name: Jennings Anderson
   status: Students
-  gscholar_link: http://scholar.google.com/citations?user=7Wt7XDUAAAAJ
-  lab: Project EPIC
   picture: /assets/auto_generated/profile_pics/Jennings_Anderson.jpg
   url: www.townsendjennings.com
   interests: Crisis Informatics, Human Computer Interaction, Big Data, Geo-Spatial
     Data
+  lab: Project EPIC
+  gscholar_link: http://scholar.google.com/citations?user=7Wt7XDUAAAAJ
   affiliation: University of Colorado at Boulder
   goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
     vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
@@ -236,10 +236,10 @@
     tellus eu volutpat euismod.
 - name: Joanne White
   status: Students
-  gscholar_link: http://scholar.google.com/citations?user=cU2HRV8AAAAJ&hl=en
   picture: /assets/auto_generated/profile_pics/Joanne_White.jpg
   url: ''
   interests: HCI, media, crisis informatics, social media
+  gscholar_link: http://scholar.google.com/citations?user=cU2HRV8AAAAJ&hl=en
   affiliation: PhD Student, University of Colorado Boulder
   goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
     vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
@@ -265,10 +265,10 @@
     tellus eu volutpat euismod.
 - name: Khalid Alharbi
   status: Students
-  lab: Sikuli
   picture: emailed
   url: kalharbi.com
   interests: User Interface verification, and visual automation
+  lab: Sikuli
   goals: designing and building systems that identify the inconsistency between mobile
     User Interfaces and the underlying application behaviors to detect serious security
     threats.
@@ -298,10 +298,10 @@
     tellus eu volutpat euismod.
 - name: Marina Kogan
   status: Students
-  gscholar_link: http://scholar.google.com/citations?user=ST-2CicAAAAJ
   picture: /assets/auto_generated/profile_pics/Marina_Kogan.jpg
   url: ''
   interests: Computational Social Science, Machine Learning, Probabilistic Modeling
+  gscholar_link: http://scholar.google.com/citations?user=ST-2CicAAAAJ
   affiliation: Graduate student in Computer Science, University of Colorado, Boulder
   goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
     vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
@@ -315,20 +315,20 @@
     tellus eu volutpat euismod.
 - name: Mario Barrenechea
   status: Students
-  gscholar_link: http://scholar.google.com/citations?user=m463-VoAAAAJ
-  lab: Project EPIC
   picture: /assets/auto_generated/profile_pics/Mario_Barrenechea.jpg
   url: http://www.mbarrenecheajr.com
   interests: human-centered software engineering, human-centered computing, crisis
     informatics
+  lab: Project EPIC
+  gscholar_link: http://scholar.google.com/citations?user=m463-VoAAAAJ
   affiliation: Student in Computer Science, University of Colorado at Boulder
   goals: Investigate how software developers build software for crisis events in a
     decentralized environment.
 - name: Mazin Hakeem
   status: Students
-  lab: Project EPIC
   picture: https://docs.google.com/a/colorado.edu/file/d/0B2OqcWXhk0yFbVBjczlZRU9hU2c/edit?usp=sharing
   url: https://csel.cs.colorado.edu/~maha0863
+  lab: Project EPIC
   goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
     vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
     lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper

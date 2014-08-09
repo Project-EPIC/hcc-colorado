@@ -26,10 +26,3 @@ js: homepage.js
 Our graduate students include National Science Foundation Graduate Fellows, and our faculty are NSF CAREER awardees, CHI Academy Fellows, and ACM Fellows. We welcome enthusiastic and motivated students to join our pioneering research programs.
 
 {% include JB/setup %}
-
-### Latest News
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>

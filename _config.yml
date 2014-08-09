@@ -17,7 +17,7 @@ google_info :
     object  : Person
     types   : ['Faculty', 'Students', 'Alumni', 'Researchers']
 
-write_directory : './_data'
+data_directory : './_data'
 
 credentials: _secret_config.yml
 
