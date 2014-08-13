@@ -11,9 +11,6 @@ scroller:
 js: people.js
 css: people.css
 ---
-
-````Faculty Slider Here````
-
 <a class="anchor" name="faculty"> </a>
 
 ### Faculty

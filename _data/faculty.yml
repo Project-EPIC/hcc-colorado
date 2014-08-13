@@ -90,3 +90,11 @@
     lobortis tellus eu volutpat euismod.
   gscholar_link: http://scholar.google.com/citations?user=mDNhPjAAAAAJ&hl=en
   affiliation: University of Colorado Boulder
+- name: Shaun Kane
+  status: Faculty
+  picture: /assets/images/static_people/faculty/shaun_kane.jpg
+  url: http://shaunkane.info
+  interests: Human-Computer Interaction, Accessibility
+  lab: Superhuman Computing Lab
+  gscholar_link: http://scholar.google.com/citations?user=v564lDgAAAAJ&hl=en
+  affiliation: Assistant Professor, University of Colorado Boulder

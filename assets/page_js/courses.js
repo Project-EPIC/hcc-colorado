@@ -25,6 +25,7 @@ $(document).ready(function() {
   //The slider at top of page
   $('#courses-slider').bxSlider({
     auto: true,
+    speed: 3000,
   	captions: true,
     controls: false,
     pager: true,

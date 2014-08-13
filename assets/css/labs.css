@@ -27,3 +27,12 @@ ul img{
 .odd{
 	background-color: #FFF;
 }
+
+a.website{
+	text-align: center;
+	content: "Website";
+}
+
+a.website:hover{
+
+}

@@ -10,8 +10,11 @@ js: courses.js
 css: courses.css
 ---
 <ul id="courses-slider">
-  <li>Some information about our Courses</li>
-  <li>Some more information about our Courses</li>
+  {% for image in site.data.hcc_photos.course %}
+  <li>
+    <img src="{{ image.url }}" title="{{image.title}}" description="{{image.description}}">
+  </li>
+{% endfor %}
 </ul>
 
 <a class="anchor" name="undergrad"> </a>

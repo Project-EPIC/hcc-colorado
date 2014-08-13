@@ -16,33 +16,32 @@ craft:
   - craft
   link: http://www.google.com
   description: JavaGami at the Craft Lab
-header:
+course:
+- !ruby/object:FlickrPhoto
+  title: Rapid Prototyping
+  url: http://farm6.staticflickr.com/5587/14910424445_4994ea97c6.jpg
+  thumbnail_url: http://farm6.staticflickr.com/5587/14910424445_4994ea97c6_.jpg
+  tags:
+  - course
+  link: http://www.google.com
+  description: How much can you learn in one week? What can you build in 150 minutes?
 - &1 !ruby/object:FlickrPhoto
-  title: Peak 1
-  url: http://farm4.staticflickr.com/3855/14907757962_e6effc828f.jpg
-  thumbnail_url: http://farm4.staticflickr.com/3855/14907757962_e6effc828f_.jpg
+  title: Rapid Prototyping
+  url: http://farm4.staticflickr.com/3835/14910597755_1d3376d491.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3835/14910597755_1d3376d491_.jpg
   tags:
+  - course
   - header
-  - epic
-  - craftlab
   link: http://www.google.com
-  description: Peak 1 outside of Breckenridge
-- &2 !ruby/object:FlickrPhoto
-  title: South Six Shooter
-  url: http://farm4.staticflickr.com/3914/14720448247_1b17e71d72.jpg
-  thumbnail_url: http://farm4.staticflickr.com/3914/14720448247_1b17e71d72_.jpg
-  tags:
-  - tag2
-  - header
-  - header
-  - img2
-  link: http://www.google.com
-  description: South Six Shooter Diving Board
+  description: How much can you learn in one week? What can you build in 150 minutes?
+header:
+- *1
 epic:
-- *1
-craftlab:
-- *1
-tag2:
-- *2
-img2:
-- *2
+- !ruby/object:FlickrPhoto
+  title: A Few Members of Project EPIC
+  url: http://farm4.staticflickr.com/3872/14907574091_cbf8fe690e.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3872/14907574091_cbf8fe690e_.jpg
+  tags:
+  - epic
+  link: http://www.google.com
+  description: Robert, Leysia (PI), Jo, and Marina

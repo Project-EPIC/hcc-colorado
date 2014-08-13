@@ -24,6 +24,7 @@
     luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
     elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
     tellus eu volutpat euismod.
+  picture: /assets/images/static_people/alumni/ifeyinwa_okoye.png
 - name: Kate Starbird
   status: Alumni
   gscholar_link: http://scholar.google.com/citations?user=C6KSF5gAAAAJ&hl=en
@@ -53,6 +54,7 @@
     luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
     elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
     tellus eu volutpat euismod.
+  picture: /assets/images/static_people/alumni/sophia_liu.png
 - name: Amanda Lee Hughes
   status: Alumni
   gscholar_link: http://scholar.google.com/citations?user=Sjbz8ngAAAAJ&hl=en
@@ -61,3 +63,15 @@
   url: http://amandaleehughes.com/
   interests: Human-Computer Interaction, Crisis Informatics
   affiliation: Utah State University
+- name: Joshua Barron
+  status: Alumni
+  picture: /assets/images/static_people/alumni/joshua_barron.png
+- name: William Corvey
+  status: Alumni
+  picture: /assets/images/static_people/alumni/william_corvey.jpg
+- name: Casey McTaggart
+  status: Alumni
+  picture: /assets/images/static_people/alumni/casey_mctaggart.png
+- name: Aaron Schlicht
+  status: Alumni
+  picture: /assets/images/static_people/alumni/aaron_schlicht.jpg
