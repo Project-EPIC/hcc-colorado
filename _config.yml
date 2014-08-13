@@ -76,7 +76,7 @@ JB :
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
   
-  #To test it on github, comment this line back in:
+  #It can be published on github as long as it's been updated on another server... 
   BASE_PATH : http://jenningsanderson.github.io/hcc-colorado
 
   #BASE_PATH : false

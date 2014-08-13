@@ -29,10 +29,20 @@ ul img{
 }
 
 a.website{
+	display: block;
 	text-align: center;
-	content: "Website";
+	font-weight: 300;
+	font-size: 1.5em;
+	margin: 0 auto;
+}
+
+a.website:after{
+	vertical-align: top;
+	font-size: .5em;
+	content: " >>";
 }
 
 a.website:hover{
-
+	text-decoration: none;
+	color: #555;
 }

@@ -9,15 +9,26 @@
 	margin: 0;
 }
 
-/*
-body {
+
+/*body {
   background: url(http://www.hillhaus.com/photos/2006.10.18.Flatirons/Flatirons.01.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}*/
+
+body::after{
+	content: "";
+	background: url(http://www.hillhaus.com/photos/2006.10.18.Flatirons/Flatirons.01.jpg) no-repeat center center fixed;
+	opacity: 0.7;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: fixed;
+	z-index: -1;   
 }
-*/
 
 .page-content{
 	margin-top: 10px;
@@ -63,3 +74,10 @@ a.anchor{
 .navbar-inner{
 	padding: 0px 1px 0px 5px;
 }
+
+/*
+
+
+Code for the background gradient, it's not pretty, but it should work....
+
+*/
