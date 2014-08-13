@@ -1,6 +1,6 @@
 ---
 layout: news
-title : News
+title : Latest News
 tagline: and Updates
 group: navigation
 ---

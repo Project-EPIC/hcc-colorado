@@ -31,3 +31,9 @@
 .course-list li{
   display: block;
 }
+
+
+
+.active-course{
+  background-color: #DDD;
+}

@@ -17,6 +17,11 @@ google_info :
     object  : Person
     types   : ['Faculty', 'Students', 'Alumni', 'Researchers']
 
+flickr: :
+  all : 
+    name : 'photos'
+    set : '35803a3211f8a14f2365e0c275eb994a'
+
 data_directory : './_data'
 
 credentials: _secret_config.yml

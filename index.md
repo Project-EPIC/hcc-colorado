@@ -8,9 +8,9 @@ js: homepage.js
 <ul id="homepage-slider">
   <li><img src="/assets/images/static_home/folding.png" title="Craft Technology Lab">
   </li>
-  <li><img src="/assets/images/static_home/epic.png" title="Project EPIC" description="Mapping tweeted reports in San Francisco" link="epic.cs.colorado.edu">
+  <li><img src="/assets/images/static_home/epic.png" title="Project EPIC" description="Mapping tweeted reports in San Francisco" link="http://epic.cs.colorado.edu">
   </li>
-  <li><img src="/assets/images/static_home/pacman.png" title="Pacman">
+  <li><img src="/assets/images/static_home/pacman.png" title="Pacman" description="">
   </li>
   <li><img src="assets/images/static_home/scooter_show.png" title="New modes of Transportation" description="Wheeled Kicks">
   </li>

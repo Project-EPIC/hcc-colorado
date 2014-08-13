@@ -45,7 +45,7 @@ css: courses.css
 {% for course in site.data.graduate %}
   <li>
   <div class="course-box">
-      <h4 style="display:inline">{{ course.number }} </h4> <h4 style="display:inline" class="course-name"> {{course.name}}</h4>
+      <h4 style="display:inline">{{ course.number }} {{course.name}}</h4>
     </div>
     </a>
     <div class="course-box-expand">

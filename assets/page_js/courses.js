@@ -6,9 +6,17 @@ $(document).ready(function() {
   $(".course-box-expand").hide();
   //toggle the componenet with class msg_body
   $(".course-box").click(function(){
-    $(".course-box-expand").hide();
-  	$(this).toggleClass('active-course')
-    $(this).next(".course-box-expand").slideToggle(400);
+    if ($(this).next(".course-box-expand").is(":visible")){
+      $(this).next(".course-box-expand").slideToggle(400);
+      $(this).removeClass('active-course')
+    }
+    else{
+      $(".course-box-expand").hide(400);
+      $(".course-box").removeClass('active-course')
+      $(this).addClass('active-course')
+      $(this).next(".course-box-expand").slideToggle(400);
+    }
+
     /*$('html,body').animate({
    		scrollTop: $(this).next(".course-box-expand").offset().top -100
      });*/
