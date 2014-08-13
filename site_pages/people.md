@@ -120,7 +120,7 @@ css: people.css
     <a rel="student-fancy-box-link" href="#person-student-{{this_person}}">
     <div class="student-box">
       {% if student.picture %}
-        <img src="{{student.picture}}" height="150" width="105"/>
+        <img src="{{BASE_PATH}}{{student.picture}}" height="150" width="105"/>
       {% endif %}
       <h4>{{ student.name }}</h4>
     </div>
@@ -130,7 +130,7 @@ css: people.css
     <div id="person-student-{{this_person}}" class="student-info-expand">
       <div class="student-info">
         <div class="profile-image">
-          <img src="{{student.picture}}" />
+          <img src="{{BASE_PATH}}{{student.picture}}" />
         </div>
         <div class="student-name-box">
           <h3>{{student.name}}</h3>
@@ -172,7 +172,7 @@ css: people.css
     <a rel="student-fancy-box-link" href="#person-alumni-{{this_person}}">
     <div class="student-box">
       {% if student.picture %}
-        <img src="{{student.picture}}" height="150" width="105"/>
+        <img src="{{BASE_PATH}}{{student.picture}}" height="150" width="105"/>
       {% endif %}
       <h4>{{ student.name }}</h4>
     </div>
@@ -182,7 +182,7 @@ css: people.css
     <div id="person-alumni-{{this_person}}" class="student-info-expand">
       <div class="student-info">
         <div class="profile-image">
-          <img src="{{student.picture}}" />
+          <img src="{{BASE_PATH}}{{student.picture}}" />
         </div>
         <div class="student-name-box">
           <h3>{{student.name}}</h3>
