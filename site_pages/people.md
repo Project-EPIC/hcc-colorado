@@ -22,7 +22,7 @@ css: people.css
 		<a rel="faculty-fancy-box-link" href="#person-faculty-{{this_person}}">
 		<div class="faculty-box">
 			{% if person.picture %}
-				<img src="{{person.picture}}" height="150" width="105"/>
+				<img src="{{BASE_PATH}}{{person.picture}}" height="150" width="105"/>
 			{% endif %}
 			<h3>{{ person.name }}</h3>
 		</div>
