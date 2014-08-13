@@ -32,7 +32,7 @@ css: people.css
 		<div id="person-faculty-{{this_person}}" class="faculty-info-expand">
 			<div class="faculty-info">
 				<div class="profile-image">
-					<img src="{{person.picture}}" />
+					<img src="{{BASE_PATH}}{{person.picture}}" />
 				</div>
 				<div class="faculty-name-box">
 					<h3>{{person.name}}</h3>
