@@ -1,0 +1,29 @@
+hr {
+	padding-bottom: 100px;
+}
+
+img.logo{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.lab{
+	padding: 10px;
+	padding-bottom: 200px;
+}
+
+.even{
+	background-color: #DDD;
+}
+
+
+.odd{
+	background-color: #FFF;
+}

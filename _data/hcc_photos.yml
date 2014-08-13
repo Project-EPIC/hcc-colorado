@@ -1,0 +1,48 @@
+---
+craft:
+- !ruby/object:FlickrPhoto
+  title: JavaGami
+  url: http://farm4.staticflickr.com/3911/14722788289_efdf74909f.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3911/14722788289_efdf74909f_.jpg
+  tags:
+  - craft
+  link: http://www.google.com
+  description: Sea Creature made with JavaGami at the Craft Lab
+- !ruby/object:FlickrPhoto
+  title: JavaGami
+  url: http://farm4.staticflickr.com/3845/14909081762_5ca9cec301.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3845/14909081762_5ca9cec301_.jpg
+  tags:
+  - craft
+  link: http://www.google.com
+  description: JavaGami at the Craft Lab
+header:
+- &1 !ruby/object:FlickrPhoto
+  title: Peak 1
+  url: http://farm4.staticflickr.com/3855/14907757962_e6effc828f.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3855/14907757962_e6effc828f_.jpg
+  tags:
+  - header
+  - epic
+  - craftlab
+  link: http://www.google.com
+  description: Peak 1 outside of Breckenridge
+- &2 !ruby/object:FlickrPhoto
+  title: South Six Shooter
+  url: http://farm4.staticflickr.com/3914/14720448247_1b17e71d72.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3914/14720448247_1b17e71d72_.jpg
+  tags:
+  - tag2
+  - header
+  - header
+  - img2
+  link: http://www.google.com
+  description: South Six Shooter Diving Board
+epic:
+- *1
+craftlab:
+- *1
+tag2:
+- *2
+img2:
+- *2

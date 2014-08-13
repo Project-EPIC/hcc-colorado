@@ -6,16 +6,11 @@ js: homepage.js
 ---
 
 <ul id="homepage-slider">
-  <li><img src="/assets/images/static_home/folding.png" title="Craft Technology Lab">
+{% for image in site.data.hcc_photos.header %}
+  <li>
+    <img src="{{ image.url }}" title="{{image.title}}" description="{{image.description}}">
   </li>
-  <li><img src="/assets/images/static_home/epic.png" title="Project EPIC" description="Mapping tweeted reports in San Francisco" link="http://epic.cs.colorado.edu">
-  </li>
-  <li><img src="/assets/images/static_home/pacman.png" title="Pacman" description="">
-  </li>
-  <li><img src="assets/images/static_home/scooter_show.png" title="New modes of Transportation" description="Wheeled Kicks">
-  </li>
-  <li><img src="/assets/images/static_home/dlese.png" title="Digital Learning Sciences">
-  </li>
+{% endfor %}
 </ul>
 
 
