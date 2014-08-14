@@ -22,7 +22,7 @@ css: people.css
 		<a rel="faculty-fancy-box-link" href="#person-faculty-{{this_person}}">
 		<div class="faculty-box">
 			{% if person.picture %}
-				<img src="{{JB.BASE_PATH}}{{person.picture}}" height="150" width="105"/>
+				<img src="{{site.JB.BASE_PATH}}{{person.picture}}" height="150" width="105"/>
 			{% endif %}
 			<h3>{{ person.name }}</h3>
 		</div>
@@ -32,7 +32,7 @@ css: people.css
 		<div id="person-faculty-{{this_person}}" class="faculty-info-expand">
 			<div class="faculty-info">
 				<div class="profile-image">
-					<img src="{{JB.BASE_PATH}}{{person.picture}}" />
+					<img src="{{site.JB.BASE_PATH}}{{person.picture}}" />
 				</div>
 				<div class="faculty-name-box">
 					<h3>{{person.name}}</h3>
@@ -71,7 +71,7 @@ css: people.css
     <a rel="faculty-fancy-box-link" href="#person-researcher-{{this_person}}">
     <div class="faculty-box">
       {% if person.picture %}
-        <img src="{{JB.BASE_PATH}}{{person.picture}}" height="150" width="105"/>
+        <img src="{{site.JB.BASE_PATH}}{{person.picture}}" height="150" width="105"/>
       {% endif %}
       <h3>{{ person.name }}</h3>
     </div>
@@ -81,7 +81,7 @@ css: people.css
     <div id="person-researcher-{{this_person}}" class="faculty-info-expand">
       <div class="faculty-info">
         <div class="profile-image">
-          <img src="{{JB.BASE_PATH}}{{person.picture}}" />
+          <img src="{{site.JB.BASE_PATH}}{{person.picture}}" />
         </div>
         <div class="faculty-name-box">
           <h3>{{person.name}}</h3>
@@ -120,7 +120,7 @@ css: people.css
     <a rel="student-fancy-box-link" href="#person-student-{{this_person}}">
     <div class="student-box">
       {% if student.picture %}
-        <img src="{{JB.BASE_PATH}}{{student.picture}}" height="150" width="105"/>
+        <img src="{{site.JB.BASE_PATH}}{{student.picture}}" height="150" width="105"/>
       {% endif %}
       <h4>{{ student.name }}</h4>
     </div>
@@ -130,7 +130,7 @@ css: people.css
     <div id="person-student-{{this_person}}" class="student-info-expand">
       <div class="student-info">
         <div class="profile-image">
-          <img src="{{JB.BASE_PATH}}{{student.picture}}" />
+          <img src="{{site.JB.BASE_PATH}}{{student.picture}}" />
         </div>
         <div class="student-name-box">
           <h3>{{student.name}}</h3>
@@ -172,7 +172,7 @@ css: people.css
     <a rel="student-fancy-box-link" href="#person-alumni-{{this_person}}">
     <div class="student-box">
       {% if student.picture %}
-        <img src="{{JB.BASE_PATH}}{{student.picture}}" height="150" width="105"/>
+        <img src="{{site.JB.BASE_PATH}}{{student.picture}}" height="150" width="105"/>
       {% endif %}
       <h4>{{ student.name }}</h4>
     </div>
@@ -182,7 +182,7 @@ css: people.css
     <div id="person-alumni-{{this_person}}" class="student-info-expand">
       <div class="student-info">
         <div class="profile-image">
-          <img src="{{JB.BASE_PATH}}{{student.picture}}" />
+          <img src="{{site.JB.BASE_PATH}}{{student.picture}}" />
         </div>
         <div class="student-name-box">
           <h3>{{student.name}}</h3>
