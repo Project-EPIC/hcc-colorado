@@ -2,11 +2,11 @@ CU Human Centered Computing Website
 =====================================
 _Built on Jekyll Bootstrap, this site finds a balance between a static and dynamic website._
 
-This site pulls data from flickr, Google Scholar, and Google Drive.
+This site pulls data from Flickr, Google Scholar, and Google Drive.
 
-The database, therefore, is a google spreadsheet, offering a familiar UI for any user to update.
+The database, therefore, is a series of google spreadsheet, offering a familiar UI for any user to update.
 
-The majority of the images are hosted on flickr and organized by tags.  Values in the description of the image inside of square brackets ([]) are merged with existing flickr tags to organize images.
+The majority of the images are hosted on flickr and organized by tags.  Values in the description of the image inside of square brackets ```[]``` are merged with existing flickr tags to organize images.
 
 The site is built using the [Static-Bliss](http://github.com/jenningsanderson/Static-Bliss) gem.
 
