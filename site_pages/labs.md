@@ -18,7 +18,7 @@ There are 6 active labs in human centered computing at CU Boulder.  Each lab has
 
 <div class="lab odd">
 <a class="anchor" name="epic"> </a>
-<img src="{{site.JB.BASE_PATH}}{{site.IMG_PATH}}/lab_logos/epic.png" class="logo">
+<img src="{{JB.BASE_PATH}}{{site.IMG_PATH}}/lab_logos/epic.png" class="logo">
 
 <h3>EPIC – Empowering the Public with Information in Crisis</h3>
 

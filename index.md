@@ -1,7 +1,5 @@
 ---
-layout: page
-title: HCC
-tagline: University of Colorado Boulder
+layout: splash
 js: homepage.js
 ---
 
