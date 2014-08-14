@@ -10,7 +10,7 @@ The majority of the images are hosted on flickr and organized by tags.  Values i
 
 The site is built and maintained using the [Static-Bliss](http://github.com/jenningsanderson/Static-Bliss) gem.
 
-This gem requires both ```_config.yml``` and ```_secret_config.yml``` to be properly defined (See [Configuration](#Configuration))
+This gem requires both ```_config.yml``` and ```_secret_config.yml``` to be properly defined (See [Configuration](#configuration))
 
 Options for this particular site are as folllows:
 
