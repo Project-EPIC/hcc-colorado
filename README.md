@@ -27,6 +27,12 @@ Options for this particular site are as folllows:
 	bliss update all
 `````
 
+##Publishing
+The site should function when hosted on Github, provided the YAML files are up-to-date thorugh the bliss update functions.
+
+The site is designed to be published to an amazon s3 bucket:
+[HCC-Colorado on S3](http://hcc.colorado.edu.s3-website-us-east-1.amazonaws.com/)
+
 
 
 
