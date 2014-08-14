@@ -42,7 +42,7 @@ PROJECT EPIC, which launched in September 2009, is supported by a $2.8M grant fr
 
 <div class="lab even">
 <a class="anchor" name="craft"> </a>
-<img src="{{BASE_PATH}}{{site.IMG_PATH}}/lab_logos/craft_technology_group.png" class="logo">
+<img src="{{JB.BASE_PATH}}{{site.IMG_PATH}}/lab_logos/craft_technology_group.png" class="logo">
 
 <h3>Craft Technology Group</h3>
 
@@ -67,7 +67,7 @@ Craft Technology is our term for the interwaeving of computation with craft mate
 
 <div class="lab odd">
 <a class="anchor" name="l3d"> </a>
-<img src="{{BASE_PATH}}{{site.IMG_PATH}}/lab_logos/lifelong_learning_and_design.png" class="logo">
+<img src="{{JB.BASE_PATH}}{{site.IMG_PATH}}/lab_logos/lifelong_learning_and_design.png" class="logo">
 
 <ul id="l3d-slider">
 {% for image in site.data.hcc_photos.l3d %}
@@ -88,7 +88,7 @@ The Center for LifeLong Learning and Design (L3D) is part of the Department of C
 
 <div class="lab even">
 <a class="anchor" name="scalable"> </a>
-<img src="{{BASE_PATH}}{{site.IMG_PATH}}/lab_logos/scalable_game_design.png" class="logo">
+<img src="{{JB.BASE_PATH}}{{site.IMG_PATH}}/lab_logos/scalable_game_design.png" class="logo">
 
 <ul id="scalable-slider">
 {% for image in site.data.hcc_photos.scalable %}
@@ -130,7 +130,7 @@ The goal of this project is to get computer science back to middle schools. Our 
 
 <div class="lab even">
 <a class="anchor" name="dls"> </a>
-<img src="{{BASE_PATH}}{{site.IMG_PATH}}/lab_logos/digital_learning_sciences.png" class="logo">
+<img src="{{JB.BASE_PATH}}{{site.IMG_PATH}}/lab_logos/digital_learning_sciences.png" class="logo">
 <h3>Digital Learning Sciences</h3>
 
 <ul id="dls-slider">
