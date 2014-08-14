@@ -8,7 +8,9 @@ The database, therefore, is a series of google spreadsheet, offering a familiar 
 
 The majority of the images are hosted on flickr and organized by tags.  Values in the description of the image inside of square brackets ```[]``` are merged with existing flickr tags to organize images.
 
-The site is built using the [Static-Bliss](http://github.com/jenningsanderson/Static-Bliss) gem.
+The site is built and maintained using the [Static-Bliss](http://github.com/jenningsanderson/Static-Bliss) gem.
+
+This gem requires both ```_config.yml``` and ```_secret_config.yml``` to be properly defined (See below)
 
 Options for this particular site are as folllows:
 
@@ -34,7 +36,44 @@ The site is designed to be published to an amazon s3 bucket:
 [HCC-Colorado on S3](http://hcc.colorado.edu.s3-website-us-east-1.amazonaws.com/)
 
 
+##Configuration
 
+### _config.yml
+
+````
+google_info :
+  courses :
+    key     : 0AhQ6tqeOTfwBdDdyY1U4UlBnTk5rc1BIRDhnckhoQ1E
+    object  : Course
+    types   : ['Undergraduate', 'Graduate']
+
+  people  :
+    key     : 0AhQ6tqeOTfwBdFhrTmxXM0oxYkx2Vl9ucXJpd0hQRHc
+    object  : Person
+    types   : ['Faculty', 'Students', 'Alumni', 'Researchers']
+
+flickr:
+  hcc_photos :
+    set : '72157646414725101'
+
+data_directory : './_data'
+
+credentials: _secret_config.yml
+````
+
+### _secret_config.yml
+
+````
+google_username: cuprojectepic@gmail.com
+google_password: **************
+
+#Amazon S3 hcc_colorado account credentials
+s3_id: *************
+s3_secret: *************
+production_bucket: hcc.colorado.edu
+
+flickr_api_key : ***************
+````
 
 ## Bootstrap License
 [MIT](http://opensource.org/licenses/MIT)
