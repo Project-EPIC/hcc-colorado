@@ -2,6 +2,7 @@
     Get the data needed...
 */
 $(function() {
+
   scrollerLinks = []
   $('.navbar-scroller').find('li').each(function() {
     scrollerLinks.push($(this));
@@ -27,15 +28,26 @@ Scrolling Functions
 $(window).scroll(function() {
   var pos = $(this).scrollTop();
 
+  //Stick the main scroller to the top if we pass it.
+  if (pos > 155){
+    $(".navbar-inner").css({"position": "fixed", "top": 0, "z-index":10 })
+  }else if(pos < 155){
+    $(".navbar-inner").css({"position": "absolute", "top": 155})
+  }
+
+
+
   for (var i=0; i<anchor_pos.length-1; i++){
     scrollerLinks[i].removeClass("active");
     if (pos > anchor_pos[i]-1 && pos < anchor_pos[i+1]){
       scrollerLinks[i].addClass("active");
     }
   }
-  //Determine if navbar-scoller will be shown
-  if (pos > 25) { //
-    $(".navbar-scroller").css({"position": "fixed", "top": 0 });
+
+  
+  //Also, add the secondary scroller.
+  if (pos > 155) { //
+    $(".navbar-scroller").css({"position": "fixed", "top": 40 });
     if ($(".navbar-scroller").css("display") == "none"){
       $(".navbar-scroller").hide().fadeIn(300);
     }

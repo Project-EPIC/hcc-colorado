@@ -45,3 +45,23 @@ epic:
   - epic
   link: http://www.google.com
   description: Robert, Leysia (PI), Jo, and Marina
+dls:
+- !ruby/object:FlickrPhoto
+  title: Scientific Data Curation
+  url: http://farm6.staticflickr.com/5586/14725372538_cec30fcf69.jpg
+  thumbnail_url: http://farm6.staticflickr.com/5586/14725372538_cec30fcf69_.jpg
+  tags:
+  - dls
+  - dls
+  link: http://www.google.com
+  description: Working with worldwide scientific data, DLS curates relevant information
+    towards educational goals
+- !ruby/object:FlickrPhoto
+  title: National Science Digital Library
+  url: http://farm4.staticflickr.com/3851/14725432597_bf5f41e07b.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3851/14725432597_bf5f41e07b_.jpg
+  tags:
+  - dls
+  - dls
+  link: http://www.google.com
+  description: Digital Learning Sciences works with large scientific libraries

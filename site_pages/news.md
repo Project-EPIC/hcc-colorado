@@ -3,6 +3,7 @@ layout: news
 title : Latest News
 tagline: and Updates
 group: navigation
+js: news.js
 ---
 
 
