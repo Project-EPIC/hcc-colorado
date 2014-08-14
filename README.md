@@ -1,18 +1,7 @@
 CU Human Centered Computing Website
 =====================================
+_Built on Jekyll Bootstrap, this site finds a balance between a static and dynamic website._
 
-
-
-## Built on Jekyll Bootstrap
-
-This is the 
-
-
-## Build Technologies
-Ruby, Jekyll
-
-
-##Finding the balance between static and dynamic webpages
 This site pulls data from flickr, Google Scholar, and Google Drive.
 
 The database, therefore, is a google spreadsheet, offering a familiar UI for any user to update.
