@@ -2,34 +2,34 @@
 - name: The Computational World
   type: Undergraduate
   number: CSCI 1240
-  url: http://www.cs.colorado.edu/courses/csci1240.html
+  url: http://www.colorado.edu/catalog/2012-13/courses/engr/b-csci/1240-computational-world
   credits: '3'
-  description: Introduces and explores the "computational style of thinking" and its
+  description: Introduces and explores the "Computational style of thinking" and its
     influence in science, mathematics, engineering and the arts. The course does not
     focus on the nuts and bolts of any particular programming language, but rather
     on the way in which computing has affected human culture and thought in the past
-    half century.
+    half century. Same as ATLS 1240.
   same_name: ATLS 1240
   same_url: http://www.colorado.edu/catalog/catalog09-10/search.pl?abbr=ATLS&amp;num=1240
 - name: Human-Centered Computing Foundations
   type: Undergraduate
   number: CSCI 3002
-  url: http://www.cs.colorado.edu/courses/csci3002.html
+  url: http://www.colorado.edu/catalog/2012-13/courses/engr/b-csci/3002-human-centered-computing-foundations
   credits: '3'
-  description: Introduces practice and research in human computer interaction, design
+  description: Introduces practice and research in human-computer interaction, design
     of interactive systems, computer supported cooperative work, computer supported
     collaborative learning, educational technology, tools that support creativity,
-    user-developed knowledge collections and gaming.
+    user-developed knowledge collections, and gaming.
 - name: Human-Centered Computing Professional Development
   type: Undergraduate
   number: CSCI 3112
-  url: http://www.cs.colorado.edu/courses/csci3112.html
+  url: http://www.colorado.edu/catalog/2012-13/courses/engr/b-csci/3112-human-centered-computing-professional-development
   credits: 1-3
-  description: ! 'Supports students in developing professional skills and practices
-    in  human computer interaction, design of interactive systems, computer  supported
-    cooperative work, computer supported collaborative learning,  educational technology,
-    tools that support creativity, user-developed  knowledge collections, and gaming.
-    May be repeated up to 10 total credit  hours. '
+  description: Supports students in developing professional skills and practices in
+    human-computer interaction, design of interactive systems, computer supported
+    cooperative work, computer supported collaborative learning, educational technology,
+    tools that support creativity, user-developed knowledge collections, and gaming.
+    May be repeated up to 10 total credit hours. Same as ATLS 3112.
   same_name: ATLS 3112
   same_url: http://www.colorado.edu/catalog/catalog09-10/search.pl?abbr=ATLS&amp;num=3112
 - name: Software Engineering Methods and Tools
@@ -111,7 +111,7 @@
   number: CSCI 4412
   url: http://www.cs.colorado.edu/courses/csci4412.html
   credits: '3'
-  description: ! 'Explores the design of new media and technologies to support design
+  description: 'Explores the design of new media and technologies to support design
     and  creativity. Analyzes design and creativity as human activities of  fundamental
     importance in the networked information culture and economy.  Provides theoretical
     and practical analysis of new media. Prerequisites: Consent of instructor.'

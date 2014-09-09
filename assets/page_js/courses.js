@@ -18,7 +18,7 @@ $(document).ready(function() {
     }
 
     /*$('html,body').animate({
-   		scrollTop: $(this).next(".course-box-expand").offset().top -100
+      scrollTop: $(this).next(".course-box-expand").offset().top -100
      });*/
   });
 
@@ -26,10 +26,10 @@ $(document).ready(function() {
   $('#courses-slider').bxSlider({
     auto: true,
     speed: 3000,
-  	captions: true,
+    captions: true,
     controls: false,
     pager: true,
-  	adaptiveHeight: true,
-  	responsive: true
+    adaptiveHeight: true,
+    responsive: true
   });
 });

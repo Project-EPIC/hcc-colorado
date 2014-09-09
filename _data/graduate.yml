@@ -93,7 +93,7 @@
   description: Covers techniques for creating and evaluating effective user interfaces  for
     computing systems. Introduces relevant findings and theory from  psychology and
     human factors, as well as implementation methods.
-- name: ! 'Human Computer Interaction: Survey and Synthesis'
+- name: 'Human Computer Interaction: Survey and Synthesis'
   type: Graduate
   number: CSCI 5919
   url: http://www.cs.colorado.edu/courses/csci5919.html
