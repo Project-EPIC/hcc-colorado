@@ -214,9 +214,8 @@
 - name: Jennings Anderson
   status: Students
   picture: /assets/auto_generated/profile_pics/Jennings_Anderson.jpg
-  url: www.townsendjennings.com
-  interests: Crisis Informatics, Human Computer Interaction, Big Data, Geo-Spatial
-    Data
+  url: http://www.townsendjennings.com/
+  interests: Human Centered Computing, Big Data, Data Mining, Crisis Informatics
   lab: Project EPIC
   gscholar_link: http://scholar.google.com/citations?user=7Wt7XDUAAAAJ
   affiliation: University of Colorado at Boulder
@@ -262,30 +261,12 @@
 - name: Khalid Alharbi
   status: Students
   picture: emailed
-  url: kalharbi.com
+  url: http://kalharbi.com
   interests: User Interface verification, and visual automation
   lab: Sikuli
   goals: designing and building systems that identify the inconsistency between mobile
     User Interfaces and the underlying application behaviors to detect serious security
     threats.
-- name: Kyu Han Koh
-  status: Students
-  picture: /assets/auto_generated/profile_pics/Kyu_Han_Koh.jpg
-  url: http://scalablegamedesign.cs.colorado.edu/kyukoh/
-  interests: Visual Programming, Computer Science Education, Computational Thinking,
-    End User Programming, Assessment
-  gscholar_link: http://scholar.google.com/citations?user=3r0opXUAAAAJ&hl=en
-  affiliation: University of Colorado at Boulder
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
 - name: Lise Ann St. Denis
   status: Students
   goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
@@ -341,6 +322,28 @@
     luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
     elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
     tellus eu volutpat euismod.
+- name: Melissa Bica
+  status: Students
+  picture: /assets/auto_generated/profile_pics/Melissa_Bica.jpg
+  url: ''
+  interests: Human-Centered Computing
+  lab: Project EPIC
+  gscholar_link: http://scholar.google.com/citations?user=T4PCkQUAAAAJ&hl=en&oi=ao
+  affiliation: Graduate student in Computer Science, University of Colorado, Boulder
+- name: Mike Skirpan
+  status: Students
+  picture: /assets/auto_generated/profile_pics/Mike_Skirpan.jpg
+  url: http://mwskirpan.com
+  interests: Democracy, Education Technologies, STEM Pedagogy, User-Centered Design,
+    Sustainable Systems, Philosophy of Mind and Science
+  lab: Sikuli
+  gscholar_link: http://scholar.google.com/citations?user=6IvhxBkAAAAJ&hl=en
+  affiliation: Co-Founder, Collaborative Laboratories; PhD Candidate, University Colorado
+    - Boulder
+  goals: Developing technological tools that mediate democratic process.  Exploring
+    new instructional models for more active classrooms in teaching STEM topics.  Creating
+    Open Educational Resources.  Conceive new institutional models that improve community
+    relationships and public output.
 - name: Ogheneovo Dibie
   status: Students
   goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
@@ -370,7 +373,7 @@
   picture: /assets/auto_generated/profile_pics/Robert_Soden.jpg
   url: ''
   interests: HCI, CSCW, Science and Technology Studies, Critical Cartography, Disaster
-    Risk Management
+    Risk Management & Resilience
   gscholar_link: http://scholar.google.com/citations?user=1vePPCkAAAAJ&hl=en
   affiliation: PhD Student University of Colorado Boulder
   goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,

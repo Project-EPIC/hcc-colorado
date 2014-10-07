@@ -14,16 +14,6 @@
   status: Faculty
   picture: /assets/images/static_people/faculty/mike_eisenberg.jpg
   interests: cognitive science, craft technologies,educational computing
-  teaser: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida
-    lorem, vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat
-    egestas lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis
-    mi semper et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla
-    neque. Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque
-    malesuada tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum
-    mi at dui blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam
-    eget luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id
-    malesuada elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur
-    lobortis tellus eu volutpat euismod.
 - name: Clayton Lewis
   status: Faculty
   picture: /assets/images/static_people/faculty/clayton.jpg
@@ -34,16 +24,6 @@
   picture: /assets/images/static_people/faculty/tammy_sumner.jpg
   interests: personalized learning, interactive learning environments, user-centered
     design, digital libraries, intelligent information systems
-  teaser: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida
-    lorem, vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat
-    egestas lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis
-    mi semper et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla
-    neque. Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque
-    malesuada tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum
-    mi at dui blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam
-    eget luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id
-    malesuada elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur
-    lobortis tellus eu volutpat euismod.
 - name: Gerhard Fischer
   status: Faculty
   picture: /assets/images/static_people/faculty/gerhard.jpg
@@ -70,6 +50,7 @@
   interests: HCI, CSCW, social computing, crisis informatics, ethnographic methods,
     computer meditated communication, social computing
   lab: Project EPIC
+  laburl: http://epic.cs.colorado.edu
   gscholar_link: http://scholar.google.com/citations?user=x0OsogEAAAAJ&hl=en
   affiliation: Associate Professor of Computer Science, University of Colorado Boulder
 - name: Tom Yeh
@@ -78,16 +59,6 @@
   url: http://tomyeh.info/
   interests: vision-based interaction, end-user programming, GUI automation, accessible
     technology
-  teaser: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida
-    lorem, vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat
-    egestas lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis
-    mi semper et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla
-    neque. Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque
-    malesuada tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum
-    mi at dui blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam
-    eget luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id
-    malesuada elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur
-    lobortis tellus eu volutpat euismod.
   gscholar_link: http://scholar.google.com/citations?user=mDNhPjAAAAAJ&hl=en
   affiliation: University of Colorado Boulder
 - name: Shaun Kane

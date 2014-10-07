@@ -43,6 +43,7 @@
 .faculty-name-box{
 	width: 300px;
 	float: left;
+  text-align: left;
 }
 
 .faculty-teaser{
