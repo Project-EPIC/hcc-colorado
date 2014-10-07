@@ -28,18 +28,15 @@
     luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
     elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
     tellus eu volutpat euismod.
-- name: Ahmet Aydin
+- name: Ahmet Arif Aydin
   status: Students
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
+  picture: /assets/auto_generated/profile_pics/Ahmet_Arif_Aydin.jpg
+  url: https://csel.cs.colorado.edu/~ahay8346/index.html
+  interests: Software Engineering, Software Architecture, Real Time Analytics & Infrastructure
+    Design, Algorithm Design, Crisis Informatics
+  lab: Project EPIC
+  gscholar_link: http://scholar.google.com/citations?user=G9Fi3gUAAAAJ&hl=en
+  affiliation: PhD Student , University of Colorado Boulder
 - name: Allison Brown
   status: Students
   goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
@@ -145,20 +142,21 @@
 - name: Halley Profita
   status: Students
   picture: /assets/auto_generated/profile_pics/Halley_Profita.jpg
-  url: ''
-  interests: Wearable Technology, Human-Computer Interaction, Assistive Technology
-  gscholar_link: http://scholar.google.com/citations?user=H3PGv2cAAAAJ&hl=en
+  url: www.halleyprofita.com
+  interests: Wearable Technology, HCI, Assistive Technology, Tangible Computing, User
+    Interface Design
+  lab: Correll Lab
+  gscholar_link: http://scholar.google.com/citations?user=H3PGv2cAAAAJ&hl=en&oi=ao
   affiliation: Computer Science doctoral student, University of Colorado @ Boulder
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
+  goals: I am a 4th year Computer Science doctoral student in the Correll Robotics
+    Lab at the University of Colorado - Boulder. I came to CU from Georgia Tech where
+    I received my MS in Industrial Design. Much of my time at Tech was spent infiltrating
+    the Computer Science Labs where I hopped on interactive technology projects of
+    all shapes and sizes. I have a keen interest in Human Computer Interaction, mobile
+    and ubiquitous computing, and novel sensing, with a specific focus on how wearable
+    and embedded technology can be used for assistive purposes to help improve one's
+    standard of living. Prior to my graduate work, I attended the University of Miami
+    where I studied Management Science.
 - name: Hilarie Nickerson
   status: Students
   lab: Scalable Game Design
