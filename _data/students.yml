@@ -7,6 +7,7 @@
   lab: Sikuli
   gscholar_link: http://scholar.google.com/citations?user=55redA8AAAAJ&hl=en
   affiliation: ATLAS PhD Student, Sikuli Lab, University of Colorado- Boulder
+  advisor: Tom Yeh
 - name: Aaron Schram
   status: PhD
   picture: /assets/auto_generated/profile_pics/Aaron_Schram.jpg
@@ -15,6 +16,7 @@
   lab: Project EPIC
   gscholar_link: http://scholar.google.com/citations?user=BZZerAYAAAAJ&hl=en
   affiliation: University of Colorado
+  advisor: Ken Anderson
   goals: Software Engineering PhD student developing applications and tools to collect
     and analyze large amounts of social media streams to aid in discovery and response
     of mass emergencies. Primary research focuses on data collection and analysis
@@ -24,6 +26,7 @@
   status: PhD
   picture: https://www.linkedin.com/mpr/pub/image-PO759QdagTy5apdFghSKyjdSB6UiIwwchTSKs9mafoNoVlqz4O7K-iaGWeloVJnwVSP/adam-cardenas.jpg
   interests: Big Data, Infrastructural Design, Software Engineering
+  advisor: Ken Anderson
 - name: Ahmet Arif Aydin
   status: PhD
   picture: /assets/auto_generated/profile_pics/Ahmet_Arif_Aydin.jpg
@@ -33,6 +36,7 @@
   lab: Project EPIC
   gscholar_link: http://scholar.google.com/citations?user=G9Fi3gUAAAAJ&hl=en
   affiliation: PhD Student , University of Colorado Boulder
+  advisor: Ken Anderson
 - name: Allison Brown
   status: PhD
 - name: Calvin Pohawpatchoko
@@ -46,6 +50,7 @@
   url: https://csel.cs.colorado.edu/~daqu3650
   interests: Using mobile and wearable computing to teach people
   lab: DLS
+  advisor: Tammy Sumner
 - name: Halley Profita
   status: PhD
   picture: /assets/auto_generated/profile_pics/Halley_Profita.jpg
@@ -55,6 +60,7 @@
   lab: Correll Lab
   gscholar_link: http://scholar.google.com/citations?user=H3PGv2cAAAAJ&hl=en&oi=ao
   affiliation: Computer Science PhD Student, University of Colorado @ Boulder
+  advisor: Nikolaus Correll
   goals: I am a 4th year Computer Science doctoral student in the Correll Robotics
     Lab at the University of Colorado - Boulder. I came to CU from Georgia Tech where
     I received my MS in Industrial Design. Much of my time at Tech was spent infiltrating
@@ -68,12 +74,14 @@
   status: PhD
   interests: Transfer of learning in computing and STEM
   lab: Scalable Game Design
+  advisor: Mike Eisenberg
 - name: Jason Zietz
   status: PhD
   picture: https://pbs.twimg.com/profile_images/1590559678/SorbetCrazy__400x400.png
   url: http://simpleenergy.com/team/jason/
   interests: Energy, Motivation Theory
   lab: L3D
+  advisor: Gerhard Fischer
 - name: Jeeeun Kim
   status: PhD
   picture: /assets/auto_generated/profile_pics/Jeeeun_Kim.jpg
@@ -82,6 +90,7 @@
   lab: Craft Technology, Sikuli
   gscholar_link: http://scholar.google.com/citations?user=zNjEAPwAAAAJ&hl=en&oi=ao
   affiliation: PhD Student of Computer Science, University of Colorado Boulder
+  advisor: Tom Yeh
 - name: Jeffery Hoehl
   status: PhD
   picture: /assets/auto_generated/profile_pics/Jeffery_Hoehl.jpg
@@ -91,6 +100,7 @@
   lab: Coleman Institute for Cognitive Disabilities
   gscholar_link: http://scholar.google.com/citations?user=TwpgBxQAAAAJ
   affiliation: PhD Student, University of Colorado Boulder
+  advisor: Clayton Lewis
   goals: Improve web accessibilty for people with cognitive disabilities.
 - name: Jeffrey La Marche
   status: PhD
@@ -99,6 +109,7 @@
   interests: Contextualized methods of teaching computer science topics. Learning
     through video games.
   lab: Sikuli
+  advisor: Tom Yeh
   goals: Increasing the engagement and relevance of introductory computer science
     programming courses by providing contextualized approaches and active learning
     methods.
@@ -110,6 +121,7 @@
   lab: Project EPIC
   gscholar_link: http://scholar.google.com/citations?user=7Wt7XDUAAAAJ
   affiliation: University of Colorado at Boulder
+  advisor: Leysia Palen
   goals: Investigate humanitarian applications of Computer Science.
 - name: Joanne White
   status: PhD
@@ -118,17 +130,20 @@
   interests: HCI, media, crisis informatics, social media
   gscholar_link: http://scholar.google.com/citations?user=cU2HRV8AAAAJ&hl=en
   affiliation: PhD Student, University of Colorado Boulder
+  advisor: Leysia Palen
 - name: Khalid Alharbi
   status: PhD
   picture: http://lab.sikuli.org/images/khalid_alharbi.jpg
   url: http://kalharbi.com
   interests: User Interface verification, and visual automation
   lab: Sikuli
+  advisor: Tom Yeh
   goals: designing and building systems that identify the inconsistency between mobile
     User Interfaces and the underlying application behaviors to detect serious security
     threats.
 - name: Lise Ann St. Denis
   status: PhD
+  advisor: Leysia Palen
 - name: Marina Kogan
   status: PhD
   picture: /assets/auto_generated/profile_pics/Marina_Kogan.jpg
@@ -137,6 +152,7 @@
   lab: Project EPIC
   gscholar_link: http://scholar.google.com/citations?user=ST-2CicAAAAJ
   affiliation: Graduate student in Computer Science, University of Colorado, Boulder
+  advisor: Leysia Palen
 - name: Mario Barrenechea
   status: PhD
   picture: /assets/auto_generated/profile_pics/Mario_Barrenechea.jpg
@@ -146,6 +162,7 @@
   lab: Project EPIC
   gscholar_link: http://scholar.google.com/citations?user=m463-VoAAAAJ
   affiliation: Student in Computer Science, University of Colorado at Boulder
+  advisor: Ken Anderson
   goals: Investigate how software developers build software for crisis events in a
     decentralized environment.
 - name: Mazin Hakeem
@@ -153,6 +170,7 @@
   picture: /assets/images/static_people/students/mazin_hakeem.jpg
   url: https://csel.cs.colorado.edu/~maha0863
   lab: Project EPIC
+  advisor: Leysia Palen
 - name: Melissa Bica
   status: PhD
   picture: /assets/auto_generated/profile_pics/Melissa_Bica.jpg
@@ -161,6 +179,7 @@
   lab: Project EPIC
   gscholar_link: http://scholar.google.com/citations?user=T4PCkQUAAAAJ&hl=en&oi=ao
   affiliation: Graduate student in Computer Science, University of Colorado, Boulder
+  advisor: Leysia Palen
 - name: Mike Skirpan
   status: PhD
   picture: /assets/auto_generated/profile_pics/Mike_Skirpan.jpg
@@ -171,12 +190,14 @@
   gscholar_link: http://scholar.google.com/citations?user=6IvhxBkAAAAJ&hl=en
   affiliation: Co-Founder, Collaborative Laboratories; PhD Candidate, University Colorado
     - Boulder
+  advisor: Tom Yeh
   goals: Developing technological tools that mediate democratic process.  Exploring
     new instructional models for more active classrooms in teaching STEM topics.  Creating
     Open Educational Resources.  Conceive new institutional models that improve community
     relationships and public output.
 - name: Redhwan Nour
   status: PhD
+  advisor: Clayton Lewis
 - name: Robert Soden
   status: PhD
   picture: /assets/auto_generated/profile_pics/Robert_Soden.jpg
@@ -185,15 +206,19 @@
     Risk Management & Resilience
   gscholar_link: http://scholar.google.com/citations?user=1vePPCkAAAAJ&hl=en
   affiliation: PhD Student University of Colorado Boulder
+  advisor: Leysia Palen
 - name: Sahar Jambi
   status: PhD
+  advisor: Ken Anderson
 - name: Swamy Ananthanarayan
   status: PhD
   picture: http://makingthingsblink.com/wp-content/uploads/2014/07/swamy.jpg
   url: http://makingthingsblink.com
   interests: Health informatics
+  advisor: Mike Eisenberg
 - name: Jacqueline Cameron
   status: PhD
   picture: http://atlas.colorado.edu/wordpress/wp-content/uploads/2014/08/Jackie_2014.jpg
   interests: Democratic Education
   lab: Sikuli
+  advisor: Tom Yeh

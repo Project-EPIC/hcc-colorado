@@ -177,10 +177,16 @@ css: people.css
         <div class="student-name-box">
           <h3>{{student.name}}</h3>
           <p>{{student.affiliation}}</p>
-          {% if person.interests %}
+          {% if student.interests %}
             <h5>Interests</h5>
-            <p>{{person.interests}}</p>
+            <p>{{student.interests}}</p>
           {% endif %}
+
+          {% if student.advisor %}
+            <h5>Advisor</h5>
+            <p>{{student.advisor}}</p>
+          {% endif %}
+
         </div>
         {% if student.goals %}
           <div class="student-goals">
