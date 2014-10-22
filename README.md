@@ -12,6 +12,8 @@ The site is built and maintained using the [Static-Bliss](http://github.com/jenn
 
 This gem requires both ```_config.yml``` and ```_secret_config.yml``` to be properly defined (See [Configuration](#configuration))
 
+If you would like ability to publish the site, just email Jennings and he'll provide access to the S3 bucket.
+
 Options for this particular site are as folllows:
 
 ````
