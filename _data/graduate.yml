@@ -31,16 +31,6 @@
   number: CSCI 5332
   url: http://www.cs.colorado.edu/courses/csci5332.html
   credits: '3'
-- name: Groupware and Workflow Systems
-  type: Graduate
-  number: CSCI 5342
-  url: http://www.cs.colorado.edu/courses/csci5342.html
-  credits: '3'
-  description: Supports students in developing professional skills and knowledge  concerning
-    the use of computer technologies to support collaborative  activities. Also covers
-    the impact of digital collaboration technologies  on users, groups, organizations
-    and society. Students will gain  practical experience with Business Process Management
-    and the use of  Workflow Management Systems.
 - name: Design, Creativity and New Media
   type: Graduate
   number: CSCI 5412
@@ -85,7 +75,7 @@
     useful and interesting tasks with natural language.  Covers the problems of understanding
     complex language phenomena and  building practical programs. Same as <a href="http://www.colorado.edu/catalog/catalog09-10/search.pl?abbr=LING&amp;num=5832">LING
     5832</a>.
-- name: User Centered Design
+- name: User Centered Design and Development I
   type: Graduate
   number: CSCI 5839
   url: http://www.cs.colorado.edu/courses/csci5839.html

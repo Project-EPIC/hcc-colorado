@@ -52,18 +52,6 @@
     nature versus nurture,  conceptual structure and metaphor, logic/problem solving,
     and judgment.  Emphasizes the nature, implications, and limitations of the  computational
     model of mind.
-- name: Principles of Telecommunications Policy
-  type: Undergraduate
-  number: CSCI 4143
-  url: http://www.cs.colorado.edu/courses/csci4143.html
-  credits: '2'
-  description: Learn the key issues and principles that guide the decisions of  policymakers
-    with respect to the regulatory treatment of voice, video,  and data communications.
-    Engage in critical debate, and develop  instincts for anticipating the likely
-    regulatory models that may be  applied to new technologies. This introductory
-    course covers technical,  economic, legal, political, and institutional considerations.
-  same_name: TLEN 5210
-  same_url: http://www.colorado.edu/catalog/catalog09-10/search.pl?abbr=TLEN&amp;num=5210
 - name: Computer Graphics
   type: Undergraduate
   number: CSCI 4229
@@ -73,15 +61,6 @@
     Topics include interactive techniques, 2D and 3D viewing,  clipping, segmentation,
     translation, rotation, and projection. Also  involves removal of hidden edges,
     shading, and color.
-- name: Medical Informatics
-  type: Undergraduate
-  number: CSCI 4312
-  url: http://www.cs.colorado.edu/courses/csci4312.html
-  credits: '3'
-  description: Teaches students essential skills necessary for developing usable  assistive
-    and performance support systems, which include consideration  of the academic
-    and professional interdisciplinary issues that govern  the work. An overview of
-    ongoing and emerging topics in medical  informatics will be presented.
 - name: Things That Think
   type: Undergraduate
   number: CSCI 4322
@@ -96,25 +75,6 @@
   number: CSCI 4332
   url: http://www.cs.colorado.edu/courses/csci4332.html
   credits: '3'
-- name: Groupware and Workflow Systems
-  type: Undergraduate
-  number: CSCI 4342
-  url: http://www.cs.colorado.edu/courses/csci4342.html
-  credits: '3'
-  description: Supports students in developing professional skills and knowledge  concerning
-    the use of computer technologies to support collaborative  activities. Also covers
-    the impact of digital collaboration technologies  on users, groups, organizations
-    and society. Students will gain  practical experience with Business Process Management
-    and the use of  Workflow Management Systems.
-- name: Design, Creativity and New Media
-  type: Undergraduate
-  number: CSCI 4412
-  url: http://www.cs.colorado.edu/courses/csci4412.html
-  credits: '3'
-  description: 'Explores the design of new media and technologies to support design
-    and  creativity. Analyzes design and creativity as human activities of  fundamental
-    importance in the networked information culture and economy.  Provides theoretical
-    and practical analysis of new media. Prerequisites: Consent of instructor.'
 - name: Computer Animation
   type: Undergraduate
   number: CSCI 4809
@@ -131,3 +91,12 @@
   credits: '3'
   description: Develops the skills and practices necessary to apply user-centered  approaches
     to software requirements analysis and the design and  evaluation of computer applications.
+- name: Social Computing
+  type: Undergraduate
+  number: CSCI 4830
+  url: https://www.cs.colorado.edu/~palen/courses/SocialComputing/S14/
+  credits: '3'
+  description: |-
+    This Social Computing class at the University of Colorado Boulder tackles the topic of “on-line sociality.” The course will examine online behaviors as they are exhibited on the social web and other social computing platforms. This has been historically called “computer mediated communication” or CMC. We will examine how CMC has evolved to what we know today as both social and technical (“socio-technical”) phenomena.
+
+    The course will aggressively survey a range of social computing platforms and issues, while also diving deeply into two major platforms of study for which we have recognized expertise at the University of Colorado Boulder: Twitter and OpenStreetMap.  We will bring brand-new research results to the course by reviewing brand new papers from the international research community--many of which are still in “to appear” status--and attempt to duplicate and extend those results in projects. We will examine theories that describe on-line behavior, and consider how design features of social computing platforms and the circumstances in which they are used create different forms of on-line sociality.

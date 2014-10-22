@@ -106,6 +106,48 @@ css: people.css
 {% endfor %}
 </ul>
 
+<ul class="faculty-list">
+{% assign this_person = 1 %}
+{% for person in site.data.postdocs %}
+  <li>
+    <a rel="faculty-fancy-box-link" href="#person-postdoc-{{this_person}}">
+    <div class="faculty-box">
+      {% if person.picture %}
+        <img src="{{site.JB.BASE_PATH}}{{person.picture}}" height="150" width="105"/>
+      {% endif %}
+      <h3>{{ person.name }}</h3>
+    </div>
+    </a>
+
+    <!--This is the pop-up box-->
+    <div id="person-postdoc-{{this_person}}" class="faculty-info-expand">
+      <div class="faculty-info">
+        <div class="profile-image">
+          <img src="{{site.JB.BASE_PATH}}{{person.picture}}" />
+        </div>
+        <div class="faculty-name-box">
+          <h3>{{person.name}}</h3>
+          <p>{{person.affiliation}}</p>
+          {% if person.interests %}
+            <h5>Interests</h5>
+            <p>{{person.interests}}</p>
+          {% endif %}
+        </div>
+        {% if person.teaser %}
+          <div class="faculty-teaser">
+            <p>{{person.teaser}}</p>
+          </div>
+        {% endif %}
+        {% if person.url %}
+          <center><a href="{{person.url}}" target="_blank">Personal Website</a></center>
+        {% endif %}
+      </div>
+    </div>
+  </li>
+  {% assign this_person = this_person | plus: 1 %}
+{% endfor %}
+</ul>
+
 
 <!--                   This is the Student section                  -->
 

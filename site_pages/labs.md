@@ -8,13 +8,14 @@ scroller:
   Craft: craft
   L3D  : l3d
   Scalable Design: scalable
+  Sikuli : sikuli
   Wellness Innovation: wii
   Digital Learning Sciences: dls
 js: labs.js
 css: labs.css
 ---
 
-There are 6 active labs in human centered computing at CU Boulder.  Each lab has their own space on campus and website.  Labs are highlighted here with a link to their website.
+There are 7 active labs in human centered computing at CU Boulder.  Each lab has their own space on campus and website.  Labs are highlighted here with a link to their website.
 
 <div class="lab odd">
 <a class="anchor" name="epic"> </a>
@@ -107,9 +108,29 @@ The goal of this project is to get computer science back to middle schools. Our 
 </div>
 
 
-
-
 <div class="lab odd">
+<a class="anchor" name="sikuli"> </a>
+
+<ul id="Sikuli-Slider">
+{% for image in site.data.hcc_photos.sikuli %}
+  <li>
+    <img src="{{ image.url }}" title="{{image.title}}" description="{{image.description}}">
+  </li>
+  {% endfor %}
+</ul>
+
+<img src="{{site.JB.BASE_PATH}}{{site.IMG_PATH}}/lab_logos/scalable_game_design.png" class="logo">
+
+<p>
+Sikuli Lab
+</p>
+<a href="http://lab.sikuli.org/about/" target="_blank" class="website">Sikuli Lab</a>
+</div>
+
+
+
+
+<div class="lab even">
 <a class="anchor" name="wii"> </a>
 
 <ul id="wellness-slider">
@@ -130,7 +151,7 @@ The goal of this project is to get computer science back to middle schools. Our 
 
 
 
-<div class="lab even">
+<div class="lab odd">
 <a class="anchor" name="dls"> </a>
 <ul id="dls-slider">
 {% for image in site.data.hcc_photos.dls %}

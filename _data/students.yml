@@ -1,35 +1,31 @@
 ---
 - name: Abigale Stangl
-  status: Students
+  status: PhD
   picture: /assets/auto_generated/profile_pics/Abigale_Stangl.jpg
   url: ''
   interests: Human Centered Computing
+  lab: Sikuli
   gscholar_link: http://scholar.google.com/citations?user=55redA8AAAAJ&hl=en
   affiliation: ATLAS PhD Student, Sikuli Lab, University of Colorado- Boulder
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
+- name: Aaron Schram
+  status: PhD
+  picture: /assets/auto_generated/profile_pics/Aaron_Schram.jpg
+  url: http://www.aaronschram.com/
+  interests: ''
+  lab: Project EPIC
+  gscholar_link: http://scholar.google.com/citations?user=BZZerAYAAAAJ&hl=en
+  affiliation: University of Colorado
+  goals: Software Engineering PhD student developing applications and tools to collect
+    and analyze large amounts of social media streams to aid in discovery and response
+    of mass emergencies. Primary research focuses on data collection and analysis
+    techniques from disparate data sources. The resulting developed and deployed applications
+    and frameworks heavily leverage Spring, Apache Cassandra, Lucene and Hadoop.
 - name: Adam Cardenas
-  status: Students
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
+  status: PhD
+  picture: https://www.linkedin.com/mpr/pub/image-PO759QdagTy5apdFghSKyjdSB6UiIwwchTSKs9mafoNoVlqz4O7K-iaGWeloVJnwVSP/adam-cardenas.jpg
+  interests: Big Data, Infrastructural Design, Software Engineering
 - name: Ahmet Arif Aydin
-  status: Students
+  status: PhD
   picture: /assets/auto_generated/profile_pics/Ahmet_Arif_Aydin.jpg
   url: https://csel.cs.colorado.edu/~ahay8346/index.html
   interests: Software Engineering, Software Architecture, Real Time Analytics & Infrastructure
@@ -38,116 +34,27 @@
   gscholar_link: http://scholar.google.com/citations?user=G9Fi3gUAAAAJ&hl=en
   affiliation: PhD Student , University of Colorado Boulder
 - name: Allison Brown
-  status: Students
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
-- name: Benjamin Leducmills
-  status: Students
-  picture: /assets/auto_generated/profile_pics/Benjamin_Leducmills.jpg
-  url: ''
-  interests: ''
-  gscholar_link: http://scholar.google.com/citations?user=oqCcwngAAAAJ
-  affiliation: Computer Science, University of Colorado, Boulder
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
-- name: Bill Casson
-  status: Students
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
-- name: Bradley Morse
-  status: Students
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
+  status: PhD
 - name: Calvin Pohawpatchoko
-  status: Students
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
+  status: PhD
 - name: Christopher Lee Schaefbauer
-  status: Students
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
-- name: Dara Cunningham
-  status: Students
-  picture: emailed
-  url: http://activitysystems.com
-  interests: Measuring and collecting data about buildings in use from occupants.
-    Designing better buildings with feedback from actual use.
-  lab: National Renewable Energy Laboratory
-  goals: Designing a publicly accessible site that collects and distributes information
-    about buildings in use. Correlating building comfort standards with energy use
-    with the goal of designing more comfortable, more energy efficient buildings.
+  status: PhD
+  picture: http://www.acha.org/annualmeeting14/images/awards_fellows_2014/C_Schaefbauer.jpg
+  interests: Health Informatics
 - name: David Quigley
-  status: Students
+  status: PhD
   url: https://csel.cs.colorado.edu/~daqu3650
   interests: Using mobile and wearable computing to teach people
   lab: DLS
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
 - name: Halley Profita
-  status: Students
+  status: PhD
   picture: /assets/auto_generated/profile_pics/Halley_Profita.jpg
   url: www.halleyprofita.com
   interests: Wearable Technology, HCI, Assistive Technology, Tangible Computing, User
     Interface Design
   lab: Correll Lab
   gscholar_link: http://scholar.google.com/citations?user=H3PGv2cAAAAJ&hl=en&oi=ao
-  affiliation: Computer Science doctoral student, University of Colorado @ Boulder
+  affiliation: Computer Science PhD Student, University of Colorado @ Boulder
   goals: I am a 4th year Computer Science doctoral student in the Correll Robotics
     Lab at the University of Colorado - Boulder. I came to CU from Georgia Tech where
     I received my MS in Industrial Design. Much of my time at Tech was spent infiltrating
@@ -158,39 +65,25 @@
     standard of living. Prior to my graduate work, I attended the University of Miami
     where I studied Management Science.
 - name: Hilarie Nickerson
-  status: Students
+  status: PhD
+  interests: Transfer of learning in computing and STEM
   lab: Scalable Game Design
-  goals: Explore how children and adults can reason, understand, and learn through
-    interactive and dynamic computer-facilitated experiences.
 - name: Jason Zietz
-  status: Students
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
+  status: PhD
+  picture: https://pbs.twimg.com/profile_images/1590559678/SorbetCrazy__400x400.png
+  url: http://simpleenergy.com/team/jason/
+  interests: Energy, Motivation Theory
+  lab: L3D
 - name: Jeeeun Kim
-  status: Students
+  status: PhD
+  picture: /assets/auto_generated/profile_pics/Jeeeun_Kim.jpg
   url: http://www.jeeeunkim.com
   interests: 'Visual User Interfaces, Digital Media and Craft Technology '
-  lab: Sikuli, Craft Technology
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
+  lab: Craft Technology, Sikuli
+  gscholar_link: http://scholar.google.com/citations?user=zNjEAPwAAAAJ&hl=en&oi=ao
+  affiliation: PhD Student of Computer Science, University of Colorado Boulder
 - name: Jeffery Hoehl
-  status: Students
+  status: PhD
   picture: /assets/auto_generated/profile_pics/Jeffery_Hoehl.jpg
   url: http://www.jefferyhoehl.com/
   interests: Human Computer Interaction, HCI, User Experience, Web Accessibility,
@@ -200,7 +93,7 @@
   affiliation: PhD Student, University of Colorado Boulder
   goals: Improve web accessibilty for people with cognitive disabilities.
 - name: Jeffrey La Marche
-  status: Students
+  status: PhD
   picture: emailed
   url: http://www.jeffreylamarche.com (Empty at the moment)
   interests: Contextualized methods of teaching computer science topics. Learning
@@ -210,55 +103,24 @@
     programming courses by providing contextualized approaches and active learning
     methods.
 - name: Jennings Anderson
-  status: Students
+  status: PhD
   picture: /assets/auto_generated/profile_pics/Jennings_Anderson.jpg
   url: http://www.townsendjennings.com/
   interests: Human Centered Computing, Big Data, Data Mining, Crisis Informatics
   lab: Project EPIC
   gscholar_link: http://scholar.google.com/citations?user=7Wt7XDUAAAAJ
   affiliation: University of Colorado at Boulder
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
+  goals: Investigate humanitarian applications of Computer Science.
 - name: Joanne White
-  status: Students
+  status: PhD
   picture: /assets/auto_generated/profile_pics/Joanne_White.jpg
   url: ''
   interests: HCI, media, crisis informatics, social media
   gscholar_link: http://scholar.google.com/citations?user=cU2HRV8AAAAJ&hl=en
   affiliation: PhD Student, University of Colorado Boulder
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
-- name: Josephine Kilde
-  status: Students
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
 - name: Khalid Alharbi
-  status: Students
-  picture: emailed
+  status: PhD
+  picture: http://lab.sikuli.org/images/khalid_alharbi.jpg
   url: http://kalharbi.com
   interests: User Interface verification, and visual automation
   lab: Sikuli
@@ -266,36 +128,17 @@
     User Interfaces and the underlying application behaviors to detect serious security
     threats.
 - name: Lise Ann St. Denis
-  status: Students
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
+  status: PhD
 - name: Marina Kogan
-  status: Students
+  status: PhD
   picture: /assets/auto_generated/profile_pics/Marina_Kogan.jpg
   url: ''
   interests: Computational Social Science, Machine Learning, Probabilistic Modeling
+  lab: Project EPIC
   gscholar_link: http://scholar.google.com/citations?user=ST-2CicAAAAJ
   affiliation: Graduate student in Computer Science, University of Colorado, Boulder
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
 - name: Mario Barrenechea
-  status: Students
+  status: PhD
   picture: /assets/auto_generated/profile_pics/Mario_Barrenechea.jpg
   url: http://www.mbarrenecheajr.com
   interests: human-centered software engineering, human-centered computing, crisis
@@ -306,22 +149,12 @@
   goals: Investigate how software developers build software for crisis events in a
     decentralized environment.
 - name: Mazin Hakeem
-  status: Students
+  status: PhD
   picture: /assets/images/static_people/students/mazin_hakeem.jpg
   url: https://csel.cs.colorado.edu/~maha0863
   lab: Project EPIC
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
 - name: Melissa Bica
-  status: Students
+  status: PhD
   picture: /assets/auto_generated/profile_pics/Melissa_Bica.jpg
   url: ''
   interests: Human-Centered Computing
@@ -329,7 +162,7 @@
   gscholar_link: http://scholar.google.com/citations?user=T4PCkQUAAAAJ&hl=en&oi=ao
   affiliation: Graduate student in Computer Science, University of Colorado, Boulder
 - name: Mike Skirpan
-  status: Students
+  status: PhD
   picture: /assets/auto_generated/profile_pics/Mike_Skirpan.jpg
   url: http://mwskirpan.com
   interests: Democracy, Education Technologies, STEM Pedagogy, User-Centered Design,
@@ -342,93 +175,25 @@
     new instructional models for more active classrooms in teaching STEM topics.  Creating
     Open Educational Resources.  Conceive new institutional models that improve community
     relationships and public output.
-- name: Ogheneovo Dibie
-  status: Students
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
 - name: Redhwan Nour
-  status: Students
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
+  status: PhD
 - name: Robert Soden
-  status: Students
+  status: PhD
   picture: /assets/auto_generated/profile_pics/Robert_Soden.jpg
   url: ''
   interests: HCI, CSCW, Science and Technology Studies, Critical Cartography, Disaster
     Risk Management & Resilience
   gscholar_link: http://scholar.google.com/citations?user=1vePPCkAAAAJ&hl=en
   affiliation: PhD Student University of Colorado Boulder
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
 - name: Sahar Jambi
-  status: Students
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
-- name: Soheil Danesh
-  status: Students
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
+  status: PhD
 - name: Swamy Ananthanarayan
-  status: Students
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
-- name: Yan Chen
-  status: Students
-  goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida lorem,
-    vel vehicula ipsum. Ut sem odio, sollicitudin eu mauris sed, consequat egestas
-    lectus. Vivamus ut augue purus. Sed feugiat orci mauris, et convallis mi semper
-    et. Phasellus non interdum lorem, ac porta massa. Suspendisse eu fringilla neque.
-    Suspendisse pulvinar blandit enim, ac porttitor turpis porta eu. Quisque malesuada
-    tristique justo, rutrum faucibus sapien viverra ac. Praesent bibendum mi at dui
-    blandit vulputate. Duis congue neque eu lorem tristique dignissim. Etiam eget
-    luctus diam. Aliquam in accumsan ligula. Donec aliquam venenatis leo, id malesuada
-    elit malesuada vel. Sed sollicitudin nec orci non vestibulum. Curabitur lobortis
-    tellus eu volutpat euismod.
+  status: PhD
+  picture: http://makingthingsblink.com/wp-content/uploads/2014/07/swamy.jpg
+  url: http://makingthingsblink.com
+  interests: Health informatics
+- name: Jacqueline Cameron
+  status: PhD
+  picture: http://atlas.colorado.edu/wordpress/wp-content/uploads/2014/08/Jackie_2014.jpg
+  interests: Democratic Education
+  lab: Sikuli

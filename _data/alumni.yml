@@ -1,17 +1,4 @@
 ---
-- name: Aaron Schram
-  status: Alumni
-  picture: /assets/auto_generated/profile_pics/Aaron_Schram.jpg
-  url: http://www.aaronschram.com/
-  interests: ''
-  lab: Project EPIC
-  gscholar_link: http://scholar.google.com/citations?user=BZZerAYAAAAJ&hl=en
-  affiliation: University of Colorado
-  bio: Software Engineering PhD student developing applications and tools to collect
-    and analyze large amounts of social media streams to aid in discovery and response
-    of mass emergencies. Primary research focuses on data collection and analysis
-    techniques from disparate data sources. The resulting developed and deployed applications
-    and frameworks heavily leverage Spring, Apache Cassandra, Lucene and Hadoop.
 - name: Ifeyinwa Okoye
   status: Alumni
   picture: /assets/images/static_people/alumni/ifeyinwa_okoye.png
@@ -125,3 +112,12 @@
   affiliation: Senior Researcher, Tecnalia, Spain
 - name: Melissa Dawe
   status: Alumni
+- name: Yan Chen
+  status: Alumni
+- name: Benjamin Leducmills
+  status: Alumni
+  picture: /assets/auto_generated/profile_pics/Benjamin_Leducmills.jpg
+  url: ''
+  interests: ''
+  gscholar_link: http://scholar.google.com/citations?user=oqCcwngAAAAJ
+  affiliation: Computer Science, University of Colorado, Boulder
