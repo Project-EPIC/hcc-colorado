@@ -10,10 +10,10 @@ $(document).ready(function(){
 
   $('a[rel=faculty-fancy-box-link]').fancybox({
     maxWidth	: 700,
-    maxHeight	: 500,
+    maxHeight	: 600,
     fitToView	: true,
     width		: '70%',
-    height		: '70%',
+    height		: '80%',
     autoSize	: false,
     closeClick	: false,
     openEffect	: 'none',
@@ -25,7 +25,7 @@ $(document).ready(function(){
 		maxHeight	: 500,
 		fitToView	: true,
 		width		: '70%',
-		height		: '70%',
+		height		: '80%',
 		autoSize	: false,
 		closeClick	: false,
 		openEffect	: 'none',

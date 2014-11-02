@@ -3,6 +3,7 @@ layout: page
 title : Courses
 tagline: in Human Centered Computing at CU
 group: navigation
+permalink: /courses/
 scroller:
   Undergraduate : undergrad
   Graduate : graduate

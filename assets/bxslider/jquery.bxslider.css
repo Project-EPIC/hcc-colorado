@@ -190,6 +190,8 @@
 }
 
 .bx-wrapper .bx-caption h3 {
+	display: block;
+	width: 100%;
 	color: #fff;
 	font-family: Arial;
 	display: block;
@@ -199,7 +201,6 @@
 }
 
 .bx-wrapper .bx-caption p {
-	display: inline-block;
 	color: #EEE;
 	font-size: 1em;
 	padding: 0px 0px 0px 10px;

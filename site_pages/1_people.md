@@ -3,6 +3,7 @@ layout: page
 title : People
 tagline: Our Faculty, PostDocs, Researchers, and Students
 group: navigation
+permalink: /people/
 scroller:
   Faculty: faculty
   Post Docs: postdocs
@@ -42,11 +43,12 @@ css: people.css
 						<p>{{person.interests}}</p>
 					{% endif %}
 				</div>
-				{% if person.teaser %}
-					<div class="faculty-teaser">
-						<p>{{person.teaser}}</p>
-					</div>
+
+        <div class="faculty-teaser">
+				{% if person.teaser %}	
+					<p>{{person.teaser}}</p>
 				{% endif %}
+        </div>
 				{% if person.url %}
 					<center><a href="{{person.url}}" target="_blank">Personal Website</a></center>
 				{% endif %}
@@ -91,11 +93,11 @@ css: people.css
             <p>{{person.interests}}</p>
           {% endif %}
         </div>
+        <div class="faculty-teaser">
         {% if person.teaser %}
-          <div class="faculty-teaser">
-            <p>{{person.teaser}}</p>
-          </div>
+          <p>{{person.teaser}}</p>
         {% endif %}
+        </div>
         {% if person.url %}
           <center><a href="{{person.url}}" target="_blank">Personal Website</a></center>
         {% endif %}
@@ -149,7 +151,16 @@ css: people.css
 </ul>
 
 
-<!--                   This is the Student section                  -->
+
+
+
+
+
+
+
+
+
+<!--                   THIS IS THE STUDENT SECTION                  -->
 
 <a class="anchor" name="students"> </a>
 
@@ -163,6 +174,8 @@ css: people.css
     <div class="student-box">
       {% if student.picture %}
         <img src="{{site.JB.BASE_PATH}}{{student.picture}}" height="150" width="105"/>
+      {% else %}
+        <img src="http://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" height="150" width="105"/>
       {% endif %}
       <h4>{{ student.name }}</h4>
     </div>
@@ -179,7 +192,7 @@ css: people.css
           <p>{{student.affiliation}}</p>
           {% if student.interests %}
             <h5>Interests</h5>
-            <p>{{student.interests}}</p>
+            <p class="interests">{{student.interests}}</p>
           {% endif %}
 
           {% if student.advisor %}
@@ -188,11 +201,14 @@ css: people.css
           {% endif %}
 
         </div>
+        <div class="student-goals">
         {% if student.goals %}
-          <div class="student-goals">
+          <h5>Research Goals</h5>
+          
             <p>{{student.goals}}</p>
-          </div>
+          
         {% endif %}
+        </div>
         {% if student.url %}
           <center><a href="{{student.url}}" target="_blank">Personal Website</a></center>
         {% endif %}
@@ -221,6 +237,8 @@ css: people.css
     <div class="student-box">
       {% if student.picture %}
         <img src="{{site.JB.BASE_PATH}}{{student.picture}}" height="150" width="105"/>
+      {% else %}
+        <img src="http://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" height="150" width="105"/>
       {% endif %}
       <h4>{{ student.name }}</h4>
     </div>
@@ -240,11 +258,11 @@ css: people.css
             <p>{{person.interests}}</p>
           {% endif %}
         </div>
+        <div class="student-goals">
         {% if student.bio %}
-          <div class="student-goals">
             <p>{{student.bio}}</p>
-          </div>
         {% endif %}
+        </div>
         {% if student.url %}
           <center><a href="{{student.url}}" target="_blank">Personal Website</a></center>
         {% endif %}

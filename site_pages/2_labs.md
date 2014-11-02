@@ -3,6 +3,7 @@ layout: page
 title : Research Labs
 tagline: in Human Centered Computing at CU
 group: navigation
+permalink: /labs/
 scroller:
   EPIC : epic
   Craft: craft
@@ -111,7 +112,7 @@ The goal of this project is to get computer science back to middle schools. Our 
 <div class="lab odd">
 <a class="anchor" name="sikuli"> </a>
 
-<ul id="Sikuli-Slider">
+<ul id="sikuli-slider">
 {% for image in site.data.hcc_photos.sikuli %}
   <li>
     <img src="{{ image.url }}" title="{{image.title}}" description="{{image.description}}">
@@ -119,7 +120,7 @@ The goal of this project is to get computer science back to middle schools. Our 
   {% endfor %}
 </ul>
 
-<img src="{{site.JB.BASE_PATH}}{{site.IMG_PATH}}/lab_logos/scalable_game_design.png" class="logo">
+<img src="{{site.JB.BASE_PATH}}{{site.IMG_PATH}}/lab_logos/sikuli.jpg" class="logo">
 
 <p>
 Sikuli Lab

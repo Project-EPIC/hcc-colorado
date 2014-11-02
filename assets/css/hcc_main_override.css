@@ -68,6 +68,10 @@ a.anchor{
 	visibility: hidden;
 }
 
+.navbar{
+	z-index: 99;
+}
+
 .navbar-scroller{
 	display: none;
 	left:0;
@@ -79,6 +83,7 @@ a.anchor{
 
 .navbar-inner{
 	padding: 0px 1px 0px 5px;
+	z-index: 99;
 }
 
 /*

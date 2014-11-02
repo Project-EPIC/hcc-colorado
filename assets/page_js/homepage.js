@@ -1,10 +1,13 @@
 $(document).ready(function(){
   $('#homepage-slider').bxSlider({
     auto: true,
-    captions: true,
     controls: false,
     pager: true,
     height: 300,
+    slideWidth: 500,
+    minSlides: 1,
+    maxSlides: 2,
+    slideMargin: 10,
     adaptiveHeight: false,
     responsive: true,
     speed: 2000

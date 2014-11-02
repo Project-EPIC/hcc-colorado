@@ -25,11 +25,13 @@ $(document).ready(function() {
   //The slider at top of page
   $('#courses-slider').bxSlider({
     auto: true,
+    mode: 'fade',
     speed: 3000,
     captions: true,
     controls: false,
     pager: true,
     adaptiveHeight: true,
-    responsive: true
+    responsive: true,
+    slideWidth: 500
   });
 });

@@ -2,49 +2,200 @@
 craft:
 - !ruby/object:FlickrPhoto
   title: JavaGami
-  url: http://farm4.staticflickr.com/3911/14722788289_efdf74909f.jpg
-  thumbnail_url: http://farm4.staticflickr.com/3911/14722788289_efdf74909f_.jpg
+  url: http://farm4.staticflickr.com/3911/14722788289_42b26342cc.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3911/14722788289_42b26342cc_.jpg
   tags:
   - craft
   link: http://www.google.com
+  o_url: https://farm4.staticflickr.com/3911/14722788289_576ec11ecb_o.jpg
   description: Sea Creature made with JavaGami at the Craft Lab
 - !ruby/object:FlickrPhoto
   title: JavaGami
-  url: http://farm4.staticflickr.com/3845/14909081762_5ca9cec301.jpg
-  thumbnail_url: http://farm4.staticflickr.com/3845/14909081762_5ca9cec301_.jpg
+  url: http://farm4.staticflickr.com/3845/14909081762_bc42ec7b6c.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3845/14909081762_bc42ec7b6c_.jpg
   tags:
   - craft
   link: http://www.google.com
+  o_url: https://farm4.staticflickr.com/3845/14909081762_c4decd0654_o.jpg
   description: JavaGami at the Craft Lab
+nil:
+- !ruby/object:FlickrPhoto
+  title: ''
+  url: http://farm6.staticflickr.com/5610/14981637834_04350beeec.jpg
+  thumbnail_url: http://farm6.staticflickr.com/5610/14981637834_04350beeec_.jpg
+  tags:
+  - nil
+  link: http://www.google.com
+  o_url: https://farm6.staticflickr.com/5610/14981637834_08b2d95c75_o.jpg
+  description: '[nil]'
+- !ruby/object:FlickrPhoto
+  title: ''
+  url: http://farm4.staticflickr.com/3935/15603217622_a6c2776b8a.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3935/15603217622_a6c2776b8a_.jpg
+  tags:
+  - nil
+  link: http://www.google.com
+  o_url: https://farm4.staticflickr.com/3935/15603217622_81f83a0fd7_o.jpg
+  description: '[nil]'
+- !ruby/object:FlickrPhoto
+  title: ''
+  url: http://farm4.staticflickr.com/3951/14981639244_e2acf56ae1.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3951/14981639244_e2acf56ae1_.jpg
+  tags:
+  - nil
+  link: http://www.google.com
+  o_url: https://farm4.staticflickr.com/3951/14981639244_074e50680f_o.jpg
+  description: '[nil]'
+- !ruby/object:FlickrPhoto
+  title: ''
+  url: http://farm4.staticflickr.com/3939/14982231513_c5eda9516c.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3939/14982231513_c5eda9516c_.jpg
+  tags:
+  - nil
+  link: http://www.google.com
+  o_url: https://farm4.staticflickr.com/3939/14982231513_fef3e2dd86_o.jpg
+  description: '[nil]'
+- !ruby/object:FlickrPhoto
+  title: ''
+  url: http://farm6.staticflickr.com/5610/15602378085_40f6961fc6.jpg
+  thumbnail_url: http://farm6.staticflickr.com/5610/15602378085_40f6961fc6_.jpg
+  tags:
+  - nil
+  link: http://www.google.com
+  o_url: https://farm6.staticflickr.com/5610/15602378085_fb5288c655_o.jpg
+  description: '[nil]'
+- !ruby/object:FlickrPhoto
+  title: ''
+  url: http://farm6.staticflickr.com/5602/15416276228_062bd46fe9.jpg
+  thumbnail_url: http://farm6.staticflickr.com/5602/15416276228_062bd46fe9_.jpg
+  tags:
+  - nil
+  link: http://www.google.com
+  o_url: https://farm6.staticflickr.com/5602/15416276228_9e4fe08a44_o.jpg
+  description: '[nil]'
+- !ruby/object:FlickrPhoto
+  title: ''
+  url: http://farm6.staticflickr.com/5605/14981643284_25ae5716ae.jpg
+  thumbnail_url: http://farm6.staticflickr.com/5605/14981643284_25ae5716ae_.jpg
+  tags:
+  - nil
+  link: http://www.google.com
+  o_url: https://farm6.staticflickr.com/5605/14981643284_59ef36475c_o.jpg
+  description: '[nil]'
+- !ruby/object:FlickrPhoto
+  title: AllTrajectories
+  url: http://farm4.staticflickr.com/3946/14981645444_45e580e811.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3946/14981645444_45e580e811_.jpg
+  tags:
+  - nil
+  link: http://www.google.com
+  o_url: https://farm4.staticflickr.com/3946/14981645444_5c389f0486_o.jpg
+  description: '[nil]'
+- !ruby/object:FlickrPhoto
+  title: BoundingBoxCrop
+  url: http://farm4.staticflickr.com/3956/15603225402_58999a11e3.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3956/15603225402_58999a11e3_.jpg
+  tags:
+  - nil
+  link: http://www.google.com
+  o_url: https://farm4.staticflickr.com/3956/15603225402_bc30561737_o.jpg
+  description: '[nil]'
+- !ruby/object:FlickrPhoto
+  title: Dist
+  url: http://farm6.staticflickr.com/5609/15578710916_c10e792941.jpg
+  thumbnail_url: http://farm6.staticflickr.com/5609/15578710916_c10e792941_.jpg
+  tags:
+  - nil
+  link: http://www.google.com
+  o_url: https://farm6.staticflickr.com/5609/15578710916_db0b618bf1_o.jpg
+  description: '[nil]'
+- !ruby/object:FlickrPhoto
+  title: SethPic
+  url: http://farm4.staticflickr.com/3932/15602385375_b02b60e61b.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3932/15602385375_b02b60e61b_.jpg
+  tags:
+  - nil
+  link: http://www.google.com
+  o_url: https://farm4.staticflickr.com/3932/15602385375_51580a4cf2_o.jpg
+  description: '[nil]'
+epic:
+- !ruby/object:FlickrPhoto
+  title: 'Members of Project EPIC: Past & Present'
+  url: http://farm4.staticflickr.com/3943/15416274418_73445212b3.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3943/15416274418_73445212b3_.jpg
+  tags:
+  - epic
+  link: http://www.google.com
+  o_url: https://farm4.staticflickr.com/3943/15416274418_5707e6c768_o.jpg
+  description: Kate Starbird (Alum), Jo White (Current), and Sophia Liu (Alum)
+- !ruby/object:FlickrPhoto
+  title: A Few Members of Project EPIC
+  url: http://farm4.staticflickr.com/3872/14907574091_c801b29596.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3872/14907574091_c801b29596_.jpg
+  tags:
+  - epic
+  link: http://www.google.com
+  o_url: https://farm4.staticflickr.com/3872/14907574091_2820686e85_o.jpg
+  description: Robert, Leysia (PI), Jo, and Marina
+- !ruby/object:FlickrPhoto
+  title: Hurricane Sandy
+  url: http://farm4.staticflickr.com/3940/15416396457_595c6fdcac.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3940/15416396457_595c6fdcac_.jpg
+  tags:
+  - epic
+  link: http://www.google.com
+  o_url: https://farm4.staticflickr.com/3940/15416396457_5375bbcafa_o.jpg
+  description: Trajectory of Hurricane Sandy.
+- !ruby/object:FlickrPhoto
+  title: Twitter Activity During Hurricane Sandy
+  url: http://farm4.staticflickr.com/3956/15603227342_99fd0678d2.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3956/15603227342_99fd0678d2_.jpg
+  tags:
+  - epic
+  link: http://www.google.com
+  o_url: https://farm4.staticflickr.com/3956/15603227342_c77677e5e7_o.jpg
+  description: Frequency of tweets with keywords or hashtags which invovled Hurricane
+    Sandy
+- !ruby/object:FlickrPhoto
+  title: A Few Geo Located Tweets from Hurricane Sandy
+  url: http://farm4.staticflickr.com/3954/15599728901_03b5824e51.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3954/15599728901_03b5824e51_.jpg
+  tags:
+  - epic
+  link: http://www.google.com
+  o_url: https://farm4.staticflickr.com/3954/15599728901_93900a97e9_o.jpg
+  description: Hurricane Sandy was mentioned all over the world.
 course:
 - !ruby/object:FlickrPhoto
   title: Rapid Prototyping
-  url: http://farm6.staticflickr.com/5587/14910424445_4994ea97c6.jpg
-  thumbnail_url: http://farm6.staticflickr.com/5587/14910424445_4994ea97c6_.jpg
+  url: http://farm6.staticflickr.com/5587/14910424445_1da88d845f.jpg
+  thumbnail_url: http://farm6.staticflickr.com/5587/14910424445_1da88d845f_.jpg
   tags:
   - course
   link: http://www.google.com
+  o_url: https://farm6.staticflickr.com/5587/14910424445_81436ed702_o.jpg
   description: How much can you learn in one week? What can you build in 150 minutes?
 - &1 !ruby/object:FlickrPhoto
   title: Rapid Prototyping
-  url: http://farm4.staticflickr.com/3835/14910597755_1d3376d491.jpg
-  thumbnail_url: http://farm4.staticflickr.com/3835/14910597755_1d3376d491_.jpg
+  url: http://farm4.staticflickr.com/3835/14910597755_f8498c60b1.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3835/14910597755_f8498c60b1_.jpg
   tags:
   - course
   - header
   link: http://www.google.com
+  o_url: https://farm4.staticflickr.com/3835/14910597755_e75e08df56_o.jpg
   description: How much can you learn in one week? What can you build in 150 minutes?
 header:
 - *1
-epic:
 - !ruby/object:FlickrPhoto
-  title: A Few Members of Project EPIC
-  url: http://farm4.staticflickr.com/3872/14907574091_cbf8fe690e.jpg
-  thumbnail_url: http://farm4.staticflickr.com/3872/14907574091_cbf8fe690e_.jpg
+  title: ''
+  url: http://farm4.staticflickr.com/3942/15599723331_92ce202078.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3942/15599723331_92ce202078_.jpg
   tags:
-  - epic
+  - header
   link: http://www.google.com
-  description: Robert, Leysia (PI), Jo, and Marina
+  o_url: https://farm4.staticflickr.com/3942/15599723331_809943739f_o.jpg
+  description: '[header]'
 dls:
 - !ruby/object:FlickrPhoto
   title: Scientific Data Curation
@@ -54,6 +205,7 @@ dls:
   - dls
   - dls
   link: http://www.google.com
+  o_url: https://farm6.staticflickr.com/5586/14725372538_03a30fc8b8_o.jpg
   description: Working with worldwide scientific data, DLS curates relevant information
     towards educational goals
 - !ruby/object:FlickrPhoto
@@ -64,4 +216,15 @@ dls:
   - dls
   - dls
   link: http://www.google.com
+  o_url: https://farm4.staticflickr.com/3851/14725432597_a04ea13614_o.jpg
   description: Digital Learning Sciences works with large scientific libraries
+sikuli:
+- !ruby/object:FlickrPhoto
+  title: Mobile Apps
+  url: http://farm4.staticflickr.com/3939/15599739031_d708eac30d.jpg
+  thumbnail_url: http://farm4.staticflickr.com/3939/15599739031_d708eac30d_.jpg
+  tags:
+  - sikuli
+  link: http://www.google.com
+  o_url: https://farm4.staticflickr.com/3939/15599739031_c0aa9eb08a_o.jpg
+  description: The Sikuli Lab is studying Design Patterns in Mobile App Development

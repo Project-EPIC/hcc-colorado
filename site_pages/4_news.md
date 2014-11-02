@@ -2,8 +2,9 @@
 layout: news
 title : Latest News
 tagline: and Updates
-group: navigation
+#group: navigation
 js: news.js
+permalink: /news/
 ---
 
 
