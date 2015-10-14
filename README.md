@@ -8,28 +8,8 @@ The database, therefore, is a series of google spreadsheet, offering a familiar 
 
 The majority of the images are hosted on flickr and organized by tags.  Values in the description of the image inside of square brackets ```[]``` are merged with existing flickr tags to organize images.
 
-The site is built and maintained using the [Static-Bliss](http://github.com/jenningsanderson/Static-Bliss) gem.
+The site is built and maintained using the [Static-Bliss](http://github.com/jenningsanderson/Static-Bliss) gem. This gem requires ```_config.yml``` to be properly defined (See [Configuration](#configuration))
 
-This gem requires both ```_config.yml``` and ```_secret_config.yml``` to be properly defined (See [Configuration](#configuration))
-
-If you would like ability to publish the site, just email Jennings and he'll provide access to the S3 bucket.
-
-Options for this particular site are as folllows:
-
-````
-	bliss publish
-	bliss flickr
-	bliss flickr hcc_photos
-	bliss update courses [all]
-	bliss update courses Undergraduate
-	bliss update courses Graduate
-	bliss update people [all]
-	bliss update people Faculty
-	bliss update people Students
-	bliss update people Alumni
-	bliss update people Researchers
-	bliss update all
-`````
 
 ##Publishing
 The site should function when hosted on Github, provided the YAML files are up-to-date thorugh the bliss update functions.
@@ -37,13 +17,16 @@ The site should function when hosted on Github, provided the YAML files are up-t
 The site is designed to be published to an amazon s3 bucket:
 [HCC-Colorado on S3](http://hcc.colorado.edu.s3-website-us-east-1.amazonaws.com/)
 
+If you would like ability to publish the site, just email Jennings and he'll provide access to the S3 bucket.
+
+The gh-pages branch here is for development and production is then pushed out to the s3 bucket: http://hcc.colorado.edu.s3-website-us-east-1.amazonaws.com/ (which is where hcc.colorado.edu points).
 
 ##Configuration
 
 ### _config.yml
 
 ````
-google_info :
+sheets :
   courses :
     key     : 0AhQ6tqeOTfwBdDdyY1U4UlBnTk5rc1BIRDhnckhoQ1E
     object  : Course
@@ -66,8 +49,6 @@ credentials: _secret_config.yml
 ### _secret_config.yml
 
 ````
-google_username: cuprojectepic@gmail.com
-google_password: **************
 
 #Amazon S3 hcc_colorado account credentials
 s3_id: *************
