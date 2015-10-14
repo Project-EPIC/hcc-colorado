@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
+gem 'jekyll', '2.5.3'
 
-gem 'jekyll'
-
+#Use Static-Bliss to update the yaml files
 gem 'Static-Bliss', :git => 'git://github.com/jenningsanderson/Static-Bliss.git'

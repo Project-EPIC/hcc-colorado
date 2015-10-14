@@ -123,7 +123,7 @@ The goal of this project is to get computer science back to middle schools. Our 
 <img src="{{site.JB.BASE_PATH}}{{site.IMG_PATH}}/lab_logos/sikuli.jpg" class="logo">
 
 <p>
-Sikuli Lab
+Sikuli in Huichol Indian means God’s Eyes, the ability to see and understand. In the Sikuli Lab, we conduct cutting-edge research to make computers see better and interact with us more intelligently.
 </p>
 <a href="http://lab.sikuli.org/about/" target="_blank" class="website">Sikuli Lab</a>
 </div>

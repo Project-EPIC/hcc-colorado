@@ -6,18 +6,73 @@ p.interests{
   padding-right: 10px;
 }
 
-.profile-image{
-  max-width: 30%;
+h5{
+  margin-bottom: 0px;
+  margin-top: 2px;
 }
 
-/* Faculty & Researchers*/
-.faculty-list{
+.profile-image{
+  max-width: 30%;
+  float: right;
+  margin: 10px;
+}
+
+.list{
   list-style-type: none;
   text-align: center;
   vertical-align: bottom;
 }
 
-.faculty-list li{
+.list li{
+  display: inline-block;
+}
+
+.list a:hover{
+  text-decoration: none
+}
+
+.list li:hover{
+  opacity: .8;
+}
+
+.info-expand{
+  display: none;
+  padding: 20px 30px 20px 30px;
+  text-align: center;
+}
+
+.info-expand a{
+  font-size: 18px;
+}
+
+.info-expand a:hover{
+  text-decoration: none;
+  color: #444;
+}
+
+.info-expand a::after{
+  font-size: 12px;
+  vertical-align: top;
+  content: " >>";
+}
+
+.info{
+  text-align: left;
+}
+
+.name-box{
+  max-width: 62%;
+  margin: 0;
+  float: left;
+}
+
+
+
+
+
+/*Faculty / Researchers / PostDocs */
+
+.faculty.list li, .researcher.list li{
   text-align: center;
   display: inline-block;
   width: 200px;
@@ -26,112 +81,23 @@ p.interests{
   margin: 0px 10px 10px 10px;
 }
 
-.faculty-list a:hover{
-  text-decoration: none
-}
-
-.faculty-list li:hover{
-  opacity: .8;
-}
-
-.faculty-info-expand{
-	display: none;
-	padding: 20px 30px 20px 30px;
-	text-align: center;
-}
-
-.faculty-info-expand a{
-  font-size: 18px;
-}
-.faculty-info-expand a::after{
-  content: " >>";
-}
-
-.faculty-info{
-	text-align: left;
-}
-
-.profile-image{
-	float: right;
-	margin: 10px;
-}
-
-.faculty-name-box{
-	width: 300px;
-	float: left;
-  text-align: left;
-}
-
-.faculty-teaser{
+.faculty.teaser, .researcher.teaser, .postdoc.teaser{
 	clear: both;
-	margin-top: 15px;
 	padding: 5px;
 }
-
-ul.interests{
-	list-style-type: none;
-	margin: 0px;
-	padding: 0px;
-}
-
-ul.interests h5{
-	margin: 0px;
-	padding: 0px;
-}
-
-ul.interests li{
-	margin: 0px;
-	padding: 0px 0px 0px 0px;
-	display: inline-block;
-}
-
-
-
-
 
 
 
 /* Students & Alumni*/
-.student-list{
-  list-style-type: none;
-  vertical-align: bottom;
-}
-
-.student-list li{
+.student.list li, .alumni.list li{
   display: inline-block;
-  /*vertical-align: text-bottom;*/
   width: 150px;
-  height: 200px;
   padding: 5px;
   margin: 0px 5px 10px 5px;
   text-align: center;
 }
 
-.student-list h4{
-  text-align: center;
-}
-
-.student-info-expand{
-  display: none;
-  text-align: left;
-}
-
-.student-info-expand a{
-  font-size: 18px;
-}
-
-.student-info-expand a::after{
-  content: " >>";
-}
-
-.student-name-box{
-  max-width: 60%;
-  float: left;
-}
-
-.student-goals{
+.goals{
   clear: both;
-  margin-top: 15px;
-  padding: 5px;
   min-height: 100px;
 }

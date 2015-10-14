@@ -6,7 +6,7 @@ $(document).ready(function(){
     controls: false,
     pager: true,
     responsive: true,
-    speed: 4000,
+    speed: 6000,
   });
 
 
@@ -17,7 +17,7 @@ $(document).ready(function(){
     controls: false,
     pager: true,
     responsive: true,
-    speed: 2000
+    speed: 6000
   });
 
 
@@ -28,7 +28,7 @@ $(document).ready(function(){
     controls: false,
     pager: true,
     responsive: true,
-    speed: 2000
+    speed: 6000
   });
 
 
@@ -39,7 +39,7 @@ $(document).ready(function(){
     controls: false,
     pager: true,
     responsive: true,
-    speed: 2000
+    speed: 6000
   });
 
   $('#sikuli-slider').bxSlider({
@@ -49,7 +49,7 @@ $(document).ready(function(){
     controls: false,
     pager: true,
     responsive: true,
-    speed: 2000
+    speed: 6000
   });
 
   $('#wellness-slider').bxSlider({
@@ -59,7 +59,7 @@ $(document).ready(function(){
     controls: false,
     pager: true,
     responsive: true,
-    speed: 2000
+    speed: 6000
   });
 
   $('#dls-slider').bxSlider({
@@ -69,6 +69,6 @@ $(document).ready(function(){
     controls: false,
     pager: true,
     responsive: true,
-    speed: 2000
+    speed: 6000
   });
 });

@@ -1,27 +1,33 @@
 ---
 - name: Ken Anderson
-  status: Faculty
-  gscholar_link: http://scholar.google.com/citations?user=wOO8rEMAAAAJ&hl=en&oi=ao
+  gscholarlink: http://scholar.google.com/citations?user=wOO8rEMAAAAJ&hl=en&oi=ao
+  picture: /assets/auto_generated/profile_pics/Ken_Anderson.jpg
   url: http://www.cs.colorado.edu/~kena/
   interests: software and web engineering, hypermedia, CSCW, human-computer interaction
   lab: Project EPIC, Center for Software and Society
+  laburl: ''
   teaser: Prof. Anderson is interested in identifying the best techniques and components
     for developing large-scale software infrastructure. In his SPLASH'12 paper with
     Ph.D. student, Aaron Schram, he identifies some of the conceptual and implementation
     issues that are encountered when integrating NoSQL technology into an existing
     large-scale data collection infrastructure.
-  picture: "/assets/auto_generated/profile_pics/Ken_Anderson.jpg"
+  affiliation: University of Colorado
 - name: Mike Eisenberg
-  status: Faculty
+  gscholarlink: ''
+  picture: /assets/images/static_people/faculty/mike_eisenberg.jpg
+  url: ''
   interests: cognitive science, craft technologies,educational computing
   lab: Craft Technology
-  picture: "/assets/images/static_people/faculty/mike_eisenberg.jpg"
+  laburl: ''
+  teaser: ''
 - name: Gerhard Fischer
-  status: Faculty
+  gscholarlink: ''
+  picture: /assets/images/static_people/faculty/gerhard.jpg
   url: http://l3d.cs.colorado.edu/~gerhard/
   interests: cultures of participation, meta design, domain-oriented design, social
     creativity
   lab: Center for Lifelong Learning & Design
+  laburl: http://l3d.cs.colorado.edu/wordpress/
   teaser: 'I am the director of the Center for Lifelong Learning and Design, a professor
     in the Department of Computer Science, and a fellow of the Institute of Cognitive
     Science, all at the University of Colorado, Boulder. I am also a member of the
@@ -29,79 +35,85 @@
     Machinery (ACM). My research interests include: lifelong learning, design, meta-design,
     software design, creativity, social creativity, distributed intelligence, human-computer  interaction,
     and design-for-all (assistive technologies).'
-  picture: "/assets/images/static_people/faculty/gerhard.jpg"
-  laburl: http://l3d.cs.colorado.edu/wordpress/
 - name: Mark Gross
-  status: Faculty
-  picture: "/assets/images/static_people/faculty/mark_gross.jpg"
+  gscholarlink: ''
+  picture: /assets/images/static_people/faculty/mark_gross.jpg
+  url: ''
+  interests: ''
+  lab: ''
+  laburl: ''
+  teaser: ''
 - name: Shaun Kane
-  status: Faculty
-  gscholar_link: http://scholar.google.com/citations?user=v564lDgAAAAJ&hl=en
+  gscholarlink: http://scholar.google.com/citations?user=v564lDgAAAAJ&hl=en
+  picture: /assets/images/static_people/faculty/shaun_kane.jpg
   url: http://shaunkane.info
   interests: accessible user interfaces, mobile human-computer interaction
   lab: Superhuman Computing Lab
+  laburl: ''
   teaser: I am an assistant professor in the Department of Computer Science at the
     University of Colorado Boulder. I direct the Superhuman Computing Lab. From 2011
     to 2014, I was an assistant professor in the Department of Information Systems
     at UMBC. My work explores ways to make mobile devices easier to use, especially
     for people with disabilities and people in distracting environments.
-  picture: "/assets/images/static_people/faculty/shaun_kane.jpg"
+  affiliation: Assistant Professor, University of Colorado Boulder
 - name: Clayton Lewis
-  status: Faculty
-  gscholar_link: http://scholar.google.com/citations?user=eIYoeT4AAAAJ&hl=en
+  gscholarlink: http://scholar.google.com/citations?user=eIYoeT4AAAAJ&hl=en
+  picture: /assets/images/static_people/faculty/clayton.jpg
   url: http://spot.colorado.edu/~clayton
   interests: assistive technologies, user interface design, cognitive architectures
-  picture: "/assets/images/static_people/faculty/clayton.jpg"
+  lab: ''
+  laburl: ''
+  teaser: ''
+  affiliation: Professor of Computer Science, University of Colorado, Boulder
 - name: Leysia Palen
-  status: Faculty
-  gscholar_link: http://scholar.google.com/citations?user=x0OsogEAAAAJ&hl=en
+  gscholarlink: http://scholar.google.com/citations?user=x0OsogEAAAAJ&hl=en
+  picture: /assets/auto_generated/profile_pics/Leysia_Palen.jpg
   url: https://www.cs.colorado.edu/~palen/
-  interests: HCI, CSCW, social computing, crisis informatics, ethnographic methods,
-    computer meditated communication, social computing
+  interests: HCI, CSCW, social computing, crisis informatics, computer-meditated communication,
+    social analysis of technology, interpretivisit research
   lab: Project EPIC, Center for Software and Society
-  teaser: Prof. Palen is a leader in the area of crisis informatics, an area she forged
-    with her graduate students and colleagues at Colorado. She brings her training
-    in human-computer interaction (HCI), computer-supported cooperative work and social
-    computing to bear on understanding and advancing socio-technical issues of societal
-    import. She conducts empirical research in the interpretivist tradition. However,
-    in the advancing arena of large-scale on-line interaction (the "big data" of crisis
-    response), she adapts quantitative techniques that then allow the application
-    of qualitative methods and the "ethnographic eye" to closely observe and describe
-    social structures in such technology-mediated situations.
-  picture: "/assets/auto_generated/profile_pics/Leysia_Palen.jpg"
   laburl: http://epic.cs.colorado.edu
+  teaser: |-
+    Leysia Palen is an Associate Professor of Computer Science at the University of Colorado Boulder, USA. She is a faculty fellow with the ATLAS Institute and the Institute of Cognitive Science. She is also a Full Adjunct Professor at the University of Agder in Norway.
+
+    Prof. Palen is a leader in the area of crisis informatics, an area she forged with her graduate students and colleagues at Colorado. She brings her training in human-computer interaction (HCI), computer-supported cooperative work and social computing to bear on understanding and advancing socio-technical issues of societal import. She conducts empirical research in the interpretivist tradition. However, in the advancing arena of large-scale on-line interaction (the "big data" of crisis response), she adapts quantitative techniques that then allow the application of qualitative methods and the "ethnographic eye" to closely observe and describe social structures in such technology-mediated situations.
+  affiliation: Professor of Computer Science & Professor of Information Science, University
+    of Colorado Boulder
 - name: Alex Repenning
-  status: Faculty
+  gscholarlink: ''
+  picture: /assets/images/static_people/faculty/alex_repenning.jpg
   url: http://www.cs.colorado.edu/~ralex/
   interests: Education, end-user programmable agents, agentsheets, artificial intelligence
   lab: Scalable Game Design
+  laburl: http://sgd.cs.colorado.edu/wiki/Scalable_Game_Design_wiki
   teaser: Prof. Repenning’s research interests include education, end-user programmable
     agents, and artificial intelligence. He is the director of the Scalable Game Design
     Initiative. Repenning has worked in research and development at Asea Brown Boveri,
     Xerox PARC, Apple Computer, and Hewlett Packard.
-  picture: "/assets/images/static_people/faculty/alex_repenning.jpg"
-  laburl: http://sgd.cs.colorado.edu/wiki/Scalable_Game_Design_wiki
 - name: Tammy Sumner
-  status: Faculty
+  gscholarlink: ''
+  picture: /assets/images/static_people/faculty/tammy_sumner.jpg
   url: http://spot.colorado.edu/~sumner/
   interests: personalized learning, interactive learning environments, user-centered
     design, digital libraries, intelligent information systems
-  teaser: Prof. Sumner is also an Associate Professor at the University of Colorado,
-    with a joint appointment between the Institute of Cognitive Science and the Department
+  lab: ''
+  laburl: ''
+  teaser: Prof. Sumner is an Associate Professor at the University of Colorado, with
+    a joint appointment between the Institute of Cognitive Science and the Department
     of Computer Science. Her research and teaching interests include personalized
     learning, interactive learning environments, user-centered design, digital libraries,
     and intelligent information systems. Prior to joining the University of Colorado,
     she was a lecturer at the Knowledge Media Institute, at The Open University in
     the UK.
-  picture: "/assets/images/static_people/faculty/tammy_sumner.jpg"
 - name: Tom Yeh
-  status: Faculty
-  gscholar_link: http://scholar.google.com/citations?user=mDNhPjAAAAAJ&hl=en
+  gscholarlink: http://scholar.google.com/citations?user=mDNhPjAAAAAJ&hl=en
+  picture: /assets/auto_generated/profile_pics/Tom_Yeh.jpg
   url: http://tomyeh.info
   interests: vision-based interaction, end-user programming, GUI automation, accessible
     technology
   lab: Sikuli Lab
+  laburl: ''
   teaser: Research and teach HCI issues with societal impacts. Promote emergent literacy
     for blind children using 3D printing. Study Android apps using Big Data. Automate
     GUIs using computer vision.
-  picture: "/assets/auto_generated/profile_pics/Tom_Yeh.jpg"
+  affiliation: University of Colorado Boulder

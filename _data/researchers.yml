@@ -1,6 +1,143 @@
 ---
-- name: Hal Eden
-  status: Researchers
-  url: http://swiki.cs.colorado.edu/haleden
-  interests: collaborative design, table-top computing environments, energy sustainability
-  picture: "/assets/images/static_people/researchers/hal_eden.jpg"
+- name: Ali Alzabarah
+  gscholarlink: ''
+  picture: ''
+  url: ''
+  interests: ''
+  advisor: Ken Anderson
+  bio: ''
+- name: Joshua Barron
+  gscholarlink: ''
+  picture: /assets/images/static_people/alumni/joshua_barron.png
+  url: ''
+  interests: ''
+  advisor: ''
+  bio: ''
+- name: Ashok Basawapatna
+  gscholarlink: http://scholar.google.com/citations?user=QTy6gncAAAAJ&hl=en
+  picture: /assets/auto_generated/profile_pics/Ashok_Basawapatna.jpg
+  url: http://www.basawapatna.com/
+  interests: Computer Science Education, End-User Game/Simulation design, Computational
+    Thinking
+  affiliation: University of Colorado boulder
+  advisor: ''
+  bio: ''
+- name: Stefan Carmien
+  gscholarlink: http://scholar.google.com/citations?user=YRMnGa0AAAAJ&hl=en&oi=ao
+  picture: /assets/auto_generated/profile_pics/Stefan_Carmien.jpg
+  url: ''
+  interests: HCI, Ubi-comp, ADL support, Assitive technology
+  affiliation: Senior Researcher, Tecnalia, Spain
+  advisor: ''
+  bio: ''
+- name: Yan Chen
+  gscholarlink: ''
+  picture: ''
+  url: ''
+  interests: ''
+  advisor: ''
+  bio: ''
+- name: William Corvey
+  gscholarlink: ''
+  picture: /assets/images/static_people/alumni/william_corvey.jpg
+  url: ''
+  interests: ''
+  advisor: ''
+  bio: ''
+- name: Melissa Dawe
+  gscholarlink: ''
+  picture: ''
+  url: ''
+  interests: ''
+  advisor: ''
+  bio: ''
+- name: Holger Dick
+  gscholarlink: ''
+  picture: ''
+  url: http://l3d.cs.colorado.edu/~ho-di/
+  interests: ''
+  advisor: ''
+  bio: ''
+- name: Amanda Lee Hughes
+  gscholarlink: http://scholar.google.com/citations?user=Sjbz8ngAAAAJ&hl=en
+  picture: /assets/auto_generated/profile_pics/Amanda_Lee_Hughes.jpg
+  url: http://amandaleehughes.com/
+  interests: Human-Computer Interaction, Crisis Informatics
+  affiliation: Utah State University
+  advisor: Leysia Palen
+  bio: ''
+- name: Kyu Han Koh
+  gscholarlink: http://scholar.google.com/citations?user=3r0opXUAAAAJ&hl=en
+  picture: /assets/auto_generated/profile_pics/Kyu_Han_Koh.jpg
+  url: sgd.cs.colorado.edu/kyu
+  interests: Visual Data Analytics, Data-Driven Assessment, Visual Programming, Computer
+    Science Education, Computational Thinking
+  affiliation: University of Colorado at Boulder
+  advisor: ''
+  bio: 'Kyu Han Koh is a postdoctoral researcher in the Department of Computer Science
+    at the University of Colorado at Boulder. His research interests focus on data
+    analytics in education, specifically on improving the quality of a student learning
+    from two complementary perspectives. One perspective is measuring a student’s
+    learning performance and providing feedback to students and teachers. The other
+    perspective is enhancing students’ learning experience and their measured learning
+    performance through cognitivism, constructivism, and connectivism. Dr. Koh has
+    compiled extensive research records on educational data analytics: knowledge transfer
+    between game and simulation design, creativity analysis, skill progression and
+    learning performance in programming. He received his B.S. in Computer Science
+    from Soongsil University in South Korea in 2004, his M.S. in Computer Science
+    from Auburn University in 2007, and his PhD in Computer Science and Cognitive
+    Science from University of Colorado at Boulder in 2014. '
+- name: Benjamin Leducmills
+  gscholarlink: http://scholar.google.com/citations?user=oqCcwngAAAAJ
+  picture: /assets/auto_generated/profile_pics/Benjamin_Leducmills.jpg
+  url: ''
+  interests: ''
+  affiliation: Computer Science, University of Colorado, Boulder
+  advisor: ''
+  bio: ''
+- name: Sophia B. Liu
+  gscholarlink: ''
+  picture: /assets/images/static_people/alumni/sophia_liu.png
+  url: http://sophiabliu.com/Welcome.html
+  interests: ''
+  advisor: Leysia Palen
+  bio: ''
+- name: Casey McTaggart
+  gscholarlink: ''
+  picture: /assets/images/static_people/alumni/casey_mctaggart.png
+  url: ''
+  interests: ''
+  advisor: ''
+  bio: ''
+- name: Ifeyinwa Okoye
+  gscholarlink: ''
+  picture: /assets/images/static_people/alumni/ifeyinwa_okoye.png
+  url: ''
+  interests: ''
+  advisor: ''
+  bio: ''
+- name: Aaron Schlicht
+  gscholarlink: ''
+  picture: /assets/images/static_people/alumni/aaron_schlicht.jpg
+  url: ''
+  interests: ''
+  advisor: ''
+  bio: ''
+- name: Kate Starbird
+  gscholarlink: http://scholar.google.com/citations?user=C6KSF5gAAAAJ&hl=en
+  picture: /assets/auto_generated/profile_pics/Kate_Starbird.jpg
+  url: http://faculty.washington.edu/kstarbi/
+  interests: Crisis Informatics, Crowdsourcing, Crowdwork, CSCW, Human Computer Interaction
+  affiliation: Professor, Human Centered Design & Engineering, University of Washington
+  advisor: Leysia Palen
+  bio: ''
+- name: Sarah Vieweg
+  gscholarlink: http://scholar.google.com/citations?user=0qfEW8EAAAAJ&hl=en&oi=ao
+  picture: /assets/auto_generated/profile_pics/Sarah_Vieweg.jpg
+  url: ''
+  interests: Crisis Informatics, Social Computing, Social Media, Computer Mediated
+    Discourse Analysis, Natural Language Processing
+  affiliation: Scientist at Qatar Computing Research Institute
+  advisor: Leysia Palen
+  bio: ''
+  _clrrx: Project EPIC
