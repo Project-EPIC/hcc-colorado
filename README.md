@@ -1,5 +1,7 @@
 _Master branch (Jekyll) is deprecated.  Please see the gh-pages branch._
 
+FYI: hcc.colorado.edu points to http://hcc.colorado.edu.s3-website-us-east-1.amazonaws.com/, contact OIT to change this for any reason...
+
 --- 
 
 CU Human Centered Computing Website
@@ -15,7 +17,7 @@ The majority of the images are hosted on flickr and organized by tags.  Values i
 The site is built and maintained using the [Static-Bliss](http://github.com/jenningsanderson/Static-Bliss) gem. This gem requires ```_config.yml``` to be properly defined (See [Configuration](#configuration))
 
 
-##Publishing
+## Publishing
 The site should function when hosted on Github, provided the YAML files are up-to-date thorugh the bliss update functions.
 
 The site is designed to be published to an amazon s3 bucket:
