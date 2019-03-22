@@ -1,3 +1,7 @@
+_Master branch (Jekyll) is deprecated.  Please see the gh-pages branch._
+
+--- 
+
 CU Human Centered Computing Website
 =====================================
 _Built on Jekyll Bootstrap, this site finds a balance between a static and dynamic website._
@@ -21,7 +25,7 @@ If you would like ability to publish the site, just email Jennings and he'll pro
 
 The gh-pages branch here is for development and production is then pushed out to the s3 bucket: http://hcc.colorado.edu.s3-website-us-east-1.amazonaws.com/ (which is where hcc.colorado.edu points).
 
-##Configuration
+## Configuration
 
 ### _config.yml
 
